@@ -5,7 +5,7 @@
   <version>1.0</version>
   <description>LPC5502JBD64,LPC5502JHI48</description>
   <licenseText>
-Copyright 2016-2020 NXP
+Copyright 2016-2021 NXP
 All rights reserved.
 
 SPDX-License-Identifier: BSD-3-Clause
@@ -37,7 +37,7 @@ SPDX-License-Identifier: BSD-3-Clause
       <registers>
         <register>
           <name>HEADER</name>
-          <description>.</description>
+          <description>no description available</description>
           <addressOffset>0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -46,7 +46,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -55,7 +55,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>VERSION</name>
-          <description>.</description>
+          <description>no description available</description>
           <addressOffset>0x4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -64,7 +64,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -82,7 +82,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -100,7 +100,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -118,7 +118,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -127,7 +127,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>ROTKH_REVOKE</name>
-          <description>.</description>
+          <description>no description available</description>
           <addressOffset>0x18</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -166,7 +166,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>VENDOR_USAGE</name>
-          <description>.</description>
+          <description>no description available</description>
           <addressOffset>0x1C</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -206,12 +206,12 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>VALUE_0</name>
+                  <name>ENABLE</name>
                   <description>Use DAP to enable</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_1</name>
+                  <name>DISABLE</name>
                   <description>Fixed state</description>
                   <value>0x1</value>
                 </enumeratedValue>
@@ -225,12 +225,12 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>VALUE_0</name>
+                  <name>ENABLE</name>
                   <description>Use DAP to enable</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_1</name>
+                  <name>DISABLE</name>
                   <description>Fixed state</description>
                   <value>0x1</value>
                 </enumeratedValue>
@@ -244,12 +244,12 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>VALUE_0</name>
+                  <name>ENABLE</name>
                   <description>Use DAP to enable</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_1</name>
+                  <name>DISABLE</name>
                   <description>Fixed state</description>
                   <value>0x1</value>
                 </enumeratedValue>
@@ -263,12 +263,12 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>VALUE_0</name>
+                  <name>ENABLE</name>
                   <description>Use DAP to enable</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_1</name>
+                  <name>DISABLE</name>
                   <description>Fixed state</description>
                   <value>0x1</value>
                 </enumeratedValue>
@@ -282,31 +282,12 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>VALUE_0</name>
+                  <name>ENABLE</name>
                   <description>Use DAP to enable</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_1</name>
-                  <description>Fixed state</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>CPU1_DBGEN</name>
-              <description>CPU1 (Micro cortex M33) invasive debug enable</description>
-              <bitOffset>5</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>VALUE_0</name>
-                  <description>Use DAP to enable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>VALUE_1</name>
+                  <name>DISABLE</name>
                   <description>Fixed state</description>
                   <value>0x1</value>
                 </enumeratedValue>
@@ -320,69 +301,31 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>VALUE_0</name>
+                  <name>ENABLE</name>
                   <description>Use DAP to enable</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_1</name>
+                  <name>DISABLE</name>
                   <description>Fixed state</description>
                   <value>0x1</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
-              <name>FA_CMD_EN</name>
+              <name>FA_ME_CMD_EN</name>
               <description>FA Command enable</description>
               <bitOffset>7</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>VALUE_0</name>
+                  <name>ENABLE</name>
                   <description>Use DAP to enable</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_1</name>
-                  <description>Fixed state</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>ME_CMD_EN</name>
-              <description>Flash Mass Erase Command enable</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>VALUE_0</name>
-                  <description>Use DAP to enable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>VALUE_1</name>
-                  <description>Fixed state</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>CPU1_NIDEN</name>
-              <description>CPU1 (Micro cortex M33) non-invasive debug enable</description>
-              <bitOffset>9</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>VALUE_0</name>
-                  <description>Use DAP to enable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>VALUE_1</name>
+                  <name>DISABLE</name>
                   <description>Fixed state</description>
                   <value>0x1</value>
                 </enumeratedValue>
@@ -509,25 +452,6 @@ SPDX-License-Identifier: BSD-3-Clause
               </enumeratedValues>
             </field>
             <field>
-              <name>CPU1_DBGEN</name>
-              <description>CPU1 (Micro cortex M33) invasive debug fixed state</description>
-              <bitOffset>5</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DISABLE</name>
-                  <description>Disable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENABLE</name>
-                  <description>Enable</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
               <name>ISP_CMD_EN</name>
               <description>ISP Boot Command fixed state</description>
               <bitOffset>6</bitOffset>
@@ -547,47 +471,9 @@ SPDX-License-Identifier: BSD-3-Clause
               </enumeratedValues>
             </field>
             <field>
-              <name>FA_CMD_EN</name>
+              <name>FA_ME_CMD_EN</name>
               <description>FA Command fixed state</description>
               <bitOffset>7</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DISABLE</name>
-                  <description>Disable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENABLE</name>
-                  <description>Enable</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>ME_CMD_EN</name>
-              <description>Flash Mass Erase Command fixed state</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DISABLE</name>
-                  <description>Disable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENABLE</name>
-                  <description>Enable</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>CPU1_NIDEN</name>
-              <description>CPU1 (Micro cortex M33) non-invasive debug fixed state</description>
-              <bitOffset>9</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
               <enumeratedValues>
@@ -623,7 +509,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -641,7 +527,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -650,7 +536,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_CODE0</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x30</addressOffset>
           <size>32</size>
@@ -660,7 +546,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -669,7 +555,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_HEADER0</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x30</addressOffset>
           <size>32</size>
@@ -679,7 +565,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -688,7 +574,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_CODE1</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x34</addressOffset>
           <size>32</size>
@@ -698,7 +584,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -707,7 +593,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_HEADER1</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x34</addressOffset>
           <size>32</size>
@@ -717,21 +603,21 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>TYPE</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>INDEX</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>8</bitOffset>
               <bitWidth>4</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>SIZE</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>24</bitOffset>
               <bitWidth>6</bitWidth>
               <access>read-write</access>
@@ -740,7 +626,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_BODY0</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x38</addressOffset>
           <size>32</size>
@@ -750,7 +636,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -759,7 +645,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_CODE2</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x38</addressOffset>
           <size>32</size>
@@ -769,7 +655,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -778,7 +664,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_BODY1</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x3C</addressOffset>
           <size>32</size>
@@ -788,7 +674,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -797,7 +683,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_CODE3</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x3C</addressOffset>
           <size>32</size>
@@ -807,7 +693,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -816,7 +702,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_BODY2</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x40</addressOffset>
           <size>32</size>
@@ -826,7 +712,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -835,7 +721,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_CODE4</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x40</addressOffset>
           <size>32</size>
@@ -845,7 +731,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -854,7 +740,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_BODY3</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x44</addressOffset>
           <size>32</size>
@@ -864,7 +750,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -873,7 +759,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_CODE5</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x44</addressOffset>
           <size>32</size>
@@ -883,7 +769,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -892,7 +778,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_BODY4</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x48</addressOffset>
           <size>32</size>
@@ -902,7 +788,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -911,7 +797,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_CODE6</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x48</addressOffset>
           <size>32</size>
@@ -921,7 +807,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -930,7 +816,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_BODY5</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x4C</addressOffset>
           <size>32</size>
@@ -940,7 +826,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -949,7 +835,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_CODE7</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x4C</addressOffset>
           <size>32</size>
@@ -959,7 +845,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -968,7 +854,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_BODY6</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x50</addressOffset>
           <size>32</size>
@@ -978,7 +864,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -987,7 +873,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_CODE8</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x50</addressOffset>
           <size>32</size>
@@ -997,7 +883,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1006,7 +892,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_BODY7</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x54</addressOffset>
           <size>32</size>
@@ -1016,7 +902,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1025,7 +911,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_CODE9</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x54</addressOffset>
           <size>32</size>
@@ -1035,7 +921,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1044,7 +930,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_BODY8</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x58</addressOffset>
           <size>32</size>
@@ -1054,7 +940,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1063,7 +949,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_CODE10</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x58</addressOffset>
           <size>32</size>
@@ -1073,7 +959,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1082,7 +968,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_BODY9</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x5C</addressOffset>
           <size>32</size>
@@ -1092,7 +978,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1101,7 +987,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_CODE11</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x5C</addressOffset>
           <size>32</size>
@@ -1111,7 +997,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1120,7 +1006,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_BODY10</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x60</addressOffset>
           <size>32</size>
@@ -1130,7 +1016,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1139,7 +1025,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_CODE12</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x60</addressOffset>
           <size>32</size>
@@ -1149,7 +1035,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1158,7 +1044,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_BODY11</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x64</addressOffset>
           <size>32</size>
@@ -1168,7 +1054,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1177,7 +1063,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION0_IV_CODE13</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION0_IV_CODE</alternateGroup>
           <addressOffset>0x64</addressOffset>
           <size>32</size>
@@ -1187,7 +1073,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1196,7 +1082,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_CODE0</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x68</addressOffset>
           <size>32</size>
@@ -1206,7 +1092,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1215,7 +1101,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_HEADER0</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x68</addressOffset>
           <size>32</size>
@@ -1225,7 +1111,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1234,7 +1120,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_CODE1</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x6C</addressOffset>
           <size>32</size>
@@ -1244,7 +1130,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1253,7 +1139,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_HEADER1</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x6C</addressOffset>
           <size>32</size>
@@ -1263,21 +1149,21 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>TYPE</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>INDEX</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>8</bitOffset>
               <bitWidth>4</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>SIZE</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>24</bitOffset>
               <bitWidth>6</bitWidth>
               <access>read-write</access>
@@ -1286,7 +1172,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_BODY0</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x70</addressOffset>
           <size>32</size>
@@ -1296,7 +1182,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1305,7 +1191,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_CODE2</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x70</addressOffset>
           <size>32</size>
@@ -1315,7 +1201,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1324,7 +1210,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_BODY1</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x74</addressOffset>
           <size>32</size>
@@ -1334,7 +1220,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1343,7 +1229,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_CODE3</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x74</addressOffset>
           <size>32</size>
@@ -1353,7 +1239,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1362,7 +1248,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_BODY2</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x78</addressOffset>
           <size>32</size>
@@ -1372,7 +1258,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1381,7 +1267,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_CODE4</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x78</addressOffset>
           <size>32</size>
@@ -1391,7 +1277,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1400,7 +1286,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_BODY3</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x7C</addressOffset>
           <size>32</size>
@@ -1410,7 +1296,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1419,7 +1305,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_CODE5</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x7C</addressOffset>
           <size>32</size>
@@ -1429,7 +1315,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1438,7 +1324,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_BODY4</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x80</addressOffset>
           <size>32</size>
@@ -1448,7 +1334,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1457,7 +1343,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_CODE6</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x80</addressOffset>
           <size>32</size>
@@ -1467,7 +1353,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1476,7 +1362,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_BODY5</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x84</addressOffset>
           <size>32</size>
@@ -1486,7 +1372,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1495,7 +1381,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_CODE7</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x84</addressOffset>
           <size>32</size>
@@ -1505,7 +1391,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1514,7 +1400,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_BODY6</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x88</addressOffset>
           <size>32</size>
@@ -1524,7 +1410,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1533,7 +1419,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_CODE8</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x88</addressOffset>
           <size>32</size>
@@ -1543,7 +1429,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1552,7 +1438,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_BODY7</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x8C</addressOffset>
           <size>32</size>
@@ -1562,7 +1448,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1571,7 +1457,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_CODE9</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x8C</addressOffset>
           <size>32</size>
@@ -1581,7 +1467,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1590,7 +1476,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_BODY8</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x90</addressOffset>
           <size>32</size>
@@ -1600,7 +1486,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1609,7 +1495,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_CODE10</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x90</addressOffset>
           <size>32</size>
@@ -1619,7 +1505,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1628,7 +1514,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_BODY9</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x94</addressOffset>
           <size>32</size>
@@ -1638,7 +1524,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1647,7 +1533,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_CODE11</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x94</addressOffset>
           <size>32</size>
@@ -1657,7 +1543,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1666,7 +1552,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_BODY10</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x98</addressOffset>
           <size>32</size>
@@ -1676,7 +1562,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1685,7 +1571,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_CODE12</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x98</addressOffset>
           <size>32</size>
@@ -1695,7 +1581,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1704,7 +1590,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_BODY11</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x9C</addressOffset>
           <size>32</size>
@@ -1714,7 +1600,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1723,7 +1609,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION1_IV_CODE13</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION1_IV_CODE</alternateGroup>
           <addressOffset>0x9C</addressOffset>
           <size>32</size>
@@ -1733,7 +1619,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1742,7 +1628,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_CODE0</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xA0</addressOffset>
           <size>32</size>
@@ -1752,7 +1638,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1761,7 +1647,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_HEADER0</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xA0</addressOffset>
           <size>32</size>
@@ -1771,7 +1657,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1780,7 +1666,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_CODE1</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xA4</addressOffset>
           <size>32</size>
@@ -1790,7 +1676,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1799,7 +1685,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_HEADER1</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xA4</addressOffset>
           <size>32</size>
@@ -1809,21 +1695,21 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>TYPE</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>INDEX</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>8</bitOffset>
               <bitWidth>4</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>SIZE</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>24</bitOffset>
               <bitWidth>6</bitWidth>
               <access>read-write</access>
@@ -1832,7 +1718,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_BODY0</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xA8</addressOffset>
           <size>32</size>
@@ -1842,7 +1728,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1851,7 +1737,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_CODE2</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xA8</addressOffset>
           <size>32</size>
@@ -1861,7 +1747,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1870,7 +1756,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_BODY1</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xAC</addressOffset>
           <size>32</size>
@@ -1880,7 +1766,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1889,7 +1775,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_CODE3</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xAC</addressOffset>
           <size>32</size>
@@ -1899,7 +1785,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1908,7 +1794,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_BODY2</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xB0</addressOffset>
           <size>32</size>
@@ -1918,7 +1804,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1927,7 +1813,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_CODE4</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xB0</addressOffset>
           <size>32</size>
@@ -1937,7 +1823,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1946,7 +1832,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_BODY3</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xB4</addressOffset>
           <size>32</size>
@@ -1956,7 +1842,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1965,7 +1851,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_CODE5</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xB4</addressOffset>
           <size>32</size>
@@ -1975,7 +1861,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -1984,7 +1870,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_BODY4</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xB8</addressOffset>
           <size>32</size>
@@ -1994,7 +1880,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2003,7 +1889,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_CODE6</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xB8</addressOffset>
           <size>32</size>
@@ -2013,7 +1899,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2022,7 +1908,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_BODY5</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xBC</addressOffset>
           <size>32</size>
@@ -2032,7 +1918,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2041,7 +1927,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_CODE7</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xBC</addressOffset>
           <size>32</size>
@@ -2051,7 +1937,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2060,7 +1946,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_BODY6</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xC0</addressOffset>
           <size>32</size>
@@ -2070,7 +1956,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2079,7 +1965,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_CODE8</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xC0</addressOffset>
           <size>32</size>
@@ -2089,7 +1975,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2098,7 +1984,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_BODY7</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xC4</addressOffset>
           <size>32</size>
@@ -2108,7 +1994,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2117,7 +2003,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_CODE9</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xC4</addressOffset>
           <size>32</size>
@@ -2127,7 +2013,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2136,7 +2022,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_BODY8</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xC8</addressOffset>
           <size>32</size>
@@ -2146,7 +2032,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2155,7 +2041,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_CODE10</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xC8</addressOffset>
           <size>32</size>
@@ -2165,7 +2051,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2174,7 +2060,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_BODY9</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xCC</addressOffset>
           <size>32</size>
@@ -2184,7 +2070,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2193,7 +2079,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_CODE11</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xCC</addressOffset>
           <size>32</size>
@@ -2203,7 +2089,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2212,7 +2098,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_BODY10</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xD0</addressOffset>
           <size>32</size>
@@ -2222,7 +2108,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2231,7 +2117,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_CODE12</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xD0</addressOffset>
           <size>32</size>
@@ -2241,7 +2127,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2250,7 +2136,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_BODY11</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xD4</addressOffset>
           <size>32</size>
@@ -2260,7 +2146,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2269,7 +2155,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>PRINCE_REGION2_IV_CODE13</name>
-          <description>.</description>
+          <description>no description available</description>
           <alternateGroup>PRINCE_REGION2_IV_CODE</alternateGroup>
           <addressOffset>0xD4</addressOffset>
           <size>32</size>
@@ -2279,7 +2165,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2299,7 +2185,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2310,7 +2196,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <dim>8</dim>
           <dimIncrement>0x4</dimIncrement>
           <name>SHA256_DIGEST[%s]</name>
-          <description>SHA256_DIGEST0 for DIGEST[31:0] SHA256_DIGEST1 for DIGEST[63:32] SHA256_DIGEST2 for DIGEST[95:64] SHA256_DIGEST3 for DIGEST[127:96] SHA256_DIGEST4 for DIGEST[159:128] SHA256_DIGEST5 for DIGEST[191:160] SHA256_DIGEST6 for DIGEST[223:192] SHA256_DIGEST7 for DIGEST[255:224]</description>
+          <description>SHA256_DIGESTindex for DIGEST[((index * 32) + 31):(index * 32)]</description>
           <addressOffset>0x1E0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2319,7 +2205,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2363,7 +2249,7 @@ SPDX-License-Identifier: BSD-3-Clause
       <registers>
         <register>
           <name>BOOT_CFG</name>
-          <description>.</description>
+          <description>no description available</description>
           <addressOffset>0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2378,27 +2264,32 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>VALUE_0</name>
+                  <name>AUTO_ISP</name>
                   <description>Auto ISP</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_1</name>
-                  <description>USB_HID_MSC</description>
+                  <name>USB_HID_ISP</name>
+                  <description>USB_HID_ISP</description>
                   <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_2</name>
-                  <description>SPI Slave ISP</description>
+                  <name>UART_ISP</name>
+                  <description>UART ISP</description>
                   <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_3</name>
-                  <description>I2C Slave ISP</description>
+                  <name>SPI_ISP</name>
+                  <description>SPI Slave ISP</description>
                   <value>0x3</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_7</name>
+                  <name>I2C_ISP</name>
+                  <description>I2C Slave ISP</description>
+                  <value>0x4</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DISABLE</name>
                   <description>Disable ISP fall through</description>
                   <value>0x7</value>
                 </enumeratedValue>
@@ -2434,7 +2325,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>SPI_FLASH_CFG</name>
-          <description>.</description>
+          <description>no description available</description>
           <addressOffset>0x4</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2452,7 +2343,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>USB_ID</name>
-          <description>.</description>
+          <description>no description available</description>
           <addressOffset>0x8</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2461,14 +2352,14 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>USB_VENDOR_ID</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>16</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>USB_PRODUCT_ID</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>16</bitOffset>
               <bitWidth>16</bitWidth>
               <access>read-write</access>
@@ -2477,7 +2368,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>SDIO_CFG</name>
-          <description>.</description>
+          <description>no description available</description>
           <addressOffset>0xC</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2486,7 +2377,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -2495,7 +2386,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>CC_SOCU_PIN</name>
-          <description>.</description>
+          <description>no description available</description>
           <addressOffset>0x10</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2510,12 +2401,12 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>VALUE_0</name>
+                  <name>ENABLE</name>
                   <description>Use DAP to enable</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_1</name>
+                  <name>DISABLE</name>
                   <description>Fixed state</description>
                   <value>0x1</value>
                 </enumeratedValue>
@@ -2529,12 +2420,12 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>VALUE_0</name>
+                  <name>ENABLE</name>
                   <description>Use DAP to enable</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_1</name>
+                  <name>DISABLE</name>
                   <description>Fixed state</description>
                   <value>0x1</value>
                 </enumeratedValue>
@@ -2548,12 +2439,12 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>VALUE_0</name>
+                  <name>ENABLE</name>
                   <description>Use DAP to enable</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_1</name>
+                  <name>DISABLE</name>
                   <description>Fixed state</description>
                   <value>0x1</value>
                 </enumeratedValue>
@@ -2567,12 +2458,12 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>VALUE_0</name>
+                  <name>ENABLE</name>
                   <description>Use DAP to enable</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_1</name>
+                  <name>DISABLE</name>
                   <description>Fixed state</description>
                   <value>0x1</value>
                 </enumeratedValue>
@@ -2586,31 +2477,12 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>VALUE_0</name>
+                  <name>ENABLE</name>
                   <description>Use DAP to enable</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_1</name>
-                  <description>Fixed state</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>CPU1_DBGEN</name>
-              <description>CPU1 (Micro cortex M33) invasive debug enable</description>
-              <bitOffset>5</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>VALUE_0</name>
-                  <description>Use DAP to enable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>VALUE_1</name>
+                  <name>DISABLE</name>
                   <description>Fixed state</description>
                   <value>0x1</value>
                 </enumeratedValue>
@@ -2624,69 +2496,31 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>VALUE_0</name>
+                  <name>ENABLE</name>
                   <description>Use DAP to enable</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_1</name>
+                  <name>DISABLE</name>
                   <description>Fixed state</description>
                   <value>0x1</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
-              <name>FA_CMD_EN</name>
+              <name>FA_ME_CMD_EN</name>
               <description>FA Command enable</description>
               <bitOffset>7</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>VALUE_0</name>
+                  <name>ENABLE</name>
                   <description>Use DAP to enable</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>VALUE_1</name>
-                  <description>Fixed state</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>ME_CMD_EN</name>
-              <description>Flash Mass Erase Command enable</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>VALUE_0</name>
-                  <description>Use DAP to enable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>VALUE_1</name>
-                  <description>Fixed state</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>CPU1_NIDEN</name>
-              <description>CPU1 (Micro cortex M33) non-invasive debug enable</description>
-              <bitOffset>9</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>VALUE_0</name>
-                  <description>Use DAP to enable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>VALUE_1</name>
+                  <name>DISABLE</name>
                   <description>Fixed state</description>
                   <value>0x1</value>
                 </enumeratedValue>
@@ -2710,7 +2544,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>CC_SOCU_DFLT</name>
-          <description>.</description>
+          <description>no description available</description>
           <addressOffset>0x14</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2813,25 +2647,6 @@ SPDX-License-Identifier: BSD-3-Clause
               </enumeratedValues>
             </field>
             <field>
-              <name>CPU1_DBGEN</name>
-              <description>CPU1 (Micro cortex M33) invasive debug fixed state</description>
-              <bitOffset>5</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DISABLE</name>
-                  <description>Disable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENABLE</name>
-                  <description>Enable</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
               <name>ISP_CMD_EN</name>
               <description>ISP Boot Command fixed state</description>
               <bitOffset>6</bitOffset>
@@ -2851,47 +2666,9 @@ SPDX-License-Identifier: BSD-3-Clause
               </enumeratedValues>
             </field>
             <field>
-              <name>FA_CMD_EN</name>
+              <name>FA_ME_CMD_EN</name>
               <description>FA Command fixed state</description>
               <bitOffset>7</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DISABLE</name>
-                  <description>Disable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENABLE</name>
-                  <description>Enable</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>ME_CMD_EN</name>
-              <description>Flash Mass Erase Command fixed state</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DISABLE</name>
-                  <description>Disable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENABLE</name>
-                  <description>Enable</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>CPU1_NIDEN</name>
-              <description>CPU1 (Micro cortex M33) non-invasive debug fixed state</description>
-              <bitOffset>9</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
               <enumeratedValues>
@@ -2918,7 +2695,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>VENDOR_USAGE</name>
-          <description>.</description>
+          <description>no description available</description>
           <addressOffset>0x18</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -2945,52 +2722,206 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>RSA4K</name>
-              <description>Use RSA4096 keys only. 00- RSA2048 keys 01, 10, 11 - RSA4096 keys</description>
+              <description>Use RSA4096 keys only.</description>
               <bitOffset>0</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>VALUE_0</name>
+                  <description>Allow RSA2048 and higher</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_1</name>
+                  <description>RSA4096 only</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>RSA4096 only</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>RSA4096 only</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>DICE_INC_NXP_CFG</name>
-              <description>Include NXP area in DICE computation. 00 - not included 01, 10, 11 - included</description>
+              <description>Include NXP area in DICE computation.</description>
               <bitOffset>2</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>NOT_INCLUD</name>
+                  <description>not included</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>INCLUD</name>
+                  <description>included</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>included</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>included</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>DICE_CUST_CFG</name>
-              <description>Include Customer factory area (including keys) in DICE computation. 00 - not included 01, 10, 11 - included</description>
+              <description>Include Customer factory area (including keys) in DICE computation.</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>NOT_INCLUD</name>
+                  <description>not included</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>UNCLUD</name>
+                  <description>included</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>included</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>included</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>SKIP_DICE</name>
-              <description>Skip DICE computation. 00 - Enable DICE 01,10,11 - Disable DICE</description>
+              <description>Skip DICE computation</description>
               <bitOffset>6</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>ENABLE</name>
+                  <description>Enable DICE</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DISABLE</name>
+                  <description>Disable DICE</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>Disable DICE</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>Disable DICE</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>TZM_IMAGE_TYPE</name>
-              <description>TrustZone-M mode. 00 - TZM mode in image header. 01 - Disable TZ-M. Boots to NonSecure. 10 - TZ-M enable boots to secure mode. 11 - Preset TZM checker from image header.</description>
+              <description>TrustZone-M mode</description>
               <bitOffset>8</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>VALUE_0</name>
+                  <description>TZ-M image mode is taken from application image header</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_1</name>
+                  <description>TZ-M disabled image, boots to non-secure mode</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>TZ-M enabled image, boots to secure mode</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>TZ-M enabled image with TZ-M preset, boot to secure mode TZ-M pre-configured by data from application image header</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>BLOCK_SET_KEY</name>
-              <description>Block PUF key code generation. 00 - Enable Key code generation 01, 10, 11 - Disable key code generation</description>
+              <description>Block PUF key code generation</description>
               <bitOffset>10</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>ALLOW</name>
+                  <description>Allow PUF Key Code generation</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DISABLE</name>
+                  <description>Disable PUF Key Code generation</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>Disable PUF Key Code generation</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>Disable PUF Key Code generation</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>BLOCK_ENROLL</name>
-              <description>Block PUF enrollement. 00 - Enable enrollment mode 01, 10, 11 - Disable further enrollmnet</description>
+              <description>Block PUF enrollement</description>
               <bitOffset>12</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>ALLOW</name>
+                  <description>Allow PUF enroll operation</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DISABLE</name>
+                  <description>Disable PUF enroll operation</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>Disable PUF enroll operation</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>Disable PUF enroll operation</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>DICE_INC_SEC_EPOCH</name>
@@ -2998,27 +2929,115 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>14</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>NOT_INCLUD</name>
+                  <description>not included</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>INCLUD</name>
+                  <description>included</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>included</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>included</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>SKIP_BOOT_SEED</name>
-              <description>Skip boot seed computation.</description>
+              <description>Skip boot seed computation</description>
               <bitOffset>16</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>ENABLE</name>
+                  <description>Enable BOOT_SEED</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DISABLE</name>
+                  <description>Disable BOOT_SEED</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>Disable BOOT_SEED</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>Disable BOOT_SEED</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>BOOT_SEED_INC_NXP_CFG</name>
-              <description>Include NXP area in BOOT SEED computation.</description>
+              <description>Include NXP area in BOOT SEED computation</description>
               <bitOffset>18</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>NOT_INCLUD</name>
+                  <description>not included</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>INCLUD</name>
+                  <description>included</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>included</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>included</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>BOOT_SEED_CUST_CFG</name>
-              <description>Include CMPA area in BOOT SEED computation.</description>
+              <description>Include CMPA area in BOOT SEED computation</description>
               <bitOffset>20</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>NOT_INCLUD</name>
+                  <description>not included</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>INCLUD</name>
+                  <description>included</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>included</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>included</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>BOOT_SEED_INC_EPOCH</name>
@@ -3026,19 +3045,63 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>22</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>NOT_INCLUD</name>
+                  <description>not included</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>INCLUD</name>
+                  <description>included</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>included</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>included</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>SEC_BOOT_EN</name>
-              <description>Secure boot enable. 00 - Plain image (internal flash with or without CRC) 01, 10, 11 - Boot signed images. (internal flash, RSA signed)</description>
+              <description>Secure boot enable</description>
               <bitOffset>30</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLE</name>
+                  <description>Plain image (internal flash with or without CRC)</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLE</name>
+                  <description>Boot signed images. (internal flash, RSA signed)</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>Boot signed images. (internal flash, RSA signed)</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>Boot signed images. (internal flash, RSA signed)</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
           </fields>
         </register>
         <register>
           <name>PRINCE_BASE_ADDR</name>
-          <description>.</description>
+          <description>no description available</description>
           <addressOffset>0x20</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3047,66 +3110,169 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>ADDR0_PRG</name>
-              <description>Programmable portion of the base address of region 0.</description>
+              <description>Programmable portion of the base address of region 0</description>
               <bitOffset>0</bitOffset>
               <bitWidth>4</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>ADDR1_PRG</name>
-              <description>Programmable portion of the base address of region 1.</description>
+              <description>Programmable portion of the base address of region 1</description>
               <bitOffset>4</bitOffset>
               <bitWidth>4</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>ADDR2_PRG</name>
-              <description>Programmable portion of the base address of region 2.</description>
+              <description>Programmable portion of the base address of region 2</description>
               <bitOffset>8</bitOffset>
               <bitWidth>4</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>LOCK_REG0</name>
-              <description>Lock PRINCE region0 settings. 00 - Region is not locked. 01, 10, 11 - Region is locked.</description>
-              <bitOffset>16</bitOffset>
-              <bitWidth>2</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>LOCK_REG1</name>
-              <description>Lock PRINCE region1 settings. 00 - Region is not locked. 01, 10, 11 - Region is locked.</description>
+              <description>Lock PRINCE region0 settings</description>
               <bitOffset>18</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>UNLOCK</name>
+                  <description>Region is not locked</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>LOCK</name>
+                  <description>Region is locked</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>Region is locked</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>Region is locked</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
-              <name>LOCK_REG2</name>
-              <description>Lock PRINCE region2 settings. 00 - Region is not locked. 01, 10, 11 - Region is locked.</description>
+              <name>LOCK_REG1</name>
+              <description>Lock PRINCE region1 settings</description>
               <bitOffset>20</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>UNLOCK</name>
+                  <description>Region is not locked</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>LOCK</name>
+                  <description>Region is locked</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>Region is locked</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>Region is locked</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>REG0_ERASE_CHECK_EN</name>
-              <description>For PRINCE region0 enable checking whether all encrypted pages are erased together. 00 - Check is disabled. 01, 10, 11 - Check is enabled.</description>
+              <description>For PRINCE region0 enable checking whether all encrypted pages are erased together</description>
               <bitOffset>24</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLE</name>
+                  <description>Region is disabled</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLE</name>
+                  <description>Region is enabled</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>Region is enabled</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>Region is enabled</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>REG1_ERASE_CHECK_EN</name>
-              <description>For PRINCE region1 enable checking whether all encrypted pages are erased together. 00 - Check is disabled. 01, 10, 11 - Check is enabled.</description>
+              <description>For PRINCE region1 enable checking whether all encrypted pages are erased together</description>
               <bitOffset>26</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLE</name>
+                  <description>Region is disabled</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLE</name>
+                  <description>Region is enabled</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>Region is enabled</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>Region is enabled</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>REG2_ERASE_CHECK_EN</name>
-              <description>For PRINCE region2 enable checking whether all encrypted pages are erased together. 00 - Check is disabled. 01, 10, 11 - Check is enabled.</description>
+              <description>For PRINCE region2 enable checking whether all encrypted pages are erased together</description>
               <bitOffset>28</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLE</name>
+                  <description>Region is disabled</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLE</name>
+                  <description>Region is enabled</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_2</name>
+                  <description>Region is enabled</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALUE_3</name>
+                  <description>Region is enabled</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
           </fields>
         </register>
@@ -3121,7 +3287,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -3139,7 +3305,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -3157,7 +3323,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -3175,10 +3341,22 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>TRIM_VALID</name>
-              <description>0 : Capa Bank trimmings not valid. Default trimmings value are used. 1 : Capa Bank trimmings valid.</description>
+              <description>XTAL 32kHz capa bank trimmings</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>NOT_TRIM</name>
+                  <description>Capa Bank trimmings not valid. Default trimmings value are used</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALID</name>
+                  <description>Capa Bank trimmings valid</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>XTAL_LOAD_CAP_IEC_PF_X100</name>
@@ -3214,10 +3392,22 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>TRIM_VALID</name>
-              <description>0 : Capa Bank trimmings not valid. Default trimmings value are used. 1 : Capa Bank trimmings valid.</description>
+              <description>XTAL 16MHz capa bank trimmings</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>NOT_TRIM</name>
+                  <description>Capa Bank trimmings not valid. Default trimmings value are used</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VALID</name>
+                  <description>Capa Bank trimmings valid</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>XTAL_LOAD_CAP_IEC_PF_X100</name>
@@ -3252,8 +3442,8 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>FLASH_REMAP_SIZE</name>
-              <description>This 32-bit register contains the size of the image to remap, in bytes. The 12 LSBs are ignored, so the size granularity is 4KB.</description>
+              <name>FIELD</name>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -3270,8 +3460,8 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>FLASH_REMAP_OFFSET</name>
-              <description>This 32-bit register contains the offset by which the image is to be remapped. The 12 LSBs are ignored, so the remap granularity is 4KB.</description>
+              <name>FIELD</name>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -3282,7 +3472,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <dim>8</dim>
           <dimIncrement>0x4</dimIncrement>
           <name>ROTKH[%s]</name>
-          <description>ROTKH0 for Root of Trust Keys Table hash[255:224] ROTKH1 for Root of Trust Keys Table hash[223:192] ROTKH2 for Root of Trust Keys Table hash[191:160] ROTKH3 for Root of Trust Keys Table hash[159:128] ROTKH4 for Root of Trust Keys Table hash[127:96] ROTKH5 for Root of Trust Keys Table hash[95:64] ROTKH6 for Root of Trust Keys Table hash[63:32] ROTKH7 for Root of Trust Keys Table hash[31:0]</description>
+          <description>ROTKHindex for Root of Trust Keys Table hash[(((7 - index) * 32) + 31):((7 - index) * 32)]</description>
           <addressOffset>0x50</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3291,7 +3481,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -3311,7 +3501,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -3322,7 +3512,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <dim>8</dim>
           <dimIncrement>0x4</dimIncrement>
           <name>SHA256_DIGEST[%s]</name>
-          <description>SHA256_DIGEST0 for DIGEST[31:0] SHA256_DIGEST1 for DIGEST[63:32] SHA256_DIGEST2 for DIGEST[95:64] SHA256_DIGEST3 for DIGEST[127:96] SHA256_DIGEST4 for DIGEST[159:128] SHA256_DIGEST5 for DIGEST[191:160] SHA256_DIGEST6 for DIGEST[223:192] SHA256_DIGEST7 for DIGEST[255:224]</description>
+          <description>SHA256_DIGESTindex for DIGEST[((index * 32) + 31):(index * 32)]</description>
           <addressOffset>0x1E0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -3331,7 +3521,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -7009,7 +7199,7 @@ SPDX-License-Identifier: BSD-3-Clause
             </field>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>20</bitOffset>
               <bitWidth>4</bitWidth>
               <access>read-write</access>
@@ -7196,7 +7386,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>USBHS_PHY_TRIM_VALID</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -10229,7 +10419,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -10249,7 +10439,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -10269,7 +10459,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -10289,7 +10479,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -10309,7 +10499,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -10320,7 +10510,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <dim>8</dim>
           <dimIncrement>0x4</dimIncrement>
           <name>SHA256_DIGEST[%s]</name>
-          <description>SHA-256 DIGEST (9EC00 - 9FDBC) ROM Patch Area + NXP Area (IMPORTANT NOTE: Pages used for Repair (N-8 to N-3) are excluded from the computation) SHA256_DIGEST0 for DIGEST[31:0] SHA256_DIGEST1 for DIGEST[63:32] SHA256_DIGEST2 for DIGEST[95:64] SHA256_DIGEST3 for DIGEST[127:96] SHA256_DIGEST4 for DIGEST[159:128] SHA256_DIGEST5 for DIGEST[191:160] SHA256_DIGEST6 for DIGEST[223:192] SHA256_DIGEST7 for DIGEST[255:224]</description>
+          <description>SHA-256 DIGEST (9EC00 - 9FDBC) ROM Patch Area + NXP Area (IMPORTANT NOTE: Pages used for Repair (N-8 to N-3) are excluded from the computation) SHA256_DIGESTindex for DIGEST[((index * 32) + 31):(index * 32)]</description>
           <addressOffset>0x1C0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -10329,7 +10519,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIELD</name>
-              <description>.</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>32</bitWidth>
               <access>read-write</access>
@@ -44249,6 +44439,21 @@ SPDX-License-Identifier: BSD-3-Clause
       </interrupt>
     </peripheral>
     <peripheral derivedFrom="FLEXCOMM0">
+      <name>FLEXCOMM7</name>
+      <description>Flexcomm serial communication</description>
+      <groupName>FLEXCOMM</groupName>
+      <baseAddress>0x40098000</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x1000</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <interrupt>
+        <name>FLEXCOMM7</name>
+        <value>21</value>
+      </interrupt>
+    </peripheral>
+    <peripheral derivedFrom="FLEXCOMM0">
       <name>FLEXCOMM8</name>
       <description>Flexcomm serial communication</description>
       <groupName>FLEXCOMM</groupName>
@@ -45936,6 +46141,22 @@ SPDX-License-Identifier: BSD-3-Clause
         <value>20</value>
       </interrupt>
     </peripheral>
+    <peripheral derivedFrom="I2C0">
+      <name>I2C7</name>
+      <description>I2C-bus interfaces</description>
+      <alternatePeripheral>FLEXCOMM7</alternatePeripheral>
+      <groupName>I2C</groupName>
+      <baseAddress>0x40098000</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x1000</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <interrupt>
+        <name>FLEXCOMM7</name>
+        <value>21</value>
+      </interrupt>
+    </peripheral>
     <peripheral>
       <name>I2S0</name>
       <description>I2S interface</description>
@@ -47112,6 +47333,38 @@ SPDX-License-Identifier: BSD-3-Clause
       </registers>
     </peripheral>
     <peripheral derivedFrom="I2S0">
+      <name>I2S1</name>
+      <description>I2S interface</description>
+      <alternatePeripheral>FLEXCOMM1</alternatePeripheral>
+      <groupName>I2S</groupName>
+      <baseAddress>0x40087000</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x1000</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <interrupt>
+        <name>FLEXCOMM1</name>
+        <value>15</value>
+      </interrupt>
+    </peripheral>
+    <peripheral derivedFrom="I2S0">
+      <name>I2S2</name>
+      <description>I2S interface</description>
+      <alternatePeripheral>FLEXCOMM2</alternatePeripheral>
+      <groupName>I2S</groupName>
+      <baseAddress>0x40088000</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x1000</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <interrupt>
+        <name>FLEXCOMM2</name>
+        <value>16</value>
+      </interrupt>
+    </peripheral>
+    <peripheral derivedFrom="I2S0">
       <name>I2S3</name>
       <description>I2S interface</description>
       <alternatePeripheral>FLEXCOMM3</alternatePeripheral>
@@ -47144,6 +47397,22 @@ SPDX-License-Identifier: BSD-3-Clause
       </interrupt>
     </peripheral>
     <peripheral derivedFrom="I2S0">
+      <name>I2S5</name>
+      <description>I2S interface</description>
+      <alternatePeripheral>FLEXCOMM5</alternatePeripheral>
+      <groupName>I2S</groupName>
+      <baseAddress>0x40096000</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x1000</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <interrupt>
+        <name>FLEXCOMM5</name>
+        <value>19</value>
+      </interrupt>
+    </peripheral>
+    <peripheral derivedFrom="I2S0">
       <name>I2S6</name>
       <description>I2S interface</description>
       <alternatePeripheral>FLEXCOMM6</alternatePeripheral>
@@ -47157,6 +47426,22 @@ SPDX-License-Identifier: BSD-3-Clause
       <interrupt>
         <name>FLEXCOMM6</name>
         <value>20</value>
+      </interrupt>
+    </peripheral>
+    <peripheral derivedFrom="I2S0">
+      <name>I2S7</name>
+      <description>I2S interface</description>
+      <alternatePeripheral>FLEXCOMM7</alternatePeripheral>
+      <groupName>I2S</groupName>
+      <baseAddress>0x40098000</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x1000</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <interrupt>
+        <name>FLEXCOMM7</name>
+        <value>21</value>
       </interrupt>
     </peripheral>
     <peripheral>
@@ -48403,6 +48688,22 @@ SPDX-License-Identifier: BSD-3-Clause
       </registers>
     </peripheral>
     <peripheral derivedFrom="SPI0">
+      <name>SPI1</name>
+      <description>Serial Peripheral Interfaces (SPI)</description>
+      <alternatePeripheral>FLEXCOMM1</alternatePeripheral>
+      <groupName>SPI</groupName>
+      <baseAddress>0x40087000</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x1000</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <interrupt>
+        <name>FLEXCOMM1</name>
+        <value>15</value>
+      </interrupt>
+    </peripheral>
+    <peripheral derivedFrom="SPI0">
       <name>SPI3</name>
       <description>Serial Peripheral Interfaces (SPI)</description>
       <alternatePeripheral>FLEXCOMM3</alternatePeripheral>
@@ -48419,6 +48720,22 @@ SPDX-License-Identifier: BSD-3-Clause
       </interrupt>
     </peripheral>
     <peripheral derivedFrom="SPI0">
+      <name>SPI4</name>
+      <description>Serial Peripheral Interfaces (SPI)</description>
+      <alternatePeripheral>FLEXCOMM4</alternatePeripheral>
+      <groupName>SPI</groupName>
+      <baseAddress>0x4008A000</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x1000</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <interrupt>
+        <name>FLEXCOMM4</name>
+        <value>18</value>
+      </interrupt>
+    </peripheral>
+    <peripheral derivedFrom="SPI0">
       <name>SPI6</name>
       <description>Serial Peripheral Interfaces (SPI)</description>
       <alternatePeripheral>FLEXCOMM6</alternatePeripheral>
@@ -48432,6 +48749,22 @@ SPDX-License-Identifier: BSD-3-Clause
       <interrupt>
         <name>FLEXCOMM6</name>
         <value>20</value>
+      </interrupt>
+    </peripheral>
+    <peripheral derivedFrom="SPI0">
+      <name>SPI7</name>
+      <description>Serial Peripheral Interfaces (SPI)</description>
+      <alternatePeripheral>FLEXCOMM7</alternatePeripheral>
+      <groupName>SPI</groupName>
+      <baseAddress>0x40098000</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x1000</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <interrupt>
+        <name>FLEXCOMM7</name>
+        <value>21</value>
       </interrupt>
     </peripheral>
     <peripheral derivedFrom="SPI0">
@@ -50004,6 +50337,22 @@ SPDX-License-Identifier: BSD-3-Clause
       <interrupt>
         <name>FLEXCOMM6</name>
         <value>20</value>
+      </interrupt>
+    </peripheral>
+    <peripheral derivedFrom="USART0">
+      <name>USART7</name>
+      <description>USARTs</description>
+      <alternatePeripheral>FLEXCOMM7</alternatePeripheral>
+      <groupName>USART</groupName>
+      <baseAddress>0x40098000</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x1000</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <interrupt>
+        <name>FLEXCOMM7</name>
+        <value>21</value>
       </interrupt>
     </peripheral>
     <peripheral>
@@ -54028,6 +54377,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <access>read-write</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
+          <modifiedWriteValues>oneToClear</modifiedWriteValues>
           <fields>
             <field>
               <name>TEXC_NUM</name>
