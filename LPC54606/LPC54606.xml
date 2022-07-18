@@ -5,7 +5,7 @@
   <version>1.0</version>
   <description>LPC54606J256BD100,LPC54606J256ET100,LPC54606J256ET180,LPC54606J512BD100,LPC54606J512BD208,LPC54606J512ET100</description>
   <licenseText>
-Copyright 2016-2019 NXP
+Copyright 2016-2022 NXP
 All rights reserved.
 
 SPDX-License-Identifier: BSD-3-Clause
@@ -54558,7 +54558,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>This bit is set when a change in the state is detected for the CTS flag above. This bit is cleared by software.</description>
               <bitOffset>5</bitOffset>
               <bitWidth>1</bitWidth>
-              <access>write-only</access>
+              <access>read-write</access>
             </field>
             <field>
               <name>TXDISSTAT</name>
@@ -54579,42 +54579,42 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>This bit is set when a change in the state of receiver break detection occurs. Cleared by software.</description>
               <bitOffset>11</bitOffset>
               <bitWidth>1</bitWidth>
-              <access>write-only</access>
+              <access>read-write</access>
             </field>
             <field>
               <name>START</name>
               <description>This bit is set when a start is detected on the receiver input. Its purpose is primarily to allow wake-up from Deep-sleep or Power-down mode immediately when a start is detected. Cleared by software.</description>
               <bitOffset>12</bitOffset>
               <bitWidth>1</bitWidth>
-              <access>write-only</access>
+              <access>read-write</access>
             </field>
             <field>
               <name>FRAMERRINT</name>
               <description>Framing Error interrupt flag. This flag is set when a character is received with a missing stop bit at the expected location. This could be an indication of a baud rate or configuration mismatch with the transmitting source.</description>
               <bitOffset>13</bitOffset>
               <bitWidth>1</bitWidth>
-              <access>write-only</access>
+              <access>read-write</access>
             </field>
             <field>
               <name>PARITYERRINT</name>
               <description>Parity Error interrupt flag. This flag is set when a parity error is detected in a received character.</description>
               <bitOffset>14</bitOffset>
               <bitWidth>1</bitWidth>
-              <access>write-only</access>
+              <access>read-write</access>
             </field>
             <field>
               <name>RXNOISEINT</name>
               <description>Received Noise interrupt flag. Three samples of received data are taken in order to determine the value of each received data bit, except in synchronous mode. This acts as a noise filter if one sample disagrees. This flag is set when a received data bit contains one disagreeing sample. This could indicate line noise, a baud rate or character format mismatch, or loss of synchronization during data reception.</description>
               <bitOffset>15</bitOffset>
               <bitWidth>1</bitWidth>
-              <access>write-only</access>
+              <access>read-write</access>
             </field>
             <field>
               <name>ABERR</name>
               <description>Auto baud Error. An auto baud error can occur if the BRG counts to its limit before the end of the start bit that is being measured, essentially an auto baud time-out.</description>
               <bitOffset>16</bitOffset>
               <bitWidth>1</bitWidth>
-              <access>write-only</access>
+              <access>read-write</access>
             </field>
           </fields>
         </register>
@@ -74391,7 +74391,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Integration Test Trigger Out Register</description>
           <addressOffset>0xEE8</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFE</resetMask>
           <fields>
@@ -74427,7 +74427,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>ETM Integration Test ATB Control 0 Register</description>
           <addressOffset>0xEF8</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFE</resetMask>
           <fields>

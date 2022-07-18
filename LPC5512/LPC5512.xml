@@ -5,7 +5,7 @@
   <version>1.0</version>
   <description>LPC5512JBD100,LPC5512JBD64</description>
   <licenseText>
-Copyright 2016-2021 NXP
+Copyright 2016-2022 NXP
 All rights reserved.
 
 SPDX-License-Identifier: BSD-3-Clause
@@ -32027,42 +32027,42 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x17</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val24</name>
+                  <name>val24_24</name>
                   <description>None</description>
                   <value>0x18</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val24</name>
+                  <name>val24_25</name>
                   <description>None</description>
                   <value>0x19</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val24</name>
+                  <name>val24_26</name>
                   <description>None</description>
                   <value>0x1A</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val24</name>
+                  <name>val24_27</name>
                   <description>None</description>
                   <value>0x1B</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val24</name>
+                  <name>val24_28</name>
                   <description>None</description>
                   <value>0x1C</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val24</name>
+                  <name>val24_29</name>
                   <description>None</description>
                   <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val24</name>
+                  <name>val24_30</name>
                   <description>None</description>
                   <value>0x1E</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val24</name>
+                  <name>val24_31</name>
                   <description>None</description>
                   <value>0x1F</value>
                 </enumeratedValue>
@@ -32214,37 +32214,37 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x18</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_25</name>
                   <description>None</description>
                   <value>0x19</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_26</name>
                   <description>None</description>
                   <value>0x1A</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_27</name>
                   <description>None</description>
                   <value>0x1B</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_28</name>
                   <description>None</description>
                   <value>0x1C</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_29</name>
                   <description>None</description>
                   <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_30</name>
                   <description>None</description>
                   <value>0x1E</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_31</name>
                   <description>None</description>
                   <value>0x1F</value>
                 </enumeratedValue>
@@ -32396,37 +32396,37 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x18</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_25</name>
                   <description>None</description>
                   <value>0x19</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_26</name>
                   <description>None</description>
                   <value>0x1A</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_27</name>
                   <description>None</description>
                   <value>0x1B</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_28</name>
                   <description>None</description>
                   <value>0x1C</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_29</name>
                   <description>None</description>
                   <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_30</name>
                   <description>None</description>
                   <value>0x1E</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_31</name>
                   <description>None</description>
                   <value>0x1F</value>
                 </enumeratedValue>
@@ -32578,37 +32578,37 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x18</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_25</name>
                   <description>None</description>
                   <value>0x19</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_26</name>
                   <description>None</description>
                   <value>0x1A</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_27</name>
                   <description>None</description>
                   <value>0x1B</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_28</name>
                   <description>None</description>
                   <value>0x1C</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_29</name>
                   <description>None</description>
                   <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_30</name>
                   <description>None</description>
                   <value>0x1E</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_31</name>
                   <description>None</description>
                   <value>0x1F</value>
                 </enumeratedValue>
@@ -32765,52 +32765,52 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x15</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_22</name>
                   <description>None</description>
                   <value>0x16</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_23</name>
                   <description>None</description>
                   <value>0x17</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_24</name>
                   <description>None</description>
                   <value>0x18</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_25</name>
                   <description>None</description>
                   <value>0x19</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_26</name>
                   <description>None</description>
                   <value>0x1A</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_27</name>
                   <description>None</description>
                   <value>0x1B</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_28</name>
                   <description>None</description>
                   <value>0x1C</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_29</name>
                   <description>None</description>
                   <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_30</name>
                   <description>None</description>
                   <value>0x1E</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_31</name>
                   <description>None</description>
                   <value>0x1F</value>
                 </enumeratedValue>
@@ -33102,37 +33102,37 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x18</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_25</name>
                   <description>None</description>
                   <value>0x19</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_26</name>
                   <description>None</description>
                   <value>0x1A</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_27</name>
                   <description>None</description>
                   <value>0x1B</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_28</name>
                   <description>None</description>
                   <value>0x1C</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_29</name>
                   <description>None</description>
                   <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_30</name>
                   <description>None</description>
                   <value>0x1E</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_31</name>
                   <description>None</description>
                   <value>0x1F</value>
                 </enumeratedValue>
@@ -33284,37 +33284,37 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x18</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_25</name>
                   <description>None</description>
                   <value>0x19</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_26</name>
                   <description>None</description>
                   <value>0x1A</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_27</name>
                   <description>None</description>
                   <value>0x1B</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_28</name>
                   <description>None</description>
                   <value>0x1C</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_29</name>
                   <description>None</description>
                   <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_30</name>
                   <description>None</description>
                   <value>0x1E</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_31</name>
                   <description>None</description>
                   <value>0x1F</value>
                 </enumeratedValue>
@@ -56953,6 +56953,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <access>read-write</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
+          <modifiedWriteValues>oneToClear</modifiedWriteValues>
           <fields>
             <field>
               <name>TEXC_NUM</name>
