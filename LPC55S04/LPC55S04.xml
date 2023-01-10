@@ -5,7 +5,7 @@
   <version>1.0</version>
   <description>LPC55S04JBD64,LPC55S04JHI48</description>
   <licenseText>
-Copyright 2016-2021 NXP
+Copyright 2016-2022 NXP
 All rights reserved.
 
 SPDX-License-Identifier: BSD-3-Clause
@@ -31235,42 +31235,42 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x17</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val24</name>
+                  <name>val24_24</name>
                   <description>None</description>
                   <value>0x18</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val24</name>
+                  <name>val24_25</name>
                   <description>None</description>
                   <value>0x19</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val24</name>
+                  <name>val24_26</name>
                   <description>None</description>
                   <value>0x1A</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val24</name>
+                  <name>val24_27</name>
                   <description>None</description>
                   <value>0x1B</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val24</name>
+                  <name>val24_28</name>
                   <description>None</description>
                   <value>0x1C</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val24</name>
+                  <name>val24_29</name>
                   <description>None</description>
                   <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val24</name>
+                  <name>val24_30</name>
                   <description>None</description>
                   <value>0x1E</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val24</name>
+                  <name>val24_31</name>
                   <description>None</description>
                   <value>0x1F</value>
                 </enumeratedValue>
@@ -31422,37 +31422,37 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x18</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_25</name>
                   <description>None</description>
                   <value>0x19</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_26</name>
                   <description>None</description>
                   <value>0x1A</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_27</name>
                   <description>None</description>
                   <value>0x1B</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_28</name>
                   <description>None</description>
                   <value>0x1C</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_29</name>
                   <description>None</description>
                   <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_30</name>
                   <description>None</description>
                   <value>0x1E</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_31</name>
                   <description>None</description>
                   <value>0x1F</value>
                 </enumeratedValue>
@@ -31604,37 +31604,37 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x18</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_25</name>
                   <description>None</description>
                   <value>0x19</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_26</name>
                   <description>None</description>
                   <value>0x1A</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_27</name>
                   <description>None</description>
                   <value>0x1B</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_28</name>
                   <description>None</description>
                   <value>0x1C</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_29</name>
                   <description>None</description>
                   <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_30</name>
                   <description>None</description>
                   <value>0x1E</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_31</name>
                   <description>None</description>
                   <value>0x1F</value>
                 </enumeratedValue>
@@ -31786,37 +31786,37 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x18</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_25</name>
                   <description>None</description>
                   <value>0x19</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_26</name>
                   <description>None</description>
                   <value>0x1A</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_27</name>
                   <description>None</description>
                   <value>0x1B</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_28</name>
                   <description>None</description>
                   <value>0x1C</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_29</name>
                   <description>None</description>
                   <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_30</name>
                   <description>None</description>
                   <value>0x1E</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_31</name>
                   <description>None</description>
                   <value>0x1F</value>
                 </enumeratedValue>
@@ -31973,52 +31973,52 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x15</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_22</name>
                   <description>None</description>
                   <value>0x16</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_23</name>
                   <description>None</description>
                   <value>0x17</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_24</name>
                   <description>None</description>
                   <value>0x18</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_25</name>
                   <description>None</description>
                   <value>0x19</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_26</name>
                   <description>None</description>
                   <value>0x1A</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_27</name>
                   <description>None</description>
                   <value>0x1B</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_28</name>
                   <description>None</description>
                   <value>0x1C</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_29</name>
                   <description>None</description>
                   <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_30</name>
                   <description>None</description>
                   <value>0x1E</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val22</name>
+                  <name>val22_31</name>
                   <description>None</description>
                   <value>0x1F</value>
                 </enumeratedValue>
@@ -32310,37 +32310,37 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x18</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_25</name>
                   <description>None</description>
                   <value>0x19</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_26</name>
                   <description>None</description>
                   <value>0x1A</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_27</name>
                   <description>None</description>
                   <value>0x1B</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_28</name>
                   <description>None</description>
                   <value>0x1C</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_29</name>
                   <description>None</description>
                   <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_30</name>
                   <description>None</description>
                   <value>0x1E</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_31</name>
                   <description>None</description>
                   <value>0x1F</value>
                 </enumeratedValue>
@@ -32492,37 +32492,37 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x18</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_25</name>
                   <description>None</description>
                   <value>0x19</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_26</name>
                   <description>None</description>
                   <value>0x1A</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_27</name>
                   <description>None</description>
                   <value>0x1B</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_28</name>
                   <description>None</description>
                   <value>0x1C</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_29</name>
                   <description>None</description>
                   <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_30</name>
                   <description>None</description>
                   <value>0x1E</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val25</name>
+                  <name>val25_31</name>
                   <description>None</description>
                   <value>0x1F</value>
                 </enumeratedValue>
@@ -63114,7 +63114,7 @@ SPDX-License-Identifier: BSD-3-Clause
             <field>
               <name>CURST</name>
               <description>Current State</description>
-              <bitOffset>24</bitOffset>
+              <bitOffset>28</bitOffset>
               <bitWidth>4</bitWidth>
               <access>read-only</access>
             </field>
@@ -77497,6 +77497,764 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>CP11 access.</description>
               <bitOffset>11</bitOffset>
               <bitWidth>1</bitWidth>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+      </registers>
+    </peripheral>
+    <peripheral>
+      <name>MPU</name>
+      <description>Memory Protection Unit</description>
+      <groupName>MPU</groupName>
+      <baseAddress>0xE000ED90</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x40</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <registers>
+        <register>
+          <name>TYPE</name>
+          <description>The MPU Type Register indicates how many regions the MPU support. Software can use it to determine if the processor implements an MPU.</description>
+          <addressOffset>0</addressOffset>
+          <size>32</size>
+          <access>read-only</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>SEPARATE</name>
+              <description>Indicates support for separate instruction and data address maps. RAZ. Armv8-M only supports a unified MPU</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-only</access>
+            </field>
+            <field>
+              <name>DREGION</name>
+              <description>Number of regions supported by the MPU. If this field reads-as-zero the processor does not implement an MPU.</description>
+              <bitOffset>8</bitOffset>
+              <bitWidth>8</bitWidth>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>CTRL</name>
+          <description>MPU Control Register.</description>
+          <addressOffset>0x4</addressOffset>
+          <size>32</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>ENABLE</name>
+              <description>Enables the MPU.</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>MPU_DISABLE</name>
+                  <description>The MPU is disabled.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MPU_ENABLED</name>
+                  <description>The MPU is enabled.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>HFNMIENA</name>
+              <description>Enables the operation of MPU during HardFault and NMI handlers</description>
+              <bitOffset>1</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLE</name>
+                  <description>MPU is disabled during HardFault and NMI handlers.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLE</name>
+                  <description>The MPU is enabled during HardFault and NMI handlers.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>PRIVDEFENA</name>
+              <description>no description available</description>
+              <bitOffset>2</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>ENABLE</name>
+                  <description>Disables the default memory map. Any instruction or data access that does not access a defined region faults.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DISABLE</name>
+                  <description>Enables the default memory map as a background region for privileged accesses.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>RNR</name>
+          <description>MPU Region Number Register.</description>
+          <addressOffset>0x8</addressOffset>
+          <size>32</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>REGION</name>
+              <description>Indicates the memory region accessed by MPU_RBAR and MPU_RASR.</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>8</bitWidth>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>RBAR</name>
+          <description>MPU Region Base Address Register.</description>
+          <addressOffset>0xC</addressOffset>
+          <size>32</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>XN</name>
+              <description>The XN bit is an Execute Never bit, that indicates whether the processor can execute instructions from the region.</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>EXECUTE</name>
+                  <description>Execution is only permitted if read permitted.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>EXECUTE_NEVER</name>
+                  <description>Execution is not permitted.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>AP</name>
+              <description>The AP[2:0] bits indicate the access and privilege properties of the region.</description>
+              <bitOffset>1</bitOffset>
+              <bitWidth>2</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>PRIVILEGED_CODE</name>
+                  <description>Read/write by privileged code only.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>PRIVILEGED_ANY</name>
+                  <description>Read/write by any privilege level.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>PRIVILEGED_CODE_READ_ONLY</name>
+                  <description>Read-only by privileged code only.</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>PRIVILEGED_ANY_READ_ONLY</name>
+                  <description>Read-only by any privilege level.</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>SH</name>
+              <description>For Normal memory regions, the S bit indicates whether the region is shareable. For Strongly-ordered and Device memory, the S bit is ignored.</description>
+              <bitOffset>3</bitOffset>
+              <bitWidth>2</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>NON_SHAREABLE</name>
+                  <description>Non-shareable memory.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>UNPREDICTABLE</name>
+                  <description>Unpredictable.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>OUTER_SHAREABLE</name>
+                  <description>Outer shareable</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>INNER_SHAREABLE</name>
+                  <description>Inner Shareable.</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>BASE</name>
+              <description>Contains bits[31:5] of the lower inclusive limit of the selected MPU memory region. This value is zero extended to provide the base address to be checked against.</description>
+              <bitOffset>5</bitOffset>
+              <bitWidth>27</bitWidth>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>RLAR</name>
+          <description>MPU Region Limit Address Register.</description>
+          <addressOffset>0x10</addressOffset>
+          <size>32</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>EN</name>
+              <description>Enables this region.</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLED</name>
+                  <description>Region is disabled.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLED</name>
+                  <description>Region is enabled.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>ATTRINDX</name>
+              <description>Attribute index. Associates a set of attributes in the MPU_MAIR0 and MPU_MAIR1 fields.</description>
+              <bitOffset>1</bitOffset>
+              <bitWidth>3</bitWidth>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>LIMIT</name>
+              <description>Limit address. Contains bits[31:5] of the upper inclusive limit of the selected MPU memory region. This value is postfixed with 0x1F to provide the limit address to be checked against.</description>
+              <bitOffset>5</bitOffset>
+              <bitWidth>27</bitWidth>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>RBAR_A1</name>
+          <description>MPU Region Base Address Register.</description>
+          <addressOffset>0x14</addressOffset>
+          <size>32</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>XN</name>
+              <description>The XN bit is an Execute Never bit, that indicates whether the processor can execute instructions from the region.</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>EXECUTE</name>
+                  <description>Execution is only permitted if read permitted.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>EXECUTE_NEVER</name>
+                  <description>Execution is not permitted.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>AP</name>
+              <description>The AP[2:0] bits indicate the access and privilege properties of the region.</description>
+              <bitOffset>1</bitOffset>
+              <bitWidth>2</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>PRIVILEGED_CODE</name>
+                  <description>Read/write by privileged code only.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>PRIVILEGED_ANY</name>
+                  <description>Read/write by any privilege level.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>PRIVILEGED_CODE_READ_ONLY</name>
+                  <description>Read-only by privileged code only.</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>PRIVILEGED_ANY_READ_ONLY</name>
+                  <description>Read-only by any privilege level.</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>SH</name>
+              <description>For Normal memory regions, the S bit indicates whether the region is shareable. For Strongly-ordered and Device memory, the S bit is ignored.</description>
+              <bitOffset>3</bitOffset>
+              <bitWidth>2</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>NON_SHAREABLE</name>
+                  <description>Non-shareable memory.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>UNPREDICTABLE</name>
+                  <description>Unpredictable.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>OUTER_SHAREABLE</name>
+                  <description>Outer shareable</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>INNER_SHAREABLE</name>
+                  <description>Inner Shareable.</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>BASE</name>
+              <description>Contains bits[31:5] of the lower inclusive limit of the selected MPU memory region. This value is zero extended to provide the base address to be checked against.</description>
+              <bitOffset>5</bitOffset>
+              <bitWidth>27</bitWidth>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>RLAR_A1</name>
+          <description>MPU Region Limit Address Register.</description>
+          <addressOffset>0x18</addressOffset>
+          <size>32</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>EN</name>
+              <description>Enables this region.</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLED</name>
+                  <description>Region is disabled.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLED</name>
+                  <description>Region is enabled.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>ATTRINDX</name>
+              <description>Attribute index. Associates a set of attributes in the MPU_MAIR0 and MPU_MAIR1 fields.</description>
+              <bitOffset>1</bitOffset>
+              <bitWidth>3</bitWidth>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>LIMIT</name>
+              <description>Limit address. Contains bits[31:5] of the upper inclusive limit of the selected MPU memory region. This value is postfixed with 0x1F to provide the limit address to be checked against.</description>
+              <bitOffset>5</bitOffset>
+              <bitWidth>27</bitWidth>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>RBAR_A2</name>
+          <description>MPU Region Base Address Register.</description>
+          <addressOffset>0x1C</addressOffset>
+          <size>32</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>XN</name>
+              <description>The XN bit is an Execute Never bit, that indicates whether the processor can execute instructions from the region.</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>EXECUTE</name>
+                  <description>Execution is only permitted if read permitted.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>EXECUTE_NEVER</name>
+                  <description>Execution is not permitted.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>AP</name>
+              <description>The AP[2:0] bits indicate the access and privilege properties of the region.</description>
+              <bitOffset>1</bitOffset>
+              <bitWidth>2</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>PRIVILEGED_CODE</name>
+                  <description>Read/write by privileged code only.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>PRIVILEGED_ANY</name>
+                  <description>Read/write by any privilege level.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>PRIVILEGED_CODE_READ_ONLY</name>
+                  <description>Read-only by privileged code only.</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>PRIVILEGED_ANY_READ_ONLY</name>
+                  <description>Read-only by any privilege level.</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>SH</name>
+              <description>For Normal memory regions, the S bit indicates whether the region is shareable. For Strongly-ordered and Device memory, the S bit is ignored.</description>
+              <bitOffset>3</bitOffset>
+              <bitWidth>2</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>NON_SHAREABLE</name>
+                  <description>Non-shareable memory.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>UNPREDICTABLE</name>
+                  <description>Unpredictable.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>OUTER_SHAREABLE</name>
+                  <description>Outer shareable</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>INNER_SHAREABLE</name>
+                  <description>Inner Shareable.</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>BASE</name>
+              <description>Contains bits[31:5] of the lower inclusive limit of the selected MPU memory region. This value is zero extended to provide the base address to be checked against.</description>
+              <bitOffset>5</bitOffset>
+              <bitWidth>27</bitWidth>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>RLAR_A2</name>
+          <description>MPU Region Limit Address Register.</description>
+          <addressOffset>0x20</addressOffset>
+          <size>32</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>EN</name>
+              <description>Enables this region.</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLED</name>
+                  <description>Region is disabled.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLED</name>
+                  <description>Region is enabled.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>ATTRINDX</name>
+              <description>Attribute index. Associates a set of attributes in the MPU_MAIR0 and MPU_MAIR1 fields.</description>
+              <bitOffset>1</bitOffset>
+              <bitWidth>3</bitWidth>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>LIMIT</name>
+              <description>Limit address. Contains bits[31:5] of the upper inclusive limit of the selected MPU memory region. This value is postfixed with 0x1F to provide the limit address to be checked against.</description>
+              <bitOffset>5</bitOffset>
+              <bitWidth>27</bitWidth>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>RBAR_A3</name>
+          <description>MPU Region Base Address Register.</description>
+          <addressOffset>0x24</addressOffset>
+          <size>32</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>XN</name>
+              <description>The XN bit is an Execute Never bit, that indicates whether the processor can execute instructions from the region.</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>EXECUTE</name>
+                  <description>Execution is only permitted if read permitted.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>EXECUTE_NEVER</name>
+                  <description>Execution is not permitted.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>AP</name>
+              <description>The AP[2:0] bits indicate the access and privilege properties of the region.</description>
+              <bitOffset>1</bitOffset>
+              <bitWidth>2</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>PRIVILEGED_CODE</name>
+                  <description>Read/write by privileged code only.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>PRIVILEGED_ANY</name>
+                  <description>Read/write by any privilege level.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>PRIVILEGED_CODE_READ_ONLY</name>
+                  <description>Read-only by privileged code only.</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>PRIVILEGED_ANY_READ_ONLY</name>
+                  <description>Read-only by any privilege level.</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>SH</name>
+              <description>For Normal memory regions, the S bit indicates whether the region is shareable. For Strongly-ordered and Device memory, the S bit is ignored.</description>
+              <bitOffset>3</bitOffset>
+              <bitWidth>2</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>NON_SHAREABLE</name>
+                  <description>Non-shareable memory.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>UNPREDICTABLE</name>
+                  <description>Unpredictable.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>OUTER_SHAREABLE</name>
+                  <description>Outer shareable</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>INNER_SHAREABLE</name>
+                  <description>Inner Shareable.</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>BASE</name>
+              <description>Contains bits[31:5] of the lower inclusive limit of the selected MPU memory region. This value is zero extended to provide the base address to be checked against.</description>
+              <bitOffset>5</bitOffset>
+              <bitWidth>27</bitWidth>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>RLAR_A3</name>
+          <description>MPU Region Limit Address Register.</description>
+          <addressOffset>0x28</addressOffset>
+          <size>32</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>EN</name>
+              <description>Enables this region.</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLED</name>
+                  <description>Region is disabled.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLED</name>
+                  <description>Region is enabled.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>ATTRINDX</name>
+              <description>Attribute index. Associates a set of attributes in the MPU_MAIR0 and MPU_MAIR1 fields.</description>
+              <bitOffset>1</bitOffset>
+              <bitWidth>3</bitWidth>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>LIMIT</name>
+              <description>Limit address. Contains bits[31:5] of the upper inclusive limit of the selected MPU memory region. This value is postfixed with 0x1F to provide the limit address to be checked against.</description>
+              <bitOffset>5</bitOffset>
+              <bitWidth>27</bitWidth>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>MAIR0</name>
+          <description>MPU Memory Attribute Indirection Registers 0.</description>
+          <addressOffset>0x30</addressOffset>
+          <size>32</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>ATTR0</name>
+              <description>Memory attribute encoding for MPU regions with an AttrIndex of 0.</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>8</bitWidth>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>ATTR1</name>
+              <description>Memory attribute encoding for MPU regions with an AttrIndex of 1.</description>
+              <bitOffset>8</bitOffset>
+              <bitWidth>8</bitWidth>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>ATTR2</name>
+              <description>Memory attribute encoding for MPU regions with an AttrIndex of 2.</description>
+              <bitOffset>16</bitOffset>
+              <bitWidth>8</bitWidth>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>ATTR3</name>
+              <description>Memory attribute encoding for MPU regions with an AttrIndex of 3.</description>
+              <bitOffset>24</bitOffset>
+              <bitWidth>8</bitWidth>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>MAIR1</name>
+          <description>MPU Memory Attribute Indirection Registers 1.</description>
+          <addressOffset>0x3C</addressOffset>
+          <size>32</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>ATTR4</name>
+              <description>Memory attribute encoding for MPU regions with an AttrIndex of 4.</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>8</bitWidth>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>ATTR5</name>
+              <description>Memory attribute encoding for MPU regions with an AttrIndex of 5.</description>
+              <bitOffset>8</bitOffset>
+              <bitWidth>8</bitWidth>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>ATTR6</name>
+              <description>Memory attribute encoding for MPU regions with an AttrIndex of 6.</description>
+              <bitOffset>16</bitOffset>
+              <bitWidth>8</bitWidth>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>ATTR7</name>
+              <description>Memory attribute encoding for MPU regions with an AttrIndex of 7.</description>
+              <bitOffset>24</bitOffset>
+              <bitWidth>8</bitWidth>
               <access>read-write</access>
             </field>
           </fields>
