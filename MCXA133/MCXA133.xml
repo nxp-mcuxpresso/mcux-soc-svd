@@ -3,7 +3,7 @@
   <vendor>nxp.com</vendor>
   <name>MCXA133</name>
   <version>1.0</version>
-  <description>MCXA133VFM,MCXA133VFT</description>
+  <description>MCXA133VFM,MCXA133VFT,MCXA133VLF</description>
   <licenseText>
 Copyright 2016-2024 NXP
 SPDX-License-Identifier: BSD-3-Clause
@@ -91638,7 +91638,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <value>35</value>
       </interrupt>
       <interrupt>
-        <name>USB0</name>
+        <name>Reserved52</name>
         <value>36</value>
       </interrupt>
       <interrupt>
