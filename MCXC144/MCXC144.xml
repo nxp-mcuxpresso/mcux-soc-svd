@@ -6,7 +6,7 @@
   <series>MCX</series>
   <version>1.6</version>
   <description>MCXC144 NXP Microcontroller</description>
-  <licenseText>Copyright 2016-2024 NXP\n SPDX-License-Identifier: BSD-3-Clause</licenseText>
+  <licenseText>Copyright 2016-2025 NXP\n SPDX-License-Identifier: BSD-3-Clause</licenseText>
   <cpu>
     <name>CM0PLUS</name>
     <revision>r0p0</revision>
@@ -340,7 +340,7 @@
           <addressOffset>0xD</addressOffset>
           <size>8</size>
           <access>read-only</access>
-          <resetValue>0x3F</resetValue>
+          <resetValue>0x3D</resetValue>
           <resetMask>0xFF</resetMask>
           <fields>
             <field>
@@ -11572,28 +11572,38 @@
             </field>
             <field>
               <name>SERIESID</name>
-              <description>Kinetis Series ID</description>
+              <description>Series ID</description>
               <bitOffset>20</bitOffset>
               <bitWidth>4</bitWidth>
               <access>read-only</access>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>b0001</name>
-                  <description>KL family</description>
+                  <description>MCXC family</description>
                   <value>#0001</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>SUBFAMID</name>
-              <description>TBD Sub-Family ID</description>
+              <description>Sub-Family ID</description>
               <bitOffset>24</bitOffset>
               <bitWidth>4</bitWidth>
               <access>read-only</access>
               <enumeratedValues>
                 <enumeratedValue>
+                  <name>b0001</name>
+                  <description>MCX C14x/24x Subfamily</description>
+                  <value>#0001</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>b0010</name>
+                  <description>MCX C44x Subfamily</description>
+                  <value>#0010</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>b0011</name>
-                  <description>TBD Subfamily</description>
+                  <description>MCX C041 Subfamily</description>
                   <value>#0011</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -87635,8 +87645,7 @@
     </peripheral>
     <peripheral>
       <name>SysTick</name>
-      <description>System timer</description>
-      <prependToName>SYST_</prependToName>
+      <description>Cortex-M0+ Systick module</description>
       <baseAddress>0xE000E010</baseAddress>
       <addressBlock>
         <offset>0</offset>
@@ -87645,7 +87654,7 @@
       </addressBlock>
       <registers>
         <register>
-          <name>CSR</name>
+          <name>SYST_CSR</name>
           <description>SysTick Control and Status Register</description>
           <addressOffset>0</addressOffset>
           <size>32</size>
@@ -87655,7 +87664,7 @@
           <fields>
             <field>
               <name>ENABLE</name>
-              <description>no description available</description>
+              <description>Enable/disable systick counter</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -87674,7 +87683,7 @@
             </field>
             <field>
               <name>TICKINT</name>
-              <description>no description available</description>
+              <description>Enable Systick interrupt.</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -87693,7 +87702,7 @@
             </field>
             <field>
               <name>CLKSOURCE</name>
-              <description>no description available</description>
+              <description>Clock source selection.</description>
               <bitOffset>2</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -87712,7 +87721,7 @@
             </field>
             <field>
               <name>COUNTFLAG</name>
-              <description>no description available</description>
+              <description>Returns 1 if timer counted to 0 since the last read of this register.</description>
               <bitOffset>16</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -87720,7 +87729,7 @@
           </fields>
         </register>
         <register>
-          <name>RVR</name>
+          <name>SYST_RVR</name>
           <description>SysTick Reload Value Register</description>
           <addressOffset>0x4</addressOffset>
           <size>32</size>
@@ -87738,7 +87747,7 @@
           </fields>
         </register>
         <register>
-          <name>CVR</name>
+          <name>SYST_CVR</name>
           <description>SysTick Current Value Register</description>
           <addressOffset>0x8</addressOffset>
           <size>32</size>
@@ -87748,7 +87757,7 @@
           <fields>
             <field>
               <name>CURRENT</name>
-              <description>Current value at the time the register is accessed</description>
+              <description>Reads current counter value at the time the register is accessed. Any write to the register clears the register to 0.</description>
               <bitOffset>0</bitOffset>
               <bitWidth>24</bitWidth>
               <access>read-write</access>
@@ -87756,7 +87765,7 @@
           </fields>
         </register>
         <register>
-          <name>CALIB</name>
+          <name>SYST_CALIB</name>
           <description>SysTick Calibration Value Register</description>
           <addressOffset>0xC</addressOffset>
           <size>32</size>
@@ -87773,7 +87782,7 @@
             </field>
             <field>
               <name>SKEW</name>
-              <description>no description available</description>
+              <description>Indicates whether the TENMS value is exact</description>
               <bitOffset>30</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
@@ -87792,19 +87801,19 @@
             </field>
             <field>
               <name>NOREF</name>
-              <description>no description available</description>
+              <description>Indicates whether the device provides an alternative reference clock</description>
               <bitOffset>31</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>b0</name>
-                  <description>The reference clock is provided</description>
+                  <description>The alternative reference clock is provided</description>
                   <value>#0</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>b1</name>
-                  <description>The reference clock is not provided</description>
+                  <description>The alternative reference clock is not provided</description>
                   <value>#1</value>
                 </enumeratedValue>
               </enumeratedValues>
