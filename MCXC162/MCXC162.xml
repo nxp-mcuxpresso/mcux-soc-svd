@@ -3,9 +3,9 @@
   <vendor>nxp.com</vendor>
   <name>MCXC162</name>
   <version>1.0</version>
-  <description>MCXC162VFM,MCXC162VFT,MCXC162VLF</description>
+  <description>MCXC162VFG,MCXC162VFK,MCXC162VFM,MCXC162VFT,MCXC162VLF</description>
   <licenseText>
-Copyright 2016-2025 NXP
+Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause
   </licenseText>
   <cpu>

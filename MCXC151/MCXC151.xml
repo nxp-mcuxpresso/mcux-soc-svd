@@ -3,9 +3,9 @@
   <vendor>nxp.com</vendor>
   <name>MCXC151</name>
   <version>1.0</version>
-  <description>MCXC151VFM,MCXC151VFT,MCXC151VLF</description>
+  <description>MCXC151VFG,MCXC151VFK,MCXC151VFM,MCXC151VFT,MCXC151VLF</description>
   <licenseText>
-Copyright 2016-2025 NXP
+Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause
   </licenseText>
   <cpu>

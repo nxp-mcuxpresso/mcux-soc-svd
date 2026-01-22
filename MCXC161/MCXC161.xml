@@ -3,9 +3,9 @@
   <vendor>nxp.com</vendor>
   <name>MCXC161</name>
   <version>1.0</version>
-  <description>MCXC161VFM,MCXC161VFT,MCXC161VLF</description>
+  <description>MCXC161VFG,MCXC161VFK,MCXC161VFM,MCXC161VFT,MCXC161VLF</description>
   <licenseText>
-Copyright 2016-2025 NXP
+Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause
   </licenseText>
   <cpu>
