@@ -5,7 +5,7 @@
   <version>1.0</version>
   <description>MCXW236AIHNAR,MCXW236AIUKAR,MCXW236BIHNAR,MCXW236BIUKAR</description>
   <licenseText>
-Copyright 2016-2025 NXP
+Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause
   </licenseText>
   <cpu>
@@ -23224,36 +23224,6 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x13</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>val10_20</name>
-                  <description>None</description>
-                  <value>0x14</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>val10_21</name>
-                  <description>None</description>
-                  <value>0x15</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>val10_22</name>
-                  <description>None</description>
-                  <value>0x16</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>val10_23</name>
-                  <description>None</description>
-                  <value>0x17</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>val10_24</name>
-                  <description>None</description>
-                  <value>0x18</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>val10_25</name>
-                  <description>None</description>
-                  <value>0x19</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>val10_26</name>
                   <description>None</description>
                   <value>0x1A</value>
@@ -26475,10 +26445,6 @@ SPDX-License-Identifier: BSD-3-Clause
       <interrupt>
         <name>BOD2</name>
         <value>28</value>
-      </interrupt>
-      <interrupt>
-        <name>WAKE_PAD</name>
-        <value>63</value>
       </interrupt>
       <registers>
         <register>
@@ -57247,18 +57213,6 @@ SPDX-License-Identifier: BSD-3-Clause
       <interrupt>
         <name>CDOG</name>
         <value>60</value>
-      </interrupt>
-      <interrupt>
-        <name>Reserved77</name>
-        <value>61</value>
-      </interrupt>
-      <interrupt>
-        <name>Reserved78</name>
-        <value>62</value>
-      </interrupt>
-      <interrupt>
-        <name>WAKE_PAD</name>
-        <value>63</value>
       </interrupt>
       <registers>
         <register>
