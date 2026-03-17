@@ -19505,6 +19505,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -19689,6 +19729,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -19853,6 +19933,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -20019,6 +20139,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -20183,6 +20343,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -20349,6 +20549,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -20513,6 +20753,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -20679,6 +20959,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -20844,6 +21164,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -21008,6 +21368,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -21193,6 +21593,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -21376,6 +21816,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -21561,6 +22041,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -21744,6 +22264,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -22005,6 +22565,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -22265,6 +22865,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -22448,6 +23088,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -22633,6 +23313,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -22797,6 +23517,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -22982,6 +23742,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -23146,6 +23946,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -23312,6 +24152,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -23477,6 +24357,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -23641,6 +24561,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -23826,6 +24786,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -23990,6 +24990,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -24156,6 +25196,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -24320,6 +25400,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -24486,6 +25606,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -24650,6 +25810,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -24816,6 +26016,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -24980,6 +26220,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -25165,6 +26445,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -25349,6 +26669,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -25513,6 +26873,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -25679,6 +27079,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -25843,6 +27283,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -26009,6 +27489,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -26173,6 +27693,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -26339,6 +27899,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -26503,6 +28103,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -26688,6 +28328,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -26872,6 +28552,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -27036,6 +28756,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -27202,6 +28962,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -27367,6 +29167,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -27531,6 +29371,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -27716,6 +29596,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -27880,6 +29800,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -28046,6 +30006,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -28211,6 +30211,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -28375,6 +30415,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -28560,6 +30640,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -28724,6 +30844,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -28890,6 +31050,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -29054,6 +31254,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -29220,6 +31460,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -29384,6 +31664,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -29550,6 +31870,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -29714,6 +32074,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -29880,6 +32280,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -30044,6 +32484,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -30210,6 +32690,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -30374,6 +32894,46 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>ALT7</name>
                   <description>Alternative connection 7.</description>
                   <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT8</name>
+                  <description>Alternative connection 8.</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT9</name>
+                  <description>Alternative connection 9.</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT10</name>
+                  <description>Alternative connection 10.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT11</name>
+                  <description>Alternative connection 11.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT12</name>
+                  <description>Alternative connection 12.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT13</name>
+                  <description>Alternative connection 13.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT14</name>
+                  <description>Alternative connection 14.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ALT15</name>
+                  <description>Alternative connection 15.</description>
+                  <value>0xF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
