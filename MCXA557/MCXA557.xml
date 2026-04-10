@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <device schemaVersion="1.3" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="CMSIS-SVD.xsd">
   <vendor>nxp.com</vendor>
-  <name>MCXA556</name>
+  <name>MCXA557</name>
   <version>1.0</version>
-  <description>MCXA556VPN</description>
+  <description>MCXA557VPN</description>
   <licenseText>
 Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause
