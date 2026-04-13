@@ -3,7 +3,7 @@
   <vendor>nxp.com</vendor>
   <name>MIMXRT735S_cm33_core1</name>
   <version>1.0</version>
-  <description>MIMXRT735SGAWBR,MIMXRT735SGFOB</description>
+  <description>MIMXRT735SGAWBR,MIMXRT735SGFOB,MIMXRT735SGVKB</description>
   <licenseText>
 Copyright 2016-2025 NXP
 SPDX-License-Identifier: BSD-3-Clause

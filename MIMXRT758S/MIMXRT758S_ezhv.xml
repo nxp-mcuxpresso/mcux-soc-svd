@@ -3,7 +3,7 @@
   <vendor>nxp.com</vendor>
   <name>MIMXRT758S_ezhv</name>
   <version>1.0</version>
-  <description>MIMXRT758SGAWBR,MIMXRT758SGFOB</description>
+  <description>MIMXRT758SGAWBR,MIMXRT758SGFOB,MIMXRT758SGVKB</description>
   <licenseText>
 Copyright 2016-2025 NXP
 SPDX-License-Identifier: BSD-3-Clause

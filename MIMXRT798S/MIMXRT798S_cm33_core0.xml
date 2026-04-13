@@ -3,7 +3,7 @@
   <vendor>nxp.com</vendor>
   <name>MIMXRT798S_cm33_core0</name>
   <version>1.0</version>
-  <description>MIMXRT798SGAWBR,MIMXRT798SGFOB</description>
+  <description>MIMXRT798SGAWBR,MIMXRT798SGFOB,MIMXRT798SGVKB</description>
   <licenseText>
 Copyright 2016-2025 NXP
 SPDX-License-Identifier: BSD-3-Clause
