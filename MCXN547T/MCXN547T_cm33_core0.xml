@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <device schemaVersion="1.3" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="CMSIS-SVD.xsd">
   <vendor>nxp.com</vendor>
-  <name>MCXN556S_cm33_core1</name>
+  <name>MCXN547T_cm33_core0</name>
   <version>1.0</version>
-  <description>MCXN556SCDF</description>
+  <description>MCXN547TVAB</description>
   <licenseText>
 Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause
@@ -12,8 +12,8 @@ SPDX-License-Identifier: BSD-3-Clause
     <name>CM33</name>
     <revision>r2p0</revision>
     <endian>little</endian>
-    <mpuPresent>false</mpuPresent>
-    <fpuPresent>false</fpuPresent>
+    <mpuPresent>true</mpuPresent>
+    <fpuPresent>true</fpuPresent>
     <vtorPresent>true</vtorPresent>
     <nvicPrioBits>3</nvicPrioBits>
     <vendorSystickConfig>false</vendorSystickConfig>
@@ -70419,6 +70419,524 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>16</bitOffset>
               <bitWidth>8</bitWidth>
               <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+      </registers>
+    </peripheral>
+    <peripheral>
+      <name>PLU0</name>
+      <description>Programmable Logic Unit (PLU)</description>
+      <groupName>PLU</groupName>
+      <baseAddress>0x40034000</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0xC20</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <interrupt>
+        <name>PLU</name>
+        <value>70</value>
+      </interrupt>
+      <registers>
+        <cluster>
+          <dim>26</dim>
+          <dimIncrement>0x20</dimIncrement>
+          <name>LUT[%s]</name>
+          <description>Array of registers: LUT_INP_MUX%s</description>
+          <addressOffset>0</addressOffset>
+          <register>
+            <dim>5</dim>
+            <dimIncrement>0x4</dimIncrement>
+            <dimIndex>0,1,2,3,4</dimIndex>
+            <name>LUT_INP_MUX%s</name>
+            <description>Input select register for LUTn (0 to 25), Inputx (5 inputs)</description>
+            <addressOffset>0</addressOffset>
+            <size>32</size>
+            <access>read-write</access>
+            <resetValue>0x3F</resetValue>
+            <resetMask>0x3F</resetMask>
+            <fields>
+              <field>
+                <name>LUTn_INPx</name>
+                <description>Selects the input source to be connected to LUTn_INPx</description>
+                <bitOffset>0</bitOffset>
+                <bitWidth>6</bitWidth>
+                <access>read-write</access>
+                <enumeratedValues>
+                  <enumeratedValue>
+                    <name>plu_inputs0</name>
+                    <description>PLU primary inputs 0</description>
+                    <value>0</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>plu_inputs1</name>
+                    <description>PLU primary inputs 1</description>
+                    <value>0x1</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>plu_inputs2</name>
+                    <description>PLU primary inputs 2</description>
+                    <value>0x2</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>plu_inputs3</name>
+                    <description>PLU primary inputs 3</description>
+                    <value>0x3</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>plu_inputs4</name>
+                    <description>PLU primary inputs 4</description>
+                    <value>0x4</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>plu_inputs5</name>
+                    <description>PLU primary inputs 5</description>
+                    <value>0x5</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs0</name>
+                    <description>Output of LUT0</description>
+                    <value>0x6</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs1</name>
+                    <description>Output of LUT1</description>
+                    <value>0x7</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs2</name>
+                    <description>Output of LUT2</description>
+                    <value>0x8</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs3</name>
+                    <description>Output of LUT3</description>
+                    <value>0x9</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs4</name>
+                    <description>Output of LUT4</description>
+                    <value>0xA</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs5</name>
+                    <description>Output of LUT5</description>
+                    <value>0xB</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs6</name>
+                    <description>Output of LUT6</description>
+                    <value>0xC</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs7</name>
+                    <description>Output of LUT7</description>
+                    <value>0xD</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs8</name>
+                    <description>Output of LUT8</description>
+                    <value>0xE</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs9</name>
+                    <description>Output of LUT9</description>
+                    <value>0xF</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs10</name>
+                    <description>Output of LUT10</description>
+                    <value>0x10</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs11</name>
+                    <description>Output of LUT11</description>
+                    <value>0x11</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs12</name>
+                    <description>Output of LUT12</description>
+                    <value>0x12</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs13</name>
+                    <description>Output of LUT13</description>
+                    <value>0x13</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs14</name>
+                    <description>Output of LUT14</description>
+                    <value>0x14</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs15</name>
+                    <description>Output of LUT15</description>
+                    <value>0x15</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs16</name>
+                    <description>Output of LUT16</description>
+                    <value>0x16</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs17</name>
+                    <description>Output of LUT17</description>
+                    <value>0x17</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs18</name>
+                    <description>Output of LUT18</description>
+                    <value>0x18</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs19</name>
+                    <description>Output of LUT19</description>
+                    <value>0x19</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs20</name>
+                    <description>Output of LUT20</description>
+                    <value>0x1A</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs21</name>
+                    <description>Output of LUT21</description>
+                    <value>0x1B</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs22</name>
+                    <description>Output of LUT22</description>
+                    <value>0x1C</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs23</name>
+                    <description>Output of LUT23</description>
+                    <value>0x1D</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs24</name>
+                    <description>Output of LUT24</description>
+                    <value>0x1E</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>lut_outputs25</name>
+                    <description>Output of LUT25</description>
+                    <value>0x1F</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>state0</name>
+                    <description>State[0]</description>
+                    <value>0x20</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>state1</name>
+                    <description>State[1]</description>
+                    <value>0x21</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>state2</name>
+                    <description>State[2]</description>
+                    <value>0x22</value>
+                  </enumeratedValue>
+                  <enumeratedValue>
+                    <name>state3</name>
+                    <description>State[3]</description>
+                    <value>0x23</value>
+                  </enumeratedValue>
+                </enumeratedValues>
+              </field>
+            </fields>
+          </register>
+        </cluster>
+        <register>
+          <dim>26</dim>
+          <dimIncrement>0x4</dimIncrement>
+          <name>LUT_TRUTH[%s]</name>
+          <description>PLU LUT truth table</description>
+          <addressOffset>0x800</addressOffset>
+          <size>32</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>LUT_TRUTH</name>
+              <description>LUT truth table</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>32</bitWidth>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>OUTPUTS</name>
+          <description>PLU outputs</description>
+          <addressOffset>0x900</addressOffset>
+          <size>32</size>
+          <access>read-only</access>
+          <resetValue>0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>OUTPUT_STATE</name>
+              <description>Output state</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>8</bitWidth>
+              <access>read-only</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>WAKEINT_CTRL</name>
+          <description>Wakeup interrupt control</description>
+          <addressOffset>0x904</addressOffset>
+          <size>32</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>MASK</name>
+              <description>Interrupt mask</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>8</bitWidth>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>FILTER_MODE</name>
+              <description>Filter Mode</description>
+              <bitOffset>8</bitOffset>
+              <bitWidth>2</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>BYPASS</name>
+                  <description>Bypass mode</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>FILTER1CLK</name>
+                  <description>Filter 1 clock period</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>FILTER2CLK</name>
+                  <description>Filter 2 clock period</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>FILTER3CLK</name>
+                  <description>Filter 3 clock period</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>FILTER_CLKSEL</name>
+              <description>Filter clock select</description>
+              <bitOffset>10</bitOffset>
+              <bitWidth>2</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>FRO1MHZ</name>
+                  <description>Selects the 1 MHz low-power oscillator as the filter clock.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>FRO12MHZ</name>
+                  <description>Selects the 12 MHz FRO as the filter clock.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>LATCH_ENABLE</name>
+              <description>Latch the interrupt</description>
+              <bitOffset>12</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+            </field>
+            <field>
+              <name>INTR_CLEAR</name>
+              <description>Write to clear wakeint_latched</description>
+              <bitOffset>13</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <modifiedWriteValues>oneToClear</modifiedWriteValues>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <dim>8</dim>
+          <dimIncrement>0x4</dimIncrement>
+          <name>OUTPUT_MUX[%s]</name>
+          <description>PLU output multiplexer</description>
+          <addressOffset>0xC00</addressOffset>
+          <size>32</size>
+          <access>read-write</access>
+          <resetValue>0x1F</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>OUTPUT</name>
+              <description>Selects the source to be connected to PLU output n.</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>5</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>plu_output0</name>
+                  <description>LUT output 0</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output1</name>
+                  <description>LUT output 1</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output2</name>
+                  <description>LUT output 2</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output3</name>
+                  <description>LUT output 3</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output4</name>
+                  <description>LUT output 4</description>
+                  <value>0x4</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output5</name>
+                  <description>LUT output 5</description>
+                  <value>0x5</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output6</name>
+                  <description>LUT output 6</description>
+                  <value>0x6</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output7</name>
+                  <description>LUT output 7</description>
+                  <value>0x7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output8</name>
+                  <description>LUT output 8</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output9</name>
+                  <description>LUT output 9</description>
+                  <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output10</name>
+                  <description>LUT output 10</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output11</name>
+                  <description>LUT output 11</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output12</name>
+                  <description>LUT output 12</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output13</name>
+                  <description>LUT output 13</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output14</name>
+                  <description>LUT output 14</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output15</name>
+                  <description>LUT output 15</description>
+                  <value>0xF</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output16</name>
+                  <description>LUT output 16</description>
+                  <value>0x10</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output17</name>
+                  <description>LUT output 17</description>
+                  <value>0x11</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output18</name>
+                  <description>LUT output 18</description>
+                  <value>0x12</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output19</name>
+                  <description>LUT output 19</description>
+                  <value>0x13</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output20</name>
+                  <description>LUT output 20</description>
+                  <value>0x14</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output21</name>
+                  <description>LUT output 21</description>
+                  <value>0x15</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output22</name>
+                  <description>LUT output 22</description>
+                  <value>0x16</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output23</name>
+                  <description>LUT output 23</description>
+                  <value>0x17</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output24</name>
+                  <description>LUT output 24</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>plu_output25</name>
+                  <description>LUT output 25</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>state0</name>
+                  <description>State[0]</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>state1</name>
+                  <description>State[1]</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>state2</name>
+                  <description>State[2]</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>state3</name>
+                  <description>State[3]</description>
+                  <value>0x1D</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
           </fields>
         </register>
@@ -387258,7 +387776,6 @@ SPDX-License-Identifier: BSD-3-Clause
       <name>DAC0</name>
       <description>12-bit DAC</description>
       <groupName>DAC</groupName>
-      <headerStructName>DAC</headerStructName>
       <baseAddress>0x4010F000</baseAddress>
       <addressBlock>
         <offset>0</offset>
@@ -388077,21 +388594,6 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
       </registers>
-    </peripheral>
-    <peripheral derivedFrom="DAC0">
-      <name>DAC1</name>
-      <description>12-bit DAC</description>
-      <groupName>DAC</groupName>
-      <baseAddress>0x40112000</baseAddress>
-      <addressBlock>
-        <offset>0</offset>
-        <size>0x30</size>
-        <usage>registers</usage>
-      </addressBlock>
-      <interrupt>
-        <name>DAC1</name>
-        <value>107</value>
-      </interrupt>
     </peripheral>
     <peripheral>
       <name>VREF0</name>
@@ -440402,7 +440904,7 @@ SPDX-License-Identifier: BSD-3-Clause
       </registers>
     </peripheral>
     <peripheral>
-      <name>SysTick1</name>
+      <name>SysTick0</name>
       <description>M33 Systick module</description>
       <groupName>SYSTICK</groupName>
       <baseAddress>0xE000E010</baseAddress>
@@ -440872,7 +441374,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <value>69</value>
       </interrupt>
       <interrupt>
-        <name>Reserved86</name>
+        <name>PLU</name>
         <value>70</value>
       </interrupt>
       <interrupt>
@@ -441020,7 +441522,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <value>106</value>
       </interrupt>
       <interrupt>
-        <name>DAC1</name>
+        <name>Reserved123</name>
         <value>107</value>
       </interrupt>
       <interrupt>

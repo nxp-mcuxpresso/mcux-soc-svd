@@ -5,7 +5,7 @@
   <version>1.0</version>
   <description>MCXN526VDF,MCXN526VKL</description>
   <licenseText>
-Copyright 2016-2025 NXP
+Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause
   </licenseText>
   <cpu>
@@ -63047,6 +63047,21 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>ID Instance is a register; used if there is no PARTNO register</description>
                   <value>#xxx1</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>IDRAND</name>
+                  <description>An ID Random field is available</description>
+                  <value>#xx1x</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DCR</name>
+                  <description>A Device Characteristic Register (DCR) is available</description>
+                  <value>#x1xx</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>BCR</name>
+                  <description>A Bus Characteristics Register (BCR) is available</description>
+                  <value>#1xxx</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -63133,6 +63148,21 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>The I3C module manages events, activities, status, HDR, and if enabled for it, ID and static-address-related items</description>
                   <value>#xxx1</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>MAX_READ_WRITE</name>
+                  <description>The I3C module manages maximum read and write lengths, and max data speed</description>
+                  <value>#xx1x</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>PENDINT_ACTSTATE</name>
+                  <description>GETSTATUS CCC returns the values of SCTRL[PENDINT] and SCTRL[ACTSTATE]</description>
+                  <value>#x1xx</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VENDINFO</name>
+                  <description>GETSTATUS CCC returns the value of SCTRL[VENDINFO]</description>
+                  <value>#1xxx</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -63151,6 +63181,26 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>IBI</name>
                   <description>Application can generate an IBI</description>
                   <value>#xxxx1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>IBI_HAS_DATA</name>
+                  <description>When bit 0 = 1, the IBI has data from the SCTRL register</description>
+                  <value>#xxx1x</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MASTER_REQUEST</name>
+                  <description>Application can generate a controller request for a secondary controller</description>
+                  <value>#xx1xx</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>HOT_JOIN</name>
+                  <description>Application can generate a Hot-Join event</description>
+                  <value>#x1xxx</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>BAMATCH_FOR_BUS</name>
+                  <description>Application can use SCONFIG[BAMATCH] for bus-available timing</description>
+                  <value>#1xxxx</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -120426,6 +120476,41 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>MOD_1_63_9</name>
                   <description>1 to 63 cycles</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MOD_1_63_10</name>
+                  <description>1 to 63 cycles</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MOD_1_63_58</name>
+                  <description>1 to 63 cycles</description>
+                  <value>0x3A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MOD_1_63_59</name>
+                  <description>1 to 63 cycles</description>
+                  <value>0x3B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MOD_1_63_60</name>
+                  <description>1 to 63 cycles</description>
+                  <value>0x3C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MOD_1_63_61</name>
+                  <description>1 to 63 cycles</description>
+                  <value>0x3D</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MOD_1_63_62</name>
+                  <description>1 to 63 cycles</description>
+                  <value>0x3E</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MOD_1_63_63</name>
+                  <description>1 to 63 cycles</description>
+                  <value>0x3F</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -292211,6 +292296,36 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>0 ms - 1023 ms</description>
                   <value>0x9</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1018</name>
+                  <description>0 ms - 1023 ms</description>
+                  <value>0x3FA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1019</name>
+                  <description>0 ms - 1023 ms</description>
+                  <value>0x3FB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1020</name>
+                  <description>0 ms - 1023 ms</description>
+                  <value>0x3FC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1021</name>
+                  <description>0 ms - 1023 ms</description>
+                  <value>0x3FD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1022</name>
+                  <description>0 ms - 1023 ms</description>
+                  <value>0x3FE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1023</name>
+                  <description>0 ms - 1023 ms</description>
+                  <value>0x3FF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
           </fields>
@@ -292281,6 +292396,36 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>1 ms - 1023 ms</description>
                   <value>0xA</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1018</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1019</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1020</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1021</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1022</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1023</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -292339,6 +292484,36 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>MS_10</name>
                   <description>1 ms - 1023 ms</description>
                   <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1018</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1019</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1020</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1021</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1022</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1023</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -292411,6 +292586,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>1 ms - 15 ms</description>
                   <value>0xA</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_11</name>
+                  <description>1 ms - 15 ms</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_12</name>
+                  <description>1 ms - 15 ms</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_13</name>
+                  <description>1 ms - 15 ms</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_14</name>
+                  <description>1 ms - 15 ms</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_15</name>
+                  <description>1 ms - 15 ms</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -292469,6 +292669,36 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>MS_10</name>
                   <description>1 ms - 1023 ms</description>
                   <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1018</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1019</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1020</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1021</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1022</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1023</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -292541,6 +292771,36 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>0 ms - 40 ms</description>
                   <value>0x9</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_35</name>
+                  <description>0 ms - 40 ms</description>
+                  <value>0x23</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_36</name>
+                  <description>0 ms - 40 ms</description>
+                  <value>0x24</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_37</name>
+                  <description>0 ms - 40 ms</description>
+                  <value>0x25</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_38</name>
+                  <description>0 ms - 40 ms</description>
+                  <value>0x26</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_39</name>
+                  <description>0 ms - 40 ms</description>
+                  <value>0x27</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_40</name>
+                  <description>0 ms - 40 ms</description>
+                  <value>0x28</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -292599,6 +292859,36 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>MS_10</name>
                   <description>1 ms - 1023 ms</description>
                   <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1018</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1019</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1020</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1021</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1022</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1023</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -298289,6 +298579,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>BURST_A</name>
                   <description>Burst length is enabled for INCR.</description>
                   <value>#xx1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>BURST_B</name>
+                  <description>Burst length is enabled for INCR4 / INCR8 / INCR16.</description>
+                  <value>#x1x</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>BURST_C</name>
+                  <description>Burst length is enabled for INCR4-WRAP / INCR8-WRAP / INCR16-WRAP.</description>
+                  <value>#1xx</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -304013,6 +304313,16 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
+                  <name>V3V_DISABLE</name>
+                  <description>Disable or power down the VBUS_VALID_3V detector</description>
+                  <value>#0xx</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SESS_VLD_DISABLE</name>
+                  <description>Disable or power down the session valid detector</description>
+                  <value>#x0x</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>VBUS_VALID_DISABLE</name>
                   <description>Disable or power down the VBUS_VALID comparator</description>
                   <value>#xx0</value>
@@ -304021,6 +304331,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>VBUS_VALID_ENABLE</name>
                   <description>Enable the VBUS_VALID comparator</description>
                   <value>#xx1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SESS_VLD_ENABLE</name>
+                  <description>Enable the session valid detector</description>
+                  <value>#x1x</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>V3V_ENABLE</name>
+                  <description>Enable the VBUS_VALID_3V detector</description>
+                  <value>#1xx</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -306463,6 +306783,36 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>0 ms - 1023 ms</description>
                   <value>0x9</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1018</name>
+                  <description>0 ms - 1023 ms</description>
+                  <value>0x3FA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1019</name>
+                  <description>0 ms - 1023 ms</description>
+                  <value>0x3FB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1020</name>
+                  <description>0 ms - 1023 ms</description>
+                  <value>0x3FC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1021</name>
+                  <description>0 ms - 1023 ms</description>
+                  <value>0x3FD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1022</name>
+                  <description>0 ms - 1023 ms</description>
+                  <value>0x3FE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1023</name>
+                  <description>0 ms - 1023 ms</description>
+                  <value>0x3FF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
           </fields>
@@ -306533,6 +306883,36 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>1 ms - 1023 ms</description>
                   <value>0xA</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1018</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1019</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1020</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1021</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1022</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1023</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -306591,6 +306971,36 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>MS_10</name>
                   <description>1 ms - 1023 ms</description>
                   <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1018</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1019</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1020</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1021</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1022</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1023</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -306663,6 +307073,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>1 ms - 15 ms</description>
                   <value>0xA</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_11</name>
+                  <description>1 ms - 15 ms</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_12</name>
+                  <description>1 ms - 15 ms</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_13</name>
+                  <description>1 ms - 15 ms</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_14</name>
+                  <description>1 ms - 15 ms</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_15</name>
+                  <description>1 ms - 15 ms</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -306721,6 +307156,36 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>MS_10</name>
                   <description>1 ms - 1023 ms</description>
                   <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1018</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1019</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1020</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1021</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1022</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1023</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -306793,6 +307258,36 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>0 ms - 40 ms</description>
                   <value>0x9</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_35</name>
+                  <description>0 ms - 40 ms</description>
+                  <value>0x23</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_36</name>
+                  <description>0 ms - 40 ms</description>
+                  <value>0x24</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_37</name>
+                  <description>0 ms - 40 ms</description>
+                  <value>0x25</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_38</name>
+                  <description>0 ms - 40 ms</description>
+                  <value>0x26</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_39</name>
+                  <description>0 ms - 40 ms</description>
+                  <value>0x27</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_40</name>
+                  <description>0 ms - 40 ms</description>
+                  <value>0x28</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
@@ -306851,6 +307346,36 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>MS_10</name>
                   <description>1 ms - 1023 ms</description>
                   <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1018</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1019</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1020</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1021</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1022</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MS_1023</name>
+                  <description>1 ms - 1023 ms</description>
+                  <value>0x3FF</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -312089,6 +312614,36 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Associated command number currently being executed.</description>
                   <value>0x9</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>COMMAND_x_10</name>
+                  <description>Associated command number currently being executed.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>COMMAND_x_11</name>
+                  <description>Associated command number currently being executed.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>COMMAND_x_12</name>
+                  <description>Associated command number currently being executed.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>COMMAND_x_13</name>
+                  <description>Associated command number currently being executed.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>COMMAND_x_14</name>
+                  <description>Associated command number currently being executed.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>COMMAND_x_15</name>
+                  <description>Associated command number currently being executed.</description>
+                  <value>0xF</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
           </fields>
@@ -312253,6 +312808,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>TRIGGER_x_COMPLETE_ENABLED_9</name>
                   <description>Associated trigger completion interrupts are enabled.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>TRIGGER_x_COMPLETE_ENABLED_10</name>
+                  <description>Associated trigger completion interrupts are enabled.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>TRIGGER_x_COMPLETE_ENABLED_11</name>
+                  <description>Associated trigger completion interrupts are enabled.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>TRIGGER_x_COMPLETE_ENABLED_12</name>
+                  <description>Associated trigger completion interrupts are enabled.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>TRIGGER_x_COMPLETE_ENABLED_13</name>
+                  <description>Associated trigger completion interrupts are enabled.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>TRIGGER_x_COMPLETE_ENABLED_14</name>
+                  <description>Associated trigger completion interrupts are enabled.</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>ALL_TRIGGER_COMPLETES_ENABLED</name>
@@ -312666,6 +313246,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>SET_BITS_INDICATE_TRIGGER_x_INTERRUPTED_10</name>
+                  <description>Associated trigger sequence has interrupted by a high-priority exception.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SET_BITS_INDICATE_TRIGGER_x_INTERRUPTED_11</name>
+                  <description>Associated trigger sequence has interrupted by a high-priority exception.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SET_BITS_INDICATE_TRIGGER_x_INTERRUPTED_12</name>
+                  <description>Associated trigger sequence has interrupted by a high-priority exception.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SET_BITS_INDICATE_TRIGGER_x_INTERRUPTED_13</name>
+                  <description>Associated trigger sequence has interrupted by a high-priority exception.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SET_BITS_INDICATE_TRIGGER_x_INTERRUPTED_14</name>
+                  <description>Associated trigger sequence has interrupted by a high-priority exception.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>ALL_BITS_SET_INDICATE_ALL_TRIGGERS_INTERRUPTED</name>
                   <description>Every trigger sequence has been interrupted by a high-priority exception.</description>
                   <value>0xF</value>
@@ -312729,6 +313334,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SET_BITS_INDICATE_TRIGGER_x_COMPLETED_9</name>
                   <description>Associated trigger sequence has completed and has enabled completion interrupts.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SET_BITS_INDICATE_TRIGGER_x_COMPLETED_10</name>
+                  <description>Associated trigger sequence has completed and has enabled completion interrupts.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SET_BITS_INDICATE_TRIGGER_x_COMPLETED_11</name>
+                  <description>Associated trigger sequence has completed and has enabled completion interrupts.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SET_BITS_INDICATE_TRIGGER_x_COMPLETED_12</name>
+                  <description>Associated trigger sequence has completed and has enabled completion interrupts.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SET_BITS_INDICATE_TRIGGER_x_COMPLETED_13</name>
+                  <description>Associated trigger sequence has completed and has enabled completion interrupts.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SET_BITS_INDICATE_TRIGGER_x_COMPLETED_14</name>
+                  <description>Associated trigger sequence has completed and has enabled completion interrupts.</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>ALL_BITS_SET_INDICATE_ALL_TRIGGERS_COMPLETED</name>
@@ -312945,6 +313575,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>EXECUTE_CORRESPONDING_CMD_10</name>
+                  <description>Corresponding CMD is executed</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>EXECUTE_CORRESPONDING_CMD_11</name>
+                  <description>Corresponding CMD is executed</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>EXECUTE_CORRESPONDING_CMD_12</name>
+                  <description>Corresponding CMD is executed</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>EXECUTE_CORRESPONDING_CMD_13</name>
+                  <description>Corresponding CMD is executed</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>EXECUTE_CORRESPONDING_CMD_14</name>
+                  <description>Corresponding CMD is executed</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>EXECUTE_CMD15</name>
                   <description>CMD15</description>
                   <value>0xF</value>
@@ -313125,6 +313780,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_10</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_11</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_12</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_13</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_24</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_25</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_26</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_27</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_28</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_29</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1D</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>SELECT_CH30</name>
                   <description>CH30A or CH30B or CH30A/CH30B pair.</description>
                   <value>0x1E</value>
@@ -313240,6 +313945,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHnB_9</name>
                   <description>Select corresponding channel CHnB</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_10</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_11</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_12</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_13</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_24</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_25</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_26</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_27</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_28</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_29</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30B</name>
@@ -313516,6 +314271,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_10</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_11</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_12</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_13</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_14</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>CMD_EXEC_15x</name>
                   <description>Loop 15 times. Command executes 16 times.</description>
                   <value>0xF</value>
@@ -313578,6 +314358,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>DO_CORRESPONDING_CMD_NEXT_9</name>
                   <description>Select corresponding CMD command buffer register as next command</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_10</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_11</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_12</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_13</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_14</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DO_CMD15_NEXT</name>
@@ -313653,6 +314458,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHANNEL_9</name>
                   <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_10</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_11</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_12</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_13</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_24</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_25</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_26</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_27</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_28</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_29</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30</name>
@@ -313770,6 +314625,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHnB_9</name>
                   <description>Select corresponding channel CHnB</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_10</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_11</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_12</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_13</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_24</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_25</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_26</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_27</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_28</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_29</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30B</name>
@@ -314046,6 +314951,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_10</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_11</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_12</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_13</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_14</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>CMD_EXEC_15x</name>
                   <description>Loop 15 times. Command executes 16 times.</description>
                   <value>0xF</value>
@@ -314108,6 +315038,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>DO_CORRESPONDING_CMD_NEXT_9</name>
                   <description>Select corresponding CMD command buffer register as next command</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_10</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_11</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_12</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_13</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_14</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DO_CMD15_NEXT</name>
@@ -314183,6 +315138,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHANNEL_9</name>
                   <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_10</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_11</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_12</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_13</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_24</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_25</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_26</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_27</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_28</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_29</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30</name>
@@ -314300,6 +315305,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHnB_9</name>
                   <description>Select corresponding channel CHnB</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_10</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_11</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_12</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_13</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_24</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_25</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_26</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_27</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_28</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_29</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30B</name>
@@ -314576,6 +315631,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_10</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_11</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_12</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_13</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_14</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>CMD_EXEC_15x</name>
                   <description>Loop 15 times. Command executes 16 times.</description>
                   <value>0xF</value>
@@ -314638,6 +315718,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>DO_CORRESPONDING_CMD_NEXT_9</name>
                   <description>Select corresponding CMD command buffer register as next command</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_10</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_11</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_12</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_13</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_14</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DO_CMD15_NEXT</name>
@@ -314713,6 +315818,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHANNEL_9</name>
                   <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_10</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_11</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_12</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_13</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_24</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_25</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_26</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_27</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_28</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_29</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30</name>
@@ -314830,6 +315985,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHnB_9</name>
                   <description>Select corresponding channel CHnB</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_10</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_11</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_12</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_13</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_24</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_25</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_26</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_27</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_28</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_29</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30B</name>
@@ -315106,6 +316311,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_10</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_11</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_12</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_13</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_14</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>CMD_EXEC_15x</name>
                   <description>Loop 15 times. Command executes 16 times.</description>
                   <value>0xF</value>
@@ -315168,6 +316398,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>DO_CORRESPONDING_CMD_NEXT_9</name>
                   <description>Select corresponding CMD command buffer register as next command</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_10</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_11</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_12</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_13</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_14</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DO_CMD15_NEXT</name>
@@ -315243,6 +316498,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHANNEL_9</name>
                   <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_10</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_11</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_12</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_13</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_24</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_25</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_26</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_27</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_28</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_29</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30</name>
@@ -315360,6 +316665,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHnB_9</name>
                   <description>Select corresponding channel CHnB</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_10</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_11</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_12</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_13</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_24</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_25</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_26</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_27</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_28</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_29</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30B</name>
@@ -315636,6 +316991,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_10</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_11</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_12</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_13</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_14</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>CMD_EXEC_15x</name>
                   <description>Loop 15 times. Command executes 16 times.</description>
                   <value>0xF</value>
@@ -315698,6 +317078,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>DO_CORRESPONDING_CMD_NEXT_9</name>
                   <description>Select corresponding CMD command buffer register as next command</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_10</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_11</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_12</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_13</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_14</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DO_CMD15_NEXT</name>
@@ -315773,6 +317178,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHANNEL_9</name>
                   <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_10</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_11</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_12</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_13</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_24</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_25</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_26</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_27</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_28</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_29</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30</name>
@@ -315890,6 +317345,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHnB_9</name>
                   <description>Select corresponding channel CHnB</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_10</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_11</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_12</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_13</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_24</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_25</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_26</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_27</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_28</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_29</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30B</name>
@@ -316166,6 +317671,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_10</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_11</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_12</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_13</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_14</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>CMD_EXEC_15x</name>
                   <description>Loop 15 times. Command executes 16 times.</description>
                   <value>0xF</value>
@@ -316228,6 +317758,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>DO_CORRESPONDING_CMD_NEXT_9</name>
                   <description>Select corresponding CMD command buffer register as next command</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_10</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_11</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_12</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_13</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_14</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DO_CMD15_NEXT</name>
@@ -316303,6 +317858,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHANNEL_9</name>
                   <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_10</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_11</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_12</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_13</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_24</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_25</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_26</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_27</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_28</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_29</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30</name>
@@ -316420,6 +318025,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHnB_9</name>
                   <description>Select corresponding channel CHnB</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_10</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_11</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_12</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_13</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_24</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_25</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_26</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_27</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_28</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_29</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30B</name>
@@ -316696,6 +318351,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_10</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_11</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_12</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_13</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_14</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>CMD_EXEC_15x</name>
                   <description>Loop 15 times. Command executes 16 times.</description>
                   <value>0xF</value>
@@ -316758,6 +318438,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>DO_CORRESPONDING_CMD_NEXT_9</name>
                   <description>Select corresponding CMD command buffer register as next command</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_10</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_11</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_12</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_13</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_14</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DO_CMD15_NEXT</name>
@@ -316833,6 +318538,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHANNEL_9</name>
                   <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_10</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_11</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_12</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_13</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_24</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_25</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_26</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_27</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_28</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_29</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30</name>
@@ -316950,6 +318705,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHnB_9</name>
                   <description>Select corresponding channel CHnB</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_10</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_11</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_12</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_13</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_24</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_25</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_26</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_27</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_28</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_29</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30B</name>
@@ -317226,6 +319031,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_10</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_11</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_12</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_13</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_14</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>CMD_EXEC_15x</name>
                   <description>Loop 15 times. Command executes 16 times.</description>
                   <value>0xF</value>
@@ -317288,6 +319118,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>DO_CORRESPONDING_CMD_NEXT_9</name>
                   <description>Select corresponding CMD command buffer register as next command</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_10</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_11</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_12</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_13</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_14</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DO_CMD15_NEXT</name>
@@ -317363,6 +319218,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHANNEL_9</name>
                   <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_10</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_11</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_12</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_13</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_24</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_25</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_26</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_27</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_28</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_29</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30</name>
@@ -317480,6 +319385,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHnB_9</name>
                   <description>Select corresponding channel CHnB</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_10</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_11</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_12</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_13</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_24</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_25</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_26</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_27</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_28</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_29</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30B</name>
@@ -317756,6 +319711,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_10</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_11</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_12</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_13</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_14</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>CMD_EXEC_15x</name>
                   <description>Loop 15 times. Command executes 16 times.</description>
                   <value>0xF</value>
@@ -317818,6 +319798,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>DO_CORRESPONDING_CMD_NEXT_9</name>
                   <description>Select corresponding CMD command buffer register as next command</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_10</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_11</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_12</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_13</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_14</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DO_CMD15_NEXT</name>
@@ -317893,6 +319898,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHANNEL_9</name>
                   <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_10</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_11</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_12</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_13</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_24</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_25</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_26</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_27</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_28</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_29</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30</name>
@@ -318010,6 +320065,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHnB_9</name>
                   <description>Select corresponding channel CHnB</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_10</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_11</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_12</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_13</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_24</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_25</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_26</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_27</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_28</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_29</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30B</name>
@@ -318286,6 +320391,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_10</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_11</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_12</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_13</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_14</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>CMD_EXEC_15x</name>
                   <description>Loop 15 times. Command executes 16 times.</description>
                   <value>0xF</value>
@@ -318348,6 +320478,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>DO_CORRESPONDING_CMD_NEXT_9</name>
                   <description>Select corresponding CMD command buffer register as next command</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_10</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_11</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_12</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_13</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_14</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DO_CMD15_NEXT</name>
@@ -318423,6 +320578,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHANNEL_9</name>
                   <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_10</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_11</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_12</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_13</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_24</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_25</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_26</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_27</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_28</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_29</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30</name>
@@ -318540,6 +320745,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHnB_9</name>
                   <description>Select corresponding channel CHnB</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_10</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_11</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_12</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_13</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_24</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_25</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_26</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_27</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_28</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_29</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30B</name>
@@ -318816,6 +321071,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_10</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_11</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_12</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_13</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_14</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>CMD_EXEC_15x</name>
                   <description>Loop 15 times. Command executes 16 times.</description>
                   <value>0xF</value>
@@ -318878,6 +321158,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>DO_CORRESPONDING_CMD_NEXT_9</name>
                   <description>Select corresponding CMD command buffer register as next command</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_10</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_11</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_12</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_13</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_14</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DO_CMD15_NEXT</name>
@@ -318953,6 +321258,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHANNEL_9</name>
                   <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_10</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_11</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_12</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_13</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_24</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_25</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_26</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_27</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_28</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_29</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30</name>
@@ -319070,6 +321425,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHnB_9</name>
                   <description>Select corresponding channel CHnB</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_10</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_11</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_12</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_13</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_24</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_25</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_26</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_27</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_28</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_29</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30B</name>
@@ -319346,6 +321751,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_10</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_11</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_12</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_13</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_14</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>CMD_EXEC_15x</name>
                   <description>Loop 15 times. Command executes 16 times.</description>
                   <value>0xF</value>
@@ -319408,6 +321838,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>DO_CORRESPONDING_CMD_NEXT_9</name>
                   <description>Select corresponding CMD command buffer register as next command</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_10</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_11</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_12</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_13</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_14</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DO_CMD15_NEXT</name>
@@ -319483,6 +321938,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHANNEL_9</name>
                   <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_10</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_11</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_12</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_13</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_24</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_25</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_26</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_27</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_28</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_29</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30</name>
@@ -319600,6 +322105,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHnB_9</name>
                   <description>Select corresponding channel CHnB</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_10</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_11</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_12</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_13</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_24</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_25</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_26</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_27</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_28</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_29</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30B</name>
@@ -319876,6 +322431,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_10</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_11</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_12</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_13</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_14</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>CMD_EXEC_15x</name>
                   <description>Loop 15 times. Command executes 16 times.</description>
                   <value>0xF</value>
@@ -319938,6 +322518,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>DO_CORRESPONDING_CMD_NEXT_9</name>
                   <description>Select corresponding CMD command buffer register as next command</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_10</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_11</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_12</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_13</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_14</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DO_CMD15_NEXT</name>
@@ -320013,6 +322618,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHANNEL_9</name>
                   <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_10</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_11</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_12</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_13</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_24</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_25</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_26</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_27</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_28</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_29</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30</name>
@@ -320130,6 +322785,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHnB_9</name>
                   <description>Select corresponding channel CHnB</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_10</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_11</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_12</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_13</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_24</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_25</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_26</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_27</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_28</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_29</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30B</name>
@@ -320406,6 +323111,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_10</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_11</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_12</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_13</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_14</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>CMD_EXEC_15x</name>
                   <description>Loop 15 times. Command executes 16 times.</description>
                   <value>0xF</value>
@@ -320468,6 +323198,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>DO_CORRESPONDING_CMD_NEXT_9</name>
                   <description>Select corresponding CMD command buffer register as next command</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_10</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_11</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_12</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_13</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_14</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DO_CMD15_NEXT</name>
@@ -320543,6 +323298,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHANNEL_9</name>
                   <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_10</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_11</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_12</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_13</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_24</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_25</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_26</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_27</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_28</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHANNEL_29</name>
+                  <description>Select corresponding channel CHnA or CHnB or CHnA/CHnB pair.</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30</name>
@@ -320660,6 +323465,56 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SELECT_CORRESPONDING_CHnB_9</name>
                   <description>Select corresponding channel CHnB</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_10</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_11</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_12</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_13</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_24</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_25</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_26</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1A</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_27</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1B</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_28</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1C</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>SELECT_CORRESPONDING_CHnB_29</name>
+                  <description>Select corresponding channel CHnB</description>
+                  <value>0x1D</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SELECT_CH30B</name>
@@ -320936,6 +323791,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_10</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_11</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_12</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_13</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CMD_EXECUTES_CORRESPONDING_TIMES_14</name>
+                  <description>Loop corresponding number of times. Command executes LOOP + 1 times.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>CMD_EXEC_15x</name>
                   <description>Loop 15 times. Command executes 16 times.</description>
                   <value>0xF</value>
@@ -320998,6 +323878,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>DO_CORRESPONDING_CMD_NEXT_9</name>
                   <description>Select corresponding CMD command buffer register as next command</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_10</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_11</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_12</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_13</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DO_CORRESPONDING_CMD_NEXT_14</name>
+                  <description>Select corresponding CMD command buffer register as next command</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DO_CMD15_NEXT</name>
@@ -321141,6 +324046,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CORRESPONDING_RESULT_10</name>
+                  <description>Result is from (LOOPCNT + 1) conversion in command.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CORRESPONDING_RESULT_11</name>
+                  <description>Result is from (LOOPCNT + 1) conversion in command.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CORRESPONDING_RESULT_12</name>
+                  <description>Result is from (LOOPCNT + 1) conversion in command.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CORRESPONDING_RESULT_13</name>
+                  <description>Result is from (LOOPCNT + 1) conversion in command.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CORRESPONDING_RESULT_14</name>
+                  <description>Result is from (LOOPCNT + 1) conversion in command.</description>
+                  <value>0xE</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>RESULT_16</name>
                   <description>Result is from 16th conversion in command.</description>
                   <value>0xF</value>
@@ -321203,6 +324133,31 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>CORRESPONDING_CMD_9</name>
                   <description>Corresponding command buffer used as control settings for this conversion.</description>
                   <value>0x9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CORRESPONDING_CMD_10</name>
+                  <description>Corresponding command buffer used as control settings for this conversion.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CORRESPONDING_CMD_11</name>
+                  <description>Corresponding command buffer used as control settings for this conversion.</description>
+                  <value>0xB</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CORRESPONDING_CMD_12</name>
+                  <description>Corresponding command buffer used as control settings for this conversion.</description>
+                  <value>0xC</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CORRESPONDING_CMD_13</name>
+                  <description>Corresponding command buffer used as control settings for this conversion.</description>
+                  <value>0xD</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CORRESPONDING_CMD_14</name>
+                  <description>Corresponding command buffer used as control settings for this conversion.</description>
+                  <value>0xE</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>CMD15</name>
@@ -376215,7 +379170,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <value>96</value>
       </interrupt>
       <interrupt>
-        <name>NPU</name>
+        <name>Reserved113</name>
         <value>97</value>
       </interrupt>
       <interrupt>
@@ -376275,27 +379230,27 @@ SPDX-License-Identifier: BSD-3-Clause
         <value>111</value>
       </interrupt>
       <interrupt>
-        <name>FLEXPWM0_RELOAD_ERROR</name>
+        <name>Reserved128</name>
         <value>112</value>
       </interrupt>
       <interrupt>
-        <name>FLEXPWM0_FAULT</name>
+        <name>Reserved129</name>
         <value>113</value>
       </interrupt>
       <interrupt>
-        <name>FLEXPWM0_SUBMODULE0</name>
+        <name>Reserved130</name>
         <value>114</value>
       </interrupt>
       <interrupt>
-        <name>FLEXPWM0_SUBMODULE1</name>
+        <name>Reserved131</name>
         <value>115</value>
       </interrupt>
       <interrupt>
-        <name>FLEXPWM0_SUBMODULE2</name>
+        <name>Reserved132</name>
         <value>116</value>
       </interrupt>
       <interrupt>
-        <name>FLEXPWM0_SUBMODULE3</name>
+        <name>Reserved133</name>
         <value>117</value>
       </interrupt>
       <interrupt>
