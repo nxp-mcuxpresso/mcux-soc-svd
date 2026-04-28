@@ -5,7 +5,7 @@
   <version>1.0</version>
   <description>MIMXRT735SGAWBR,MIMXRT735SGFOB,MIMXRT735SGVKB</description>
   <licenseText>
-Copyright 2016-2025 NXP
+Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause
   </licenseText>
   <cpu>
@@ -332286,14 +332286,14 @@ SPDX-License-Identifier: BSD-3-Clause
       <baseAddress>0xE000EDD0</baseAddress>
       <addressBlock>
         <offset>0</offset>
-        <size>0xEC</size>
+        <size>0x1C</size>
         <usage>registers</usage>
       </addressBlock>
       <registers>
         <register>
           <name>CTRL</name>
           <description>Security Attribution Unit Control Register</description>
-          <addressOffset>0xD0</addressOffset>
+          <addressOffset>0</addressOffset>
           <size>32</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -332342,7 +332342,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>TYPE</name>
           <description>Security Attribution Unit Type Register</description>
-          <addressOffset>0xD4</addressOffset>
+          <addressOffset>0x4</addressOffset>
           <size>32</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -332360,7 +332360,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>RNR</name>
           <description>Security Attribution Unit Region Number Register</description>
-          <addressOffset>0xD8</addressOffset>
+          <addressOffset>0x8</addressOffset>
           <size>32</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -332378,7 +332378,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>RBAR</name>
           <description>Security Attribution Unit Region Base Address Register</description>
-          <addressOffset>0xDC</addressOffset>
+          <addressOffset>0xC</addressOffset>
           <size>32</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -332396,7 +332396,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>RLAR</name>
           <description>Security Attribution Unit Region Limit Address Register</description>
-          <addressOffset>0xE0</addressOffset>
+          <addressOffset>0x10</addressOffset>
           <size>32</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -332452,7 +332452,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SFSR</name>
           <description>Secure Fault Status Register</description>
-          <addressOffset>0xE4</addressOffset>
+          <addressOffset>0x14</addressOffset>
           <size>32</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -332615,7 +332615,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <register>
           <name>SFAR</name>
           <description>Secure Fault Address Register</description>
-          <addressOffset>0xE8</addressOffset>
+          <addressOffset>0x18</addressOffset>
           <size>32</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
