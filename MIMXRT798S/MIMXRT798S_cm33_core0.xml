@@ -58164,7 +58164,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Pin Interrupt Level or Rising-Edge Interrupt Set</description>
           <addressOffset>0x8</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <modifiedWriteValues>oneToSet</modifiedWriteValues>
@@ -58174,7 +58174,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Configures IENR</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
               <modifiedWriteValues>oneToSet</modifiedWriteValues>
               <enumeratedValues>
                 <enumeratedValue>
@@ -58258,7 +58258,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Pin Interrupt Active Level or Falling-Edge Interrupt Set</description>
           <addressOffset>0x14</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <modifiedWriteValues>oneToSet</modifiedWriteValues>
@@ -58268,7 +58268,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Write 1 to this address to clear to disable interrupts. Bit a sets bit n in IENF.</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
               <modifiedWriteValues>oneToSet</modifiedWriteValues>
               <enumeratedValues>
                 <enumeratedValue>
@@ -58290,7 +58290,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Pin Interrupt Active Level or Falling-Edge Interrupt Clear</description>
           <addressOffset>0x18</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -58299,7 +58299,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Writes 0 to IENF</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>CENAF_0</name>
@@ -63859,7 +63859,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>LUT Write Data</description>
           <addressOffset>0x18</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
@@ -63868,7 +63868,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>LUT Address Map Bits</description>
               <bitOffset>0</bitOffset>
               <bitWidth>15</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
             <field>
               <name>VALID</name>
@@ -66865,7 +66865,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Target Write Data Byte</description>
           <addressOffset>0x30</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -66874,7 +66874,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
             <field>
               <name>END</name>
@@ -66921,7 +66921,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Target Write Data Byte End</description>
           <addressOffset>0x34</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -66930,7 +66930,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -66939,7 +66939,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Target Write Data Halfword</description>
           <addressOffset>0x38</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -66948,7 +66948,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data 0</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
             <field>
               <name>DATA1</name>
@@ -66983,7 +66983,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Target Write Data Halfword End</description>
           <addressOffset>0x3C</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -66992,7 +66992,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data 0</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
             <field>
               <name>DATA1</name>
@@ -67052,7 +67052,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>Byte</alternateGroup>
           <addressOffset>0x54</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
@@ -67061,7 +67061,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -67071,7 +67071,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>Halfword</alternateGroup>
           <addressOffset>0x54</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
@@ -67080,7 +67080,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data</description>
               <bitOffset>0</bitOffset>
               <bitWidth>16</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -69446,7 +69446,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Controller Write Data Byte</description>
           <addressOffset>0xB0</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -69455,7 +69455,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data Byte</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
             <field>
               <name>END</name>
@@ -69502,7 +69502,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Controller Write Data Byte End</description>
           <addressOffset>0xB4</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -69511,7 +69511,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -69520,7 +69520,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Controller Write Data Halfword</description>
           <addressOffset>0xB8</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -69529,7 +69529,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data Byte 0</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
             <field>
               <name>DATA1</name>
@@ -69564,7 +69564,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Controller Write Data Halfword End</description>
           <addressOffset>0xBC</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -69573,7 +69573,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data Byte 0</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
             <field>
               <name>DATA1</name>
@@ -69633,7 +69633,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>BYTE</alternateGroup>
           <addressOffset>0xCC</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
@@ -69642,7 +69642,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Value</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -69652,7 +69652,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>HALFWORD</alternateGroup>
           <addressOffset>0xCC</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
@@ -69661,7 +69661,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Value</description>
               <bitOffset>0</bitOffset>
               <bitWidth>16</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -69671,7 +69671,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>CONTROL</alternateGroup>
           <addressOffset>0xD0</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -69680,7 +69680,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Direction</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>WRITE</name>
@@ -69754,7 +69754,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>DATA</alternateGroup>
           <addressOffset>0xD0</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
@@ -69763,7 +69763,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data</description>
               <bitOffset>0</bitOffset>
               <bitWidth>16</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -69791,7 +69791,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>CONTROL</alternateGroup>
           <addressOffset>0xD8</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -69800,7 +69800,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Address Command</description>
               <bitOffset>0</bitOffset>
               <bitWidth>16</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -69810,7 +69810,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>CONTROL2</alternateGroup>
           <addressOffset>0xD8</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -69826,7 +69826,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>End of Message</description>
               <bitOffset>14</bitOffset>
               <bitWidth>1</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>NOT_END</name>
@@ -69848,7 +69848,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>DATA</alternateGroup>
           <addressOffset>0xD8</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
@@ -69857,7 +69857,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data</description>
               <bitOffset>0</bitOffset>
               <bitWidth>16</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -165325,526 +165325,6 @@ SPDX-License-Identifier: BSD-3-Clause
         <size>0x1000</size>
         <usage>registers</usage>
       </addressBlock>
-    </peripheral>
-    <peripheral>
-      <name>ROMCP</name>
-      <description>ROMCP</description>
-      <groupName>ROMCP</groupName>
-      <baseAddress>0x40182000</baseAddress>
-      <addressBlock>
-        <offset>0</offset>
-        <size>0x20C</size>
-        <usage>registers</usage>
-      </addressBlock>
-      <registers>
-        <register>
-          <dim>16</dim>
-          <dimIncrement>0x4</dimIncrement>
-          <dimIndex>15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0</dimIndex>
-          <name>ROMPATCHD%s</name>
-          <description>Data Registers</description>
-          <addressOffset>0xB4</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>DATAX</name>
-              <description>Data Fix Registers</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>ROMPATCHCNTL</name>
-          <description>Control Register</description>
-          <addressOffset>0xF4</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0x8400000</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>DATAFIX0</name>
-              <description>Data Fix Enable</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OPCODEPATCH</name>
-                  <description>Trigger an opcode patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DATAFIX</name>
-                  <description>Trigger a data fix</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DATAFIX1</name>
-              <description>Data Fix Enable</description>
-              <bitOffset>1</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OPCODEPATCH</name>
-                  <description>Trigger an opcode patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DATAFIX</name>
-                  <description>Trigger a data fix</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DATAFIX2</name>
-              <description>Data Fix Enable</description>
-              <bitOffset>2</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OPCODEPATCH</name>
-                  <description>Trigger an opcode patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DATAFIX</name>
-                  <description>Trigger a data fix</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DATAFIX3</name>
-              <description>Data Fix Enable</description>
-              <bitOffset>3</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OPCODEPATCH</name>
-                  <description>Trigger an opcode patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DATAFIX</name>
-                  <description>Trigger a data fix</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DATAFIX4</name>
-              <description>Data Fix Enable</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OPCODEPATCH</name>
-                  <description>Trigger an opcode patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DATAFIX</name>
-                  <description>Trigger a data fix</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DATAFIX5</name>
-              <description>Data Fix Enable</description>
-              <bitOffset>5</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OPCODEPATCH</name>
-                  <description>Trigger an opcode patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DATAFIX</name>
-                  <description>Trigger a data fix</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DATAFIX6</name>
-              <description>Data Fix Enable</description>
-              <bitOffset>6</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OPCODEPATCH</name>
-                  <description>Trigger an opcode patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DATAFIX</name>
-                  <description>Trigger a data fix</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DATAFIX7</name>
-              <description>Data Fix Enable</description>
-              <bitOffset>7</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OPCODEPATCH</name>
-                  <description>Trigger an opcode patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DATAFIX</name>
-                  <description>Trigger a data fix</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DATAFIX8</name>
-              <description>Data Fix Enable</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OPCODEPATCH</name>
-                  <description>Trigger an opcode patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DATAFIX</name>
-                  <description>Trigger a data fix</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DATAFIX9</name>
-              <description>Data Fix Enable</description>
-              <bitOffset>9</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OPCODEPATCH</name>
-                  <description>Trigger an opcode patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DATAFIX</name>
-                  <description>Trigger a data fix</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DATAFIX10</name>
-              <description>Data Fix Enable</description>
-              <bitOffset>10</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OPCODEPATCH</name>
-                  <description>Trigger an opcode patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DATAFIX</name>
-                  <description>Trigger a data fix</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DATAFIX11</name>
-              <description>Data Fix Enable</description>
-              <bitOffset>11</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OPCODEPATCH</name>
-                  <description>Trigger an opcode patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DATAFIX</name>
-                  <description>Trigger a data fix</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DATAFIX12</name>
-              <description>Data Fix Enable</description>
-              <bitOffset>12</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OPCODEPATCH</name>
-                  <description>Trigger an opcode patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DATAFIX</name>
-                  <description>Trigger a data fix</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DATAFIX13</name>
-              <description>Data Fix Enable</description>
-              <bitOffset>13</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OPCODEPATCH</name>
-                  <description>Trigger an opcode patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DATAFIX</name>
-                  <description>Trigger a data fix</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DATAFIX14</name>
-              <description>Data Fix Enable</description>
-              <bitOffset>14</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OPCODEPATCH</name>
-                  <description>Trigger an opcode patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DATAFIX</name>
-                  <description>Trigger a data fix</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DATAFIX15</name>
-              <description>Data Fix Enable</description>
-              <bitOffset>15</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OPCODEPATCH</name>
-                  <description>Trigger an opcode patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DATAFIX</name>
-                  <description>Trigger a data fix</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DIS</name>
-              <description>Patch Disable</description>
-              <bitOffset>29</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>ROMCENABLED</name>
-                  <description>Does not affect any Patch operations (default)</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ROMCDISABLED</name>
-                  <description>Disables all Patch operations: data fixing and opcode patching</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>LK</name>
-              <description>Register Lock</description>
-              <bitOffset>31</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>UNLOCKED</name>
-                  <description>All registers remain accessible (unlocked).</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>LOCK</name>
-                  <description>Lock access to all registers. All ROMCP register accesses are treated as read-as-zero, except for this LK bit which reads as set. All writes are ignored.</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>ROMPATCHENH</name>
-          <description>Enable Register High</description>
-          <addressOffset>0xF8</addressOffset>
-          <size>32</size>
-          <access>read-only</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-        </register>
-        <register>
-          <name>ROMPATCHENL</name>
-          <description>Enable Register Low</description>
-          <addressOffset>0xFC</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>ENABLE</name>
-              <description>Enable Address Comparator</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>ADDCOMPDISABLED</name>
-                  <description>Address comparator is disabled</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ADDCOMPENABLED</name>
-                  <description>Address comparator is enabled; after the associated address is matched, the ROMC will trigger a opcode patch or data fix event.</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <dim>32</dim>
-          <dimIncrement>0x4</dimIncrement>
-          <name>ROMPATCHA[%s]</name>
-          <description>Address Registers</description>
-          <addressOffset>0x100</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>THUMBX</name>
-              <description>THUMB Comparator Select</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>ARMPATCH</name>
-                  <description>ARM patch</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>THUMBPATCH</name>
-                  <description>THUMB patch (ignore if a data fix)</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>ADDRX</name>
-              <description>Address Comparator Registers</description>
-              <bitOffset>1</bitOffset>
-              <bitWidth>22</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>ROMPATCHSR</name>
-          <description>Status Register</description>
-          <addressOffset>0x208</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>SOURCE</name>
-              <description>ROMCP Source Number</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>6</bitWidth>
-              <access>read-only</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>ADDCOMP0MATCHED</name>
-                  <description>Address Comparator 0 matched</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ADDCOMP1MATCHED</name>
-                  <description>Address Comparator 1 matched</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ADDCOMP15MATCHED</name>
-                  <description>Address Comparator 15 matched</description>
-                  <value>0xF</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>SW</name>
-              <description>ROMCP AHB Multiple Address Comparator Match Indicator</description>
-              <bitOffset>17</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <modifiedWriteValues>oneToClear</modifiedWriteValues>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>NOCOLLISION</name>
-                  <description>No event or comparator collisions have occurred</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>COLLISION</name>
-                  <description>A collision has occurred</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-      </registers>
     </peripheral>
     <peripheral>
       <name>XSPI0</name>

@@ -15986,7 +15986,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Pin Interrupt Level or Rising-Edge Interrupt Set</description>
           <addressOffset>0x8</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <modifiedWriteValues>oneToSet</modifiedWriteValues>
@@ -15996,7 +15996,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Configures IENR</description>
               <bitOffset>0</bitOffset>
               <bitWidth>4</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
               <modifiedWriteValues>oneToSet</modifiedWriteValues>
               <enumeratedValues>
                 <enumeratedValue>
@@ -16080,7 +16080,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Pin Interrupt Active Level or Falling-Edge Interrupt Set</description>
           <addressOffset>0x14</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <modifiedWriteValues>oneToSet</modifiedWriteValues>
@@ -16090,7 +16090,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Write 1 to this address to clear to disable interrupts. Bit a sets bit n in IENF.</description>
               <bitOffset>0</bitOffset>
               <bitWidth>4</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
               <modifiedWriteValues>oneToSet</modifiedWriteValues>
               <enumeratedValues>
                 <enumeratedValue>
@@ -16112,7 +16112,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Pin Interrupt Active Level or Falling-Edge Interrupt Clear</description>
           <addressOffset>0x18</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -16121,7 +16121,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Writes 0 to IENF</description>
               <bitOffset>0</bitOffset>
               <bitWidth>4</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>CENAF_0</name>
@@ -22287,7 +22287,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Target Write Data Byte</description>
           <addressOffset>0x30</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -22296,7 +22296,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
             <field>
               <name>END</name>
@@ -22343,7 +22343,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Target Write Data Byte End</description>
           <addressOffset>0x34</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -22352,7 +22352,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -22361,7 +22361,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Target Write Data Halfword</description>
           <addressOffset>0x38</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -22370,7 +22370,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data 0</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
             <field>
               <name>DATA1</name>
@@ -22405,7 +22405,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Target Write Data Halfword End</description>
           <addressOffset>0x3C</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -22414,7 +22414,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data 0</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
             <field>
               <name>DATA1</name>
@@ -22474,7 +22474,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>Byte</alternateGroup>
           <addressOffset>0x54</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
@@ -22483,7 +22483,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -22493,7 +22493,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>Halfword</alternateGroup>
           <addressOffset>0x54</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
@@ -22502,7 +22502,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data</description>
               <bitOffset>0</bitOffset>
               <bitWidth>16</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -24868,7 +24868,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Controller Write Data Byte</description>
           <addressOffset>0xB0</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -24877,7 +24877,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data Byte</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
             <field>
               <name>END</name>
@@ -24924,7 +24924,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Controller Write Data Byte End</description>
           <addressOffset>0xB4</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -24933,7 +24933,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -24942,7 +24942,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Controller Write Data Halfword</description>
           <addressOffset>0xB8</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -24951,7 +24951,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data Byte 0</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
             <field>
               <name>DATA1</name>
@@ -24986,7 +24986,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>Controller Write Data Halfword End</description>
           <addressOffset>0xBC</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -24995,7 +24995,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data Byte 0</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
             <field>
               <name>DATA1</name>
@@ -25055,7 +25055,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>BYTE</alternateGroup>
           <addressOffset>0xCC</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
@@ -25064,7 +25064,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Value</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -25074,7 +25074,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>HALFWORD</alternateGroup>
           <addressOffset>0xCC</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
@@ -25083,7 +25083,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Value</description>
               <bitOffset>0</bitOffset>
               <bitWidth>16</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -25093,7 +25093,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>CONTROL</alternateGroup>
           <addressOffset>0xD0</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -25102,7 +25102,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Direction</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>WRITE</name>
@@ -25176,7 +25176,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>DATA</alternateGroup>
           <addressOffset>0xD0</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
@@ -25185,7 +25185,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data</description>
               <bitOffset>0</bitOffset>
               <bitWidth>16</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -25213,7 +25213,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>CONTROL</alternateGroup>
           <addressOffset>0xD8</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -25222,7 +25222,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Address Command</description>
               <bitOffset>0</bitOffset>
               <bitWidth>16</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -25232,7 +25232,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>CONTROL2</alternateGroup>
           <addressOffset>0xD8</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0</resetMask>
           <fields>
@@ -25248,7 +25248,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>End of Message</description>
               <bitOffset>14</bitOffset>
               <bitWidth>1</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>NOT_END</name>
@@ -25270,7 +25270,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <alternateGroup>DATA</alternateGroup>
           <addressOffset>0xD8</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
@@ -25279,7 +25279,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Data</description>
               <bitOffset>0</bitOffset>
               <bitWidth>16</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
           </fields>
         </register>
@@ -73717,7 +73717,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <description>LUT Write Data</description>
           <addressOffset>0x18</addressOffset>
           <size>32</size>
-          <access>read-write</access>
+          <access>write-only</access>
           <resetValue>0</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
@@ -73726,7 +73726,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>LUT Address Map Bits</description>
               <bitOffset>0</bitOffset>
               <bitWidth>15</bitWidth>
-              <access>read-write</access>
+              <access>write-only</access>
             </field>
             <field>
               <name>VALID</name>
