@@ -23,7 +23,7 @@ SPDX-License-Identifier: BSD-3-Clause
   <peripherals>
     <peripheral>
       <name>UART</name>
-      <description>no description available</description>
+      <description>UART</description>
       <groupName>UART</groupName>
       <baseAddress>0xA8003100</baseAddress>
       <addressBlock>
@@ -34,7 +34,7 @@ SPDX-License-Identifier: BSD-3-Clause
       <registers>
         <register>
           <name>BRB_THR_DLL</name>
-          <description>&quot;</description>
+          <description>no description available</description>
           <addressOffset>0x40</addressOffset>
           <size>16</size>
           <access>read-write</access>
@@ -43,7 +43,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>brb_thr_dll</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
               <access>read-write</access>
@@ -52,7 +52,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>DLH_IER</name>
-          <description>&quot;</description>
+          <description>no description available</description>
           <addressOffset>0x44</addressOffset>
           <size>16</size>
           <access>read-write</access>
@@ -61,7 +61,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>dlh_ier</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
               <access>read-write</access>
@@ -70,7 +70,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>IIR_FCR</name>
-          <description>&quot;</description>
+          <description>no description available</description>
           <addressOffset>0x48</addressOffset>
           <size>16</size>
           <access>read-write</access>
@@ -79,7 +79,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>iir_fcr</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
               <access>read-write</access>
@@ -97,42 +97,42 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>WLS</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>Stop</name>
-              <description>no description available</description>
+              <description>Stop</description>
               <bitOffset>2</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>Par_En</name>
-              <description>no description available</description>
+              <description>Par_En</description>
               <bitOffset>3</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>Par_Sel</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>4</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>BRK</name>
-              <description>no description available</description>
+              <description>BRK</description>
               <bitOffset>6</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>Div_Latch_Rd_Wrt</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>7</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -150,49 +150,49 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>DTR_Pol</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>RTS_Pol</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>Out_Pol</name>
-              <description>no description available</description>
+              <description>Out_Pol</description>
               <bitOffset>2</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>Out2_Pol</name>
-              <description>no description available</description>
+              <description>Out2_Pol</description>
               <bitOffset>3</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>Loop_Back</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>4</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>AF_Ctrl_En</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>5</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>SIR_En</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>6</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -210,56 +210,56 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>Data_Rx_Stat</name>
-              <description>no description available</description>
+              <description>Data_Rx_Stat</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>Overrun_Err</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>Par_Err</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>2</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>Frame_Err</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>3</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>BI</name>
-              <description>no description available</description>
+              <description>BI</description>
               <bitOffset>4</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>THRE</name>
-              <description>no description available</description>
+              <description>THRE</description>
               <bitOffset>5</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>Tx_Empty</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>6</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>Rx_FIFO_Err</name>
-              <description>no description available</description>
+              <description>Rx_FIFO_Err</description>
               <bitOffset>7</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
@@ -277,56 +277,56 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>DCTS</name>
-              <description>no description available</description>
+              <description>DCTS</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>DDSR</name>
-              <description>no description available</description>
+              <description>DDSR</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>TERI</name>
-              <description>no description available</description>
+              <description>TERI</description>
               <bitOffset>2</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>DDCD</name>
-              <description>no description available</description>
+              <description>DDCD</description>
               <bitOffset>3</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>CTS</name>
-              <description>no description available</description>
+              <description>CTS</description>
               <bitOffset>4</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>DSR</name>
-              <description>no description available</description>
+              <description>DSR</description>
               <bitOffset>5</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>RI</name>
-              <description>no description available</description>
+              <description>RI</description>
               <bitOffset>6</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>DCD</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>7</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
@@ -344,7 +344,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>Scratch</name>
-              <description>no description available</description>
+              <description>Scratch</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
               <access>read-write</access>
@@ -362,35 +362,35 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>UART_Busy</name>
-              <description>no description available</description>
+              <description>UART_Busy</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>Tx_FIFO_Not_Full</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>Tx_FIFO_Empty</name>
-              <description>no description available</description>
+              <description>Tx_FIFO_Empty</description>
               <bitOffset>2</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>Rx_FIFO_Not_Empty</name>
-              <description>no description available</description>
+              <description>Rx_FIFO_Not_Empty</description>
               <bitOffset>3</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
               <name>Rx_FIFO_Full</name>
-              <description>&quot;</description>
+              <description>no description available</description>
               <bitOffset>4</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
@@ -408,7 +408,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIFO_Addr_Width</name>
-              <description>no description available</description>
+              <description>FIFO_Addr_Width</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -426,7 +426,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>FIF_Addr_Width</name>
-              <description>no description available</description>
+              <description>FIF_Addr_Width</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -437,7 +437,7 @@ SPDX-License-Identifier: BSD-3-Clause
     </peripheral>
     <peripheral>
       <name>UART_PFU</name>
-      <description>no description available</description>
+      <description>UART_PFU</description>
       <groupName>UART_PFU</groupName>
       <baseAddress>0xA8004000</baseAddress>
       <addressBlock>
@@ -447,8 +447,8 @@ SPDX-License-Identifier: BSD-3-Clause
       </addressBlock>
       <registers>
         <register>
-          <name>Control</name>
-          <description>&quot;</description>
+          <name>CONTROL</name>
+          <description>no description available</description>
           <addressOffset>0</addressOffset>
           <size>16</size>
           <access>read-write</access>
@@ -456,28 +456,28 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFF</resetMask>
           <fields>
             <field>
-              <name>Deflt_UART_Int_Sel</name>
+              <name>DEFLT_UART_INT_SEL</name>
               <description>Default UART Interrupt Select</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>Deflt_RTS_Sel</name>
+              <name>DEFLT_RTS_SEL</name>
               <description>Default RTS Select</description>
               <bitOffset>1</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>TFL_RFL_Mon_Sel</name>
+              <name>TFL_RFL_MON_SEL</name>
               <description>TFL RFL Monitor Select</description>
               <bitOffset>3</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>Debug_Mon_Sel</name>
+              <name>DEBUG_MON_SEL</name>
               <description>Debug Moniter Select</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
@@ -486,8 +486,8 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>Interrupt_Tx_Empty_Threshold</name>
-          <description>&quot;</description>
+          <name>INTERRUPT_TX_EMPTY_THRESHOLD</name>
+          <description>no description available</description>
           <addressOffset>0x4</addressOffset>
           <size>16</size>
           <access>read-write</access>
@@ -495,7 +495,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFF</resetMask>
           <fields>
             <field>
-              <name>Int_Tx_Empty_Thr</name>
+              <name>INT_TX_EMPTY_THR</name>
               <description>Interrupt Tx Empty Threshold</description>
               <bitOffset>0</bitOffset>
               <bitWidth>9</bitWidth>
@@ -504,8 +504,8 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>Interrupt_Rx_Empty_Threshold</name>
-          <description>&quot;</description>
+          <name>INTERRUPT_RX_EMPTY_THRESHOLD</name>
+          <description>no description available</description>
           <addressOffset>0x8</addressOffset>
           <size>16</size>
           <access>read-write</access>
@@ -513,7 +513,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFF</resetMask>
           <fields>
             <field>
-              <name>Int_Rx_Thr</name>
+              <name>INT_RX_THR</name>
               <description>Interrupt Rx Threshold</description>
               <bitOffset>0</bitOffset>
               <bitWidth>9</bitWidth>
@@ -522,8 +522,8 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>RTS_Assert_Trigger</name>
-          <description>&quot;</description>
+          <name>RTS_ASSERT_TRIGGER</name>
+          <description>no description available</description>
           <addressOffset>0xC</addressOffset>
           <size>16</size>
           <access>read-write</access>
@@ -531,7 +531,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFF</resetMask>
           <fields>
             <field>
-              <name>Rx_RTS_Asrt_Thr</name>
+              <name>RX_RTS_ASRT_THR</name>
               <description>Rx RTS Assert Threshold</description>
               <bitOffset>0</bitOffset>
               <bitWidth>9</bitWidth>
@@ -540,8 +540,8 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>Rx_Deassert_Trigger</name>
-          <description>&quot;</description>
+          <name>RX_DEASSERT_TRIGGER</name>
+          <description>no description available</description>
           <addressOffset>0x10</addressOffset>
           <size>16</size>
           <access>read-write</access>
@@ -549,7 +549,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFF</resetMask>
           <fields>
             <field>
-              <name>Rx_RTS_Deasrt_Thr</name>
+              <name>RX_RTS_DEASRT_THR</name>
               <description>Rx RTS Deassert Threshold</description>
               <bitOffset>0</bitOffset>
               <bitWidth>9</bitWidth>
@@ -558,8 +558,8 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>Interrupt_Event_Mask</name>
-          <description>&quot;</description>
+          <name>INTERRUPT_EVENT_MASK</name>
+          <description>no description available</description>
           <addressOffset>0x14</addressOffset>
           <size>16</size>
           <access>read-write</access>
@@ -567,21 +567,21 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFF</resetMask>
           <fields>
             <field>
-              <name>DW_APB_UART_Mask</name>
+              <name>DW_APB_UART_MASK</name>
               <description>DW APB UART Mask</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>Int_Tx_Empty_Mask</name>
+              <name>INT_TX_EMPTY_MASK</name>
               <description>Interrupt Tx Empty Mask</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>Int_Rx_Mask</name>
+              <name>INT_RX_MASK</name>
               <description>Interrupt Rx Mask</description>
               <bitOffset>2</bitOffset>
               <bitWidth>1</bitWidth>
@@ -590,8 +590,8 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>Interrupt_Status_Mask</name>
-          <description>&quot;</description>
+          <name>INTERRUPT_STATUS_MASK</name>
+          <description>no description available</description>
           <addressOffset>0x18</addressOffset>
           <size>16</size>
           <access>read-write</access>
@@ -599,21 +599,21 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFF</resetMask>
           <fields>
             <field>
-              <name>DW_APB_UART_Int_Status_Mask</name>
+              <name>DW_APB_UART_INT_STATUS_MASK</name>
               <description>DW APB UART Interrupt Status Mask</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>Int_Tx_Empty_Status_Mask</name>
+              <name>INT_TX_EMPTY_STATUS_MASK</name>
               <description>Interrupt Tx Empty Status Mask</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>Int_Rx_Status_Mask</name>
+              <name>INT_RX_STATUS_MASK</name>
               <description>Interrupt Rx Status Mask</description>
               <bitOffset>2</bitOffset>
               <bitWidth>1</bitWidth>
@@ -622,8 +622,8 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>Interrupt_Reset_Selection</name>
-          <description>&quot;</description>
+          <name>INTERRUPT_RESET_SELECTION</name>
+          <description>no description available</description>
           <addressOffset>0x1C</addressOffset>
           <size>16</size>
           <access>read-write</access>
@@ -640,8 +640,8 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>Interrupt_Status</name>
-          <description>&quot;</description>
+          <name>INTERRUPT_STATUS</name>
+          <description>no description available</description>
           <addressOffset>0x20</addressOffset>
           <size>16</size>
           <access>read-only</access>
@@ -649,21 +649,21 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFF</resetMask>
           <fields>
             <field>
-              <name>DW_APB_UART_Int</name>
+              <name>DW_APB_UART_INT</name>
               <description>DW_APB_UART_Int Status</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
-              <name>Int_Tx_Empty</name>
+              <name>INT_TX_EMPTY</name>
               <description>Interrupt Tx Empty</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
-              <name>Int_Rx</name>
+              <name>INT_RX</name>
               <description>Interrupt Rx</description>
               <bitOffset>2</bitOffset>
               <bitWidth>1</bitWidth>
@@ -672,8 +672,8 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>SIU_PFU_Status</name>
-          <description>&quot;</description>
+          <name>SIU_PFU_STATUS</name>
+          <description>no description available</description>
           <addressOffset>0x24</addressOffset>
           <size>16</size>
           <access>read-only</access>
@@ -681,14 +681,14 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFF</resetMask>
           <fields>
             <field>
-              <name>RTS_n</name>
+              <name>RTS_N</name>
               <description>RTS_n Signal Status</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
-              <name>SIU_PFU_RTS_n</name>
+              <name>SIU_PFU_RTS_N</name>
               <description>SIU_PFU_RTS_n Signal Status</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
@@ -698,7 +698,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>SIU_PFU_RFL</name>
-          <description>&quot;</description>
+          <description>no description available</description>
           <addressOffset>0x28</addressOffset>
           <size>16</size>
           <access>read-only</access>
@@ -716,7 +716,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>SIU_PFU_TFL</name>
-          <description>&quot;</description>
+          <description>no description available</description>
           <addressOffset>0x2C</addressOffset>
           <size>16</size>
           <access>read-only</access>
@@ -733,8 +733,8 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>SIU_Count_Value_Low</name>
-          <description>&quot;</description>
+          <name>SIU_COUNT_VALUE_LOW</name>
+          <description>no description available</description>
           <addressOffset>0x40</addressOffset>
           <size>16</size>
           <access>read-write</access>
@@ -742,7 +742,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFF</resetMask>
           <fields>
             <field>
-              <name>SIU_Cnt_Val_Low</name>
+              <name>SIU_CNT_VAL_LOW</name>
               <description>Count Value Low</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
@@ -751,8 +751,8 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>SIU_Count_Value_1</name>
-          <description>&quot;</description>
+          <name>SIU_COUNT_VALUE_1</name>
+          <description>no description available</description>
           <addressOffset>0x44</addressOffset>
           <size>16</size>
           <access>read-write</access>
@@ -760,7 +760,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFF</resetMask>
           <fields>
             <field>
-              <name>SIU_Cnt1</name>
+              <name>SIU_CNT1</name>
               <description>Count Value Register 1</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
@@ -769,8 +769,8 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>SIU_Count_Value_2</name>
-          <description>&quot;</description>
+          <name>SIU_COUNT_VALUE_2</name>
+          <description>no description available</description>
           <addressOffset>0x48</addressOffset>
           <size>16</size>
           <access>read-write</access>
@@ -778,7 +778,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFF</resetMask>
           <fields>
             <field>
-              <name>SIU_Cnt2</name>
+              <name>SIU_CNT2</name>
               <description>Count Value Register 2</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
@@ -787,8 +787,8 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>SIU_Count_Value_3</name>
-          <description>&quot;</description>
+          <name>SIU_COUNT_VALUE_3</name>
+          <description>no description available</description>
           <addressOffset>0x4C</addressOffset>
           <size>16</size>
           <access>read-write</access>
@@ -796,7 +796,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFF</resetMask>
           <fields>
             <field>
-              <name>SIU_Cnt3</name>
+              <name>SIU_CNT3</name>
               <description>Count Value Register 3</description>
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
@@ -805,8 +805,8 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>SIU_Misc</name>
-          <description>&quot;</description>
+          <name>SIU_MISC</name>
+          <description>no description available</description>
           <addressOffset>0x50</addressOffset>
           <size>16</size>
           <access>read-write</access>
@@ -840,7 +840,7 @@ SPDX-License-Identifier: BSD-3-Clause
     </peripheral>
     <peripheral>
       <name>CIU2</name>
-      <description>no description available</description>
+      <description>CIU2</description>
       <groupName>CIU2</groupName>
       <baseAddress>0xA8008000</baseAddress>
       <addressBlock>
@@ -2300,14 +2300,14 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>vinithi</name>
-              <description>1= Boot form high address 0x0030_0000 (ROM) 0 = Boot from low address 0x0000_0000 (ITCM) By default CPU2 is out of reset and boot from ROM</description>
+              <description>1= Boot form high address 0x0030_0000 (ROM) 0 = Boot from low address 0x0000_0000 (ITCM) By default CPU2 is out of reset and boot from ROM.</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>cpu2_jtag_chain_bypass</name>
-              <description>1 = Bypass the JTAG chain of CPU2 0 = The CPU2 remains in JTAG chain This bit is backup in case the CPU2 doesn't work on silicon</description>
+              <description>1 = Bypass the JTAG chain of CPU2 0 = The CPU2 remains in JTAG chain This bit is backup in case the CPU2 doesn't work on silicon.</description>
               <bitOffset>2</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -2321,7 +2321,7 @@ SPDX-License-Identifier: BSD-3-Clause
             </field>
             <field>
               <name>cpu2_boot_dmem_mux_en</name>
-              <description>1 = DMEM mux control is on CPU2 side to download the code during boot 0 = The DMEM mux is on CPU2 side This bit is disconnected in NBU level, DMEM MUX will always on CPU2 side</description>
+              <description>1 = DMEM mux control is on CPU2 side to download the code during boot 0 = The DMEM mux is on CPU2 side This bit is disconnected in NBU level, DMEM MUX will always on CPU2 side.</description>
               <bitOffset>5</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -2381,7 +2381,7 @@ SPDX-License-Identifier: BSD-3-Clause
             </field>
             <field>
               <name>ciu_brf_ref1x_clk_ctrl_bypass_en</name>
-              <description>0: brf ref 1x clock is controlled brf_clk_req 1</description>
+              <description>0: brf ref 1x clock is controlled brf_clk_req 1.</description>
               <bitOffset>8</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -3667,7 +3667,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>cpu1_jtag_chain_bypass</name>
-              <description>1 = Bypass the JTAG chain of CPU1 0 = The CPU1 remains in JTAG chain This bit is backup in case the CPU1 doesn't work on silicon</description>
+              <description>1 = Bypass the JTAG chain of CPU1 0 = The CPU1 remains in JTAG chain This bit is backup in case the CPU1 doesn't work on silicon.</description>
               <bitOffset>17</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -3809,7 +3809,7 @@ SPDX-License-Identifier: BSD-3-Clause
     </peripheral>
     <peripheral>
       <name>BTRTU1</name>
-      <description>no description available</description>
+      <description>BTRTU1</description>
       <groupName>BTRTU1</groupName>
       <baseAddress>0xA8009400</baseAddress>
       <addressBlock>
@@ -4096,10 +4096,10 @@ SPDX-License-Identifier: BSD-3-Clause
           <name>BTRTU1_ISR</name>
           <description>Interrupt Soruce Status</description>
           <addressOffset>0x24</addressOffset>
-          <size>16</size>
+          <size>32</size>
           <access>read-only</access>
           <resetValue>0</resetValue>
-          <resetMask>0xFFFF</resetMask>
+          <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
               <name>t1_int</name>
@@ -4142,10 +4142,10 @@ SPDX-License-Identifier: BSD-3-Clause
           <name>BTRTU1_IMR</name>
           <description>Interrupt Mask</description>
           <addressOffset>0x28</addressOffset>
-          <size>16</size>
+          <size>32</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
-          <resetMask>0xFFFF</resetMask>
+          <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
               <name>t1_int</name>
@@ -37226,19 +37226,19 @@ SPDX-License-Identifier: BSD-3-Clause
               </enumeratedValues>
             </field>
             <field>
-              <name>RX_FSK_ZB_SEL</name>
+              <name>RX_FSK_SEL</name>
               <description>PHY/Demodulator selection</description>
               <bitOffset>27</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>RX_FSK_ZB_SEL_0</name>
+                  <name>RX_FSK_SEL_0</name>
                   <description>2.4GHz PHY is selected</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>RX_FSK_ZB_SEL_1</name>
+                  <name>RX_FSK_SEL_1</name>
                   <description>15.4 PHY is selected</description>
                   <value>0x1</value>
                 </enumeratedValue>
@@ -38177,7 +38177,7 @@ SPDX-License-Identifier: BSD-3-Clause
             </field>
             <field>
               <name>DCOC_PULSE_CAPCODE</name>
-              <description>no description available</description>
+              <description>DCOC pulse capcode</description>
               <bitOffset>15</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -38485,7 +38485,7 @@ SPDX-License-Identifier: BSD-3-Clause
             </field>
             <field>
               <name>IQMC_DC_GAIN_ADJ</name>
-              <description>Not currently used.</description>
+              <description>IQ Mismatch gain adjust</description>
               <bitOffset>16</bitOffset>
               <bitWidth>11</bitWidth>
               <access>read-write</access>
@@ -39155,21 +39155,21 @@ SPDX-License-Identifier: BSD-3-Clause
             </field>
             <field>
               <name>KEEP_RSSI_RESULT_WB</name>
-              <description>When enabled, the WB-RSSI results will keep until next update/refresh, or the WB-RSSI results will be cleared when rssi_init asserts</description>
+              <description>Keep WB RSSI Result 1: the WB-RSSI results will be kept until next update/refresh 1: the WB-RSSI results will be cleared when rssi_init asserts</description>
               <bitOffset>13</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>RSSI_N_WINDOW_WB_DRS</name>
-              <description>no description available</description>
+              <description>DRS WB RSSI N Window Averager Factor</description>
               <bitOffset>16</bitOffset>
               <bitWidth>3</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>RSSI_F_WINDOW_WB_DRS</name>
-              <description>no description available</description>
+              <description>DRS WB RSSI F Window Averager Factor</description>
               <bitOffset>20</bitOffset>
               <bitWidth>3</bitWidth>
               <access>read-write</access>
@@ -39201,7 +39201,7 @@ SPDX-License-Identifier: BSD-3-Clause
             </field>
             <field>
               <name>RSSI_RDY_WB</name>
-              <description>This bit set when RSSI_WB value ready to read(or updated) and cleared by rx_init or write &quot;1&quot; to this field(W1C)</description>
+              <description>This bit is set when RSSI_WB value ready to read(or updated) and is cleared by rx_init or write &quot;1&quot; to this field(W1C)</description>
               <bitOffset>15</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -39611,14 +39611,14 @@ SPDX-License-Identifier: BSD-3-Clause
             </field>
             <field>
               <name>AGC_WBD_STEP2_SZ</name>
-              <description>AGC WBD Step2 Gain Decreas Value</description>
+              <description>AGC WBD Step2 Gain Decrease Value</description>
               <bitOffset>11</bitOffset>
               <bitWidth>3</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>AGC_WBD_STEP1_SZ</name>
-              <description>AGC WBD Step1 Gain Decreas Value</description>
+              <description>AGC WBD Step1 Gain Decrease Value</description>
               <bitOffset>14</bitOffset>
               <bitWidth>3</bitWidth>
               <access>read-write</access>
@@ -40229,6 +40229,18 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>30</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>A0</name>
+                  <description>Once the selected magnitude exceeds unhold margin, the AGC will exit HOLD mode</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>A1</name>
+                  <description>Need two consecutive selected magnitude values exceeds unhold margin to let AGC exit HOLD mode</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>AGC_UNHOLD_MAG_SRC</name>
@@ -40398,7 +40410,7 @@ SPDX-License-Identifier: BSD-3-Clause
             </field>
             <field>
               <name>MAG_THR_HI_11_DRS_OFS</name>
-              <description>Mag Thresh High DRS for AGC Gain Index 11</description>
+              <description>Mag Thresh DRS for AGC Gain Index 11</description>
               <bitOffset>16</bitOffset>
               <bitWidth>8</bitWidth>
               <access>read-write</access>
@@ -41369,21 +41381,21 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>LNA_RTRIM_IN_DCOC_CAL</name>
-              <description>LNA RTFE matching resistor adjustment value during DCOC calibration phase.</description>
+              <description>lna_hattn_o AGC signal from register description is driven by this register during DCOC calibration</description>
               <bitOffset>0</bitOffset>
               <bitWidth>3</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>LNA_RTRIM_IN_TX_MODE</name>
-              <description>LNA RTFE matching resistor adjustment value in TX mode</description>
+              <description>lna_rtrim_o AGC signal from register description is driven by this register in TX mode.</description>
               <bitOffset>3</bitOffset>
               <bitWidth>3</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>LNA_HATTN_IN_TX_MODE</name>
-              <description>LNA high gain capacitor attenuation value in TX mode</description>
+              <description>lna_hattn_o AGC signal from register description is driven by this register in TX mode.</description>
               <bitOffset>6</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -41785,14 +41797,14 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>STEP_UP_THR_FAST</name>
-              <description>STEP_UP_THR_FAST</description>
+              <description>Fast mode step up thresholds</description>
               <bitOffset>0</bitOffset>
               <bitWidth>9</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>STEP_DOWN_THR_FAST</name>
-              <description>STEP_DOWN_THR_FAST</description>
+              <description>Fast mode step down thresholds</description>
               <bitOffset>16</bitOffset>
               <bitWidth>9</bitWidth>
               <access>read-write</access>
@@ -41810,14 +41822,14 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>STEP_UP_THR_FAST</name>
-              <description>STEP_UP_THR_FAST</description>
+              <description>Fast mode step up thresholds for datarate_config_sel = 1</description>
               <bitOffset>0</bitOffset>
               <bitWidth>9</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>STEP_DOWN_THR_FAST</name>
-              <description>STEP_DOWN_THR_FAST</description>
+              <description>Fast mode step down thresholds for datarate_config_sel = 1</description>
               <bitOffset>16</bitOffset>
               <bitWidth>9</bitWidth>
               <access>read-write</access>
@@ -42633,35 +42645,35 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>ipr_dft_ana_start_offset_q</name>
+              <name>IPR_DFT_ANA_START_OFFSET_Q</name>
               <description>Q Initial Phase</description>
               <bitOffset>0</bitOffset>
               <bitWidth>9</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>ipr_dft_ana_start_offset_i</name>
+              <name>IPR_DFT_ANA_START_OFFSET_I</name>
               <description>I Initial Phase</description>
               <bitOffset>9</bitOffset>
               <bitWidth>9</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>ipr_dft_ana_attenuation_q</name>
+              <name>IPR_DFT_ANA_ATTENUATION_Q</name>
               <description>Tone Attenuation For Q Path</description>
               <bitOffset>18</bitOffset>
               <bitWidth>3</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>ipr_dft_ana_attenuation_i</name>
+              <name>IPR_DFT_ANA_ATTENUATION_I</name>
               <description>Check description of ipr_dft_ana_attenuation_q</description>
               <bitOffset>21</bitOffset>
               <bitWidth>3</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>ipr_dft_ana_en</name>
+              <name>IPR_DFT_ANA_EN</name>
               <description>Enable for DfT tone analyzer</description>
               <bitOffset>24</bitOffset>
               <bitWidth>1</bitWidth>
@@ -42679,90 +42691,90 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>rx_tone_ana_accu_ovf</name>
+              <name>RX_TONE_ANA_ACCU_OVF</name>
               <description>Indicate the accumulator has overflow during measurement.</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
-              <name>rx_tone_ana_bitshift_ovf</name>
+              <name>RX_TONE_ANA_BITSHIFT_OVF</name>
               <description>Indicate the accumulator input has overflow during measurement.</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
-              <name>ipr_dft_ana_bitshift</name>
+              <name>IPR_DFT_ANA_BITSHIFT</name>
               <description>Accumulator input value scale down factor.</description>
               <bitOffset>2</bitOffset>
               <bitWidth>4</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>rx_tone_ana_done</name>
+              <name>RX_TONE_ANA_DONE</name>
               <description>Read only status bit. Indicating the tone analyze finished.</description>
               <bitOffset>6</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
             </field>
             <field>
-              <name>ipr_dft_ana_start</name>
+              <name>IPR_DFT_ANA_START</name>
               <description>Set 1 to trig the DFT Tone Analyzer</description>
               <bitOffset>7</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>ipr_dft_ana_input_sel_2</name>
+              <name>IPR_DFT_ANA_INPUT_SEL_2</name>
               <description>Should always set 2 for this field</description>
               <bitOffset>8</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>ipr_dft_ana_input_sel_1</name>
+              <name>IPR_DFT_ANA_INPUT_SEL_1</name>
               <description>Should always set 0 for this field</description>
               <bitOffset>10</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>ipr_dft_ana_increment</name>
+              <name>IPR_DFT_ANA_INCREMENT</name>
               <description>ipr_dft_ana_increment and ipr_dft_ana_clk_div determines the tone frequency</description>
               <bitOffset>12</bitOffset>
               <bitWidth>7</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>ipr_dft_ana_clk_div</name>
+              <name>IPR_DFT_ANA_CLK_DIV</name>
               <description>Clock divider factor for tone generator. Check ipr_dft_ana_increment for more information.</description>
               <bitOffset>19</bitOffset>
               <bitWidth>3</bitWidth>
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>ipr_dft_ana_clk_div_0</name>
+                  <name>IPR_DFT_ANA_CLK_DIV_0</name>
                   <description>ref_clk</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>ipr_dft_ana_clk_div_1</name>
+                  <name>IPR_DFT_ANA_CLK_DIV_1</name>
                   <description>ref_clk div 2</description>
                   <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>ipr_dft_ana_clk_div_2</name>
+                  <name>IPR_DFT_ANA_CLK_DIV_2</name>
                   <description>ref_clk div 4</description>
                   <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>ipr_dft_ana_clk_div_3</name>
+                  <name>IPR_DFT_ANA_CLK_DIV_3</name>
                   <description>ref_clk div 8</description>
                   <value>0x3</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>ipr_dft_ana_clk_div_4</name>
+                  <name>IPR_DFT_ANA_CLK_DIV_4</name>
                   <description>ref_clk div 16</description>
                   <value>0x4</value>
                 </enumeratedValue>
@@ -42780,14 +42792,14 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>rx_tone_ana_out_q</name>
+              <name>RX_TONE_ANA_OUT_Q</name>
               <description>Accumulator Q path result.</description>
               <bitOffset>0</bitOffset>
               <bitWidth>16</bitWidth>
               <access>read-only</access>
             </field>
             <field>
-              <name>rx_tone_ana_out_i</name>
+              <name>RX_TONE_ANA_OUT_I</name>
               <description>Accumulator I path result</description>
               <bitOffset>16</bitOffset>
               <bitWidth>16</bitWidth>
@@ -42805,15 +42817,15 @@ SPDX-License-Identifier: BSD-3-Clause
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
-              <name>ipr_dft_ana_accumulation_length</name>
-              <description>Accumulation length</description>
+              <name>IPR_DFT_ANA_ACCUMULATION_LENGTH</name>
+              <description>Number of cycles that the accumulation should do for the analysis</description>
               <bitOffset>0</bitOffset>
               <bitWidth>15</bitWidth>
               <access>read-write</access>
             </field>
             <field>
-              <name>rx_tone_ana_out_abs</name>
-              <description>Tone Analyzer Result</description>
+              <name>RX_TONE_ANA_OUT_ABS</name>
+              <description>Tone Analyzer Result. ABS Value of the tone analysis</description>
               <bitOffset>15</bitOffset>
               <bitWidth>16</bitWidth>
               <access>read-only</access>
@@ -46681,6 +46693,13 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
               </enumeratedValues>
             </field>
+            <field>
+              <name>ZBPHYREG_CKEN_FW_OV</name>
+              <description>Register clock SW override</description>
+              <bitOffset>8</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+            </field>
           </fields>
         </register>
         <register>
@@ -47243,7 +47262,7 @@ SPDX-License-Identifier: BSD-3-Clause
             </field>
             <field>
               <name>BLE_NTW_ADR_THR</name>
-              <description>Maximum hamming distance from the given AA pattern that may still be accepted as a match; valid range [0,7]. This threshold value are performed on lower power case.</description>
+              <description>Maximum hamming distance from the given AA pattern that may still be accepted as a match; valid range [0,7].</description>
               <bitOffset>20</bitOffset>
               <bitWidth>3</bitWidth>
               <access>read-write</access>
@@ -47306,15 +47325,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
             </field>
           </fields>
-        </register>
-        <register>
-          <name>FSK_CFG3</name>
-          <description>PHY Uncoded Config 3</description>
-          <addressOffset>0x30</addressOffset>
-          <size>32</size>
-          <access>read-only</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
         </register>
         <register>
           <name>FSK_PT</name>
@@ -47432,28 +47442,28 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>WIN_FAD_WAIT_SYNCH</name>
-              <description>Time-window to wait for clean samples, before transitioning to AA search PHY state, if PD was found after antenna switch (referred to as T3 in the PHY state-machine section).</description>
+              <description>Time-window to wait for clean samples, before transitioning to AA search PHY state, if PD was found after antenna switch , in sample clock cycles(referred to as T3 in the PHY state-machine section).</description>
               <bitOffset>0</bitOffset>
               <bitWidth>7</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>WIN_FAD_WAIT_PD</name>
-              <description>Time-window to wait for clean samples if PD was not found after antenna switch (referred to as T2 in the PHY state-machine section).</description>
+              <description>Time-window to wait for clean samples if PD was not found after antenna switch , in sample clock cycles(referred to as T2 in the PHY state-machine section).</description>
               <bitOffset>8</bitOffset>
               <bitWidth>7</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>WIN_FAD_SEARCH_PD</name>
-              <description>Time-window to match preamble pattern on samples coming from the previously selected antenna (referred to as T1 in the PHY state-machine section).</description>
+              <description>Time-window to match preamble pattern on samples coming from the previously selected antenna , in sample clock cycles(referred to as T1 in the PHY state-machine section).</description>
               <bitOffset>16</bitOffset>
               <bitWidth>7</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>WIN_SEARCH_PD</name>
-              <description>Time-window to match preamble pattern on samples coming from the currently selected antenna (referred to as T0 in the PHY state-machine section).</description>
+              <description>Time-window to match preamble pattern on samples coming from the currently selected antenna, in sample clock cycles (referred to as T0 in the PHY state-machine section).</description>
               <bitOffset>24</bitOffset>
               <bitWidth>7</bitWidth>
               <access>read-write</access>
@@ -47471,7 +47481,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>EXT_TO_MODES_13</name>
-              <description>Reserved</description>
+              <description>Indicates Timeout extension for modes 1 et 3</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
@@ -47830,14 +47840,14 @@ SPDX-License-Identifier: BSD-3-Clause
             </field>
             <field>
               <name>EARLY_PD_TIMEOUT</name>
-              <description>Time-out used to reset the AGC state-machine for the eventuality that an &quot;PD found early&quot; event occurs but it is not followed by an &quot;PD found&quot; event</description>
+              <description>Time-out used to reset the AGC state-machine for the eventuality that an &quot;PD found early&quot; , expressed in number of sample clock cycles. Event occurs but it is not followed by an &quot;PD found&quot; event</description>
               <bitOffset>8</bitOffset>
               <bitWidth>6</bitWidth>
               <access>read-write</access>
             </field>
             <field>
               <name>AA_TIMEOUT_UNCODED</name>
-              <description>Time-out value for access address search for uncoded packets</description>
+              <description>Time-out value for access address search for uncoded packets, expressed in number of sample clock cycles</description>
               <bitOffset>16</bitOffset>
               <bitWidth>10</bitWidth>
               <access>read-write</access>
@@ -48033,7 +48043,7 @@ SPDX-License-Identifier: BSD-3-Clause
             </field>
             <field>
               <name>CFO_EST</name>
-              <description>Indicates the currently estimated CFO. Format is sfix10_en9(sign extend form sfix8_en9)</description>
+              <description>Indicates the currently estimated CFO. Format is sfix10_en9(sign extend from sfix8_en9)</description>
               <bitOffset>16</bitOffset>
               <bitWidth>10</bitWidth>
               <access>read-only</access>
@@ -48592,7 +48602,7 @@ SPDX-License-Identifier: BSD-3-Clause
             </field>
             <field>
               <name>FIRST_PDU_BIT</name>
-              <description>is programmed by software - used for regular packets high accuracy RTT;</description>
+              <description>Programmed by software - used for regular packets high accuracy RTT; First PDU bit gets programmed into this field</description>
               <bitOffset>12</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
@@ -67416,7 +67426,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>SRAMDIS0</name>
-          <description>SRAM Shut Down Register</description>
+          <description>SRAM Disable</description>
           <addressOffset>0xC0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -67434,7 +67444,7 @@ SPDX-License-Identifier: BSD-3-Clause
         </register>
         <register>
           <name>SRAMRET0</name>
-          <description>SRAM Deep Sleep Register</description>
+          <description>SRAM Retention</description>
           <addressOffset>0xD0</addressOffset>
           <size>32</size>
           <access>read-write</access>
@@ -68144,7 +68154,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <name>HRS</name>
               <description>Hardware Request Status</description>
               <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
+              <bitWidth>16</bitWidth>
               <access>read-only</access>
             </field>
           </fields>
@@ -72518,7 +72528,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <size>32</size>
           <access>read-only</access>
           <resetValue>0</resetValue>
-          <resetMask>0xFF030FF</resetMask>
+          <resetMask>0xFF038FF</resetMask>
           <fields>
             <field>
               <name>CLC</name>
@@ -72637,20 +72647,20 @@ SPDX-License-Identifier: BSD-3-Clause
               </enumeratedValues>
             </field>
             <field>
-              <name>DICE_EN</name>
-              <description>DICE Enable</description>
-              <bitOffset>11</bitOffset>
+              <name>NBU_SEC_BOOT_EN</name>
+              <description>NBU Secure Boot Enable</description>
+              <bitOffset>12</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>zero</name>
-                  <description>DICE is disabled by default.</description>
+                  <name>DISABLE</name>
+                  <description>Disabled, NBU image doesn't need to be authenticated (default).</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>one</name>
-                  <description>DICE is enabled.</description>
+                  <name>ENABLE</name>
+                  <description>Enabled, NBU image must be authenticated to boot.</description>
                   <value>0x1</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -72701,6 +72711,25 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-only</access>
             </field>
             <field>
+              <name>OEM_SEC_BOOT_EN</name>
+              <description>Main Core Secure Boot Enable</description>
+              <bitOffset>24</bitOffset>
+              <bitWidth>4</bitWidth>
+              <access>read-only</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLE</name>
+                  <description>Disabled, Boot image doesn't need to be authenticated to boot (default).</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLE</name>
+                  <description>Enabled, Boot image must be authenticated to boot.</description>
+                  <value>0xA</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
               <name>SWD_ID</name>
               <description>Serial Wire Debug Instance ID</description>
               <bitOffset>28</bitOffset>
@@ -72716,7 +72745,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <size>32</size>
           <access>read-only</access>
           <resetValue>0</resetValue>
-          <resetMask>0xFF030FF</resetMask>
+          <resetMask>0xFF038FF</resetMask>
           <fields>
             <field>
               <name>CLC_B</name>
@@ -72835,20 +72864,20 @@ SPDX-License-Identifier: BSD-3-Clause
               </enumeratedValues>
             </field>
             <field>
-              <name>DICE_EN_B</name>
-              <description>DICE Enable Complement</description>
-              <bitOffset>11</bitOffset>
+              <name>NBU_SEC_BOOT_EN_B</name>
+              <description>NBU Secure Boot Enable Complement</description>
+              <bitOffset>12</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>zero</name>
-                  <description>DICE is enabled.</description>
+                  <name>ENABLE</name>
+                  <description>Enabled, NBU image must be authenticated to boot.</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>one</name>
-                  <description>DICE is disabled by default.</description>
+                  <name>DISABLE</name>
+                  <description>Disabled, NBU image doesn't need to be authenticated (default).</description>
                   <value>0x1</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -72897,6 +72926,25 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>16</bitOffset>
               <bitWidth>4</bitWidth>
               <access>read-only</access>
+            </field>
+            <field>
+              <name>OEM_SEC_BOOT_EN_B</name>
+              <description>Main Core Secure Boot Enable Complement</description>
+              <bitOffset>24</bitOffset>
+              <bitWidth>4</bitWidth>
+              <access>read-only</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>ENABLE</name>
+                  <description>Enabled, Boot image must be authenticated to boot.</description>
+                  <value>0x5</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DISABLE</name>
+                  <description>Disabled, Boot image doesn't need to be authenticated to boot (default).</description>
+                  <value>0xF</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>SWD_ID_B</name>
@@ -73628,7 +73676,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <addressOffset>0x10</addressOffset>
           <size>32</size>
           <access>read-write</access>
-          <resetValue>0</resetValue>
+          <resetValue>0x80000000</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
@@ -74114,7 +74162,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>VSM3</name>
-                  <description>SRAM configured for 1.1 V operation</description>
+                  <description>SRAM configured for &quot;1.2&quot; V operation</description>
                   <value>0x3</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -74281,24 +74329,14 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>UNDER</name>
-                  <description>Regulate to boost voltage (0.95 V)</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>MID</name>
-                  <description>Regulate to mid voltage (1.0 V)</description>
+                  <description>Regulate to mid voltage (1.05 V)</description>
                   <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>NORMAL</name>
                   <description>Regulate to normal voltage (1.1 V)</description>
                   <value>0x2</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>SAFE</name>
-                  <description>Regulate to safe-mode voltage (1.15 V)</description>
-                  <value>0x3</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -74368,17 +74406,17 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>DCDC00</name>
-                  <description>Low undervoltage voltage (0.95 V)</description>
+                  <description>Low undervoltage voltage (1.25 V)</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DCDC01</name>
-                  <description>Mid voltage (1 V)</description>
+                  <description>Mid voltage (1.35 V)</description>
                   <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DCDC10</name>
-                  <description>Normal voltage (1.1 V)</description>
+                  <description>Normal voltage (1.5 V)</description>
                   <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
@@ -74602,24 +74640,14 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>UNDER</name>
-                  <description>Retention voltage</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>MID</name>
-                  <description>Mid voltage (1.0 V)</description>
+                  <description>Mid voltage (1.05 V)</description>
                   <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>NORMAL</name>
                   <description>Normal voltage (1.1 V)</description>
                   <value>0x2</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>SAFE</name>
-                  <description>Safe-mode voltage (1.15 V)</description>
-                  <value>0x3</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -74675,17 +74703,17 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>VDD00</name>
-                  <description>Low undervoltage (0.95 V)</description>
+                  <description>Low undervoltage (1.25 V)</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>VDD01</name>
-                  <description>Mid voltage (1 V)</description>
+                  <description>Mid voltage (1.35 V)</description>
                   <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>VDD10</name>
-                  <description>Normal voltage (1.1 V)</description>
+                  <description>Normal voltage (1.5 V)</description>
                   <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
@@ -74917,7 +74945,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <addressOffset>0x110</addressOffset>
           <size>32</size>
           <access>read-write</access>
-          <resetValue>0x3F100E15</resetValue>
+          <resetValue>0x3F100215</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
@@ -74947,13 +74975,8 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>UNDER</name>
-                  <description>Regulate to under voltage (0.95 V)</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>MID</name>
-                  <description>Regulate to mid voltage (1.0 V)</description>
+                  <description>Regulate to mid voltage (1.05 V)</description>
                   <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
@@ -74962,8 +74985,8 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>SAFE</name>
-                  <description>Regulate to safe-mode voltage (1.15 V)</description>
+                  <name>OVER</name>
+                  <description>Regulate to overdrive voltage (1.15 V)</description>
                   <value>0x3</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -75034,17 +75057,17 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>DCDC00</name>
-                  <description>Low undervoltage (0.95 V)</description>
+                  <description>Low undervoltage (1.25 V)</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DCDC01</name>
-                  <description>Mid voltage (1 V)</description>
+                  <description>Mid voltage (1.35 V)</description>
                   <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>DCDC10</name>
-                  <description>Normal voltage (1.1 V)</description>
+                  <description>Normal voltage (1.5 V)</description>
                   <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
@@ -75768,7 +75791,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <addressOffset>0x140</addressOffset>
           <size>32</size>
           <access>read-write</access>
-          <resetValue>0</resetValue>
+          <resetValue>0x70000</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
@@ -75800,7 +75823,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <addressOffset>0x144</addressOffset>
           <size>32</size>
           <access>read-write</access>
-          <resetValue>0x3F</resetValue>
+          <resetValue>0x13F</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
@@ -75912,7 +75935,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <addressOffset>0x300</addressOffset>
           <size>32</size>
           <access>read-write</access>
-          <resetValue>0</resetValue>
+          <resetValue>0x46</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
@@ -75941,6 +75964,25 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
               </enumeratedValues>
             </field>
+            <field>
+              <name>CORELDO_SPARE</name>
+              <description>CORELDO_SPARE</description>
+              <bitOffset>17</bitOffset>
+              <bitWidth>4</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLED</name>
+                  <description>TBD.</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLED</name>
+                  <description>TBD.</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
           </fields>
         </register>
         <register>
@@ -75949,7 +75991,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <addressOffset>0x400</addressOffset>
           <size>32</size>
           <access>read-write</access>
-          <resetValue>0x101</resetValue>
+          <resetValue>0x80111</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
@@ -76610,7 +76652,7 @@ SPDX-License-Identifier: BSD-3-Clause
       <baseAddress>0xA9198000</baseAddress>
       <addressBlock>
         <offset>0</offset>
-        <size>0x48</size>
+        <size>0x40</size>
         <usage>registers</usage>
       </addressBlock>
       <registers>
@@ -77294,122 +77336,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <name>SEL0</name>
               <description>TRGMUX Source Select 0</description>
               <bitOffset>0</bitOffset>
-              <bitWidth>7</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>LK</name>
-              <description>TRGMUX Register Lock</description>
-              <bitOffset>31</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>UNLOCKED</name>
-                  <description>Register is writable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>LOCKED</name>
-                  <description>Register is not writable until the next system reset</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>EZH_BLCIN_3_0</name>
-          <description>TRGMUX EZH_BLCIN_3_0</description>
-          <addressOffset>0x40</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>SEL0</name>
-              <description>TRGMUX Source Select 0</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>7</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>SEL1</name>
-              <description>TRGMUX Source Select 1</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>7</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>SEL2</name>
-              <description>TRGMUX Source Select 2</description>
-              <bitOffset>16</bitOffset>
-              <bitWidth>7</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>SEL3</name>
-              <description>TRGMUX Source Select 3</description>
-              <bitOffset>24</bitOffset>
-              <bitWidth>7</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>LK</name>
-              <description>TRGMUX Register Lock</description>
-              <bitOffset>31</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>UNLOCKED</name>
-                  <description>Register is writable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>LOCKED</name>
-                  <description>Register is not writable until the next system reset</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>EZH_BLCIN_7_4</name>
-          <description>TRGMUX EZH_BLCIN_7_4</description>
-          <addressOffset>0x44</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>SEL0</name>
-              <description>TRGMUX Source Select 0</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>7</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>SEL1</name>
-              <description>TRGMUX Source Select 1</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>7</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>SEL2</name>
-              <description>TRGMUX Source Select 2</description>
-              <bitOffset>16</bitOffset>
-              <bitWidth>7</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>SEL3</name>
-              <description>TRGMUX Source Select 3</description>
-              <bitOffset>24</bitOffset>
               <bitWidth>7</bitWidth>
               <access>read-write</access>
             </field>
@@ -81425,28 +81351,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>8</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>IPG</name>
-                  <description>IPG</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>LPO</name>
-                  <description>LPO</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>INT</name>
-                  <description>INT</description>
-                  <value>0x2</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>EXT</name>
-                  <description>EXT</description>
-                  <value>0x3</value>
-                </enumeratedValue>
-              </enumeratedValues>
             </field>
             <field>
               <name>RCS</name>
@@ -82132,13 +82036,8 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>clkroot_func_0</name>
-                  <description>The clock is off</description>
+                  <description>THE CLOCK IS OFF</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>clkroot_func_2</name>
-                  <description>FRO-6M</description>
-                  <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>clkroot_func_3</name>
@@ -82200,46 +82099,6 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>MRCC_TSTMR0</name>
-          <description>TSTMR0 reset and clock control</description>
-          <addressOffset>0xC0</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0x2</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CC</name>
-              <description>Clock Config</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>2</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OFF</name>
-                  <description>Peripheral clocks are disabled; module does not stall low power mode entry</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ON</name>
-                  <description>Peripheral clocks are enabled; module does not stall low power mode entry</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>HW</name>
-                  <description>Peripheral clocks are enabled unless module is idle; low power mode entry stalls until module is idle</description>
-                  <value>0x2</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ON_UNTIL_SLEEP</name>
-                  <description>Peripheral clocks are enabled unless in SLEEP (or lower) mode; low power mode entry stalls until module is idle. Peripheral functional clocks that remain enabled in SLEEP mode are enabled and do not stall low power mode entry unless entering DEEPSLEEP (or lower) mode</description>
-                  <value>0x3</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
           <name>MRCC_TPM0</name>
           <description>TPM0 reset and clock control</description>
           <addressOffset>0xC4</addressOffset>
@@ -82286,13 +82145,8 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>clkroot_func_0</name>
-                  <description>The clock is off</description>
+                  <description>THE CLOCK IS OFF</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>clkroot_func_2</name>
-                  <description>FRO-6M</description>
-                  <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>clkroot_func_3</name>
@@ -82405,13 +82259,8 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>clkroot_func_0</name>
-                  <description>The clock is off</description>
+                  <description>THE CLOCK IS OFF</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>clkroot_func_2</name>
-                  <description>FRO-6M</description>
-                  <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>clkroot_func_3</name>
@@ -82524,13 +82373,8 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>clkroot_func_0</name>
-                  <description>The clock is off</description>
+                  <description>THE CLOCK IS OFF</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>clkroot_func_2</name>
-                  <description>FRO-6M</description>
-                  <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>clkroot_func_3</name>
@@ -82638,13 +82482,8 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>clkroot_func_0</name>
-                  <description>The clock is off</description>
+                  <description>THE CLOCK IS OFF</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>clkroot_func_2</name>
-                  <description>FRO-6M</description>
-                  <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>clkroot_func_3</name>
@@ -82752,13 +82591,8 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>clkroot_func_0</name>
-                  <description>The clock is off</description>
+                  <description>THE CLOCK IS OFF</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>clkroot_func_2</name>
-                  <description>FRO-6M</description>
-                  <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>clkroot_func_3</name>
@@ -82866,13 +82700,8 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>clkroot_func_0</name>
-                  <description>The clock is off</description>
+                  <description>THE CLOCK IS OFF</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>clkroot_func_2</name>
-                  <description>FRO-6M</description>
-                  <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>clkroot_func_3</name>
@@ -82980,13 +82809,8 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>clkroot_func_0</name>
-                  <description>The clock is off</description>
+                  <description>THE CLOCK IS OFF</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>clkroot_func_2</name>
-                  <description>FRO-6M</description>
-                  <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>clkroot_func_3</name>
@@ -83094,13 +82918,8 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>clkroot_func_0</name>
-                  <description>The clock is off</description>
+                  <description>THE CLOCK IS OFF</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>clkroot_func_2</name>
-                  <description>FRO-6M</description>
-                  <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>clkroot_func_3</name>
@@ -83213,13 +83032,8 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>clkroot_func_0</name>
-                  <description>The clock is off</description>
+                  <description>THE CLOCK IS OFF</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>clkroot_func_2</name>
-                  <description>FRO-6M</description>
-                  <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>clkroot_func_3</name>
@@ -83332,13 +83146,8 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>clkroot_func_0</name>
-                  <description>The clock is off</description>
+                  <description>THE CLOCK IS OFF</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>clkroot_func_2</name>
-                  <description>FRO-6M</description>
-                  <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>clkroot_func_3</name>
@@ -83446,7 +83255,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>clkroot_func_0</name>
-                  <description>The clock is off</description>
+                  <description>THE CLOCK IS OFF</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
@@ -83945,13 +83754,8 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>clkroot_func_0</name>
-                  <description>The clock is off</description>
+                  <description>THE CLOCK IS OFF</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>clkroot_func_2</name>
-                  <description>FRO-6M</description>
-                  <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>clkroot_func_3</name>
@@ -84333,7 +84137,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>clkroot_func_0</name>
-                  <description>The clock is off</description>
+                  <description>THE CLOCK IS OFF</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
@@ -85303,36 +85107,6 @@ SPDX-License-Identifier: BSD-3-Clause
             </field>
           </fields>
         </register>
-        <register>
-          <name>MRCC_CLKROOT_SIRC_VSYS_GATING</name>
-          <description>CLKROOT_SIRC_VSYS_GATING clock control</description>
-          <addressOffset>0x44C</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CC</name>
-              <description>Clock Config</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>2</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OFF</name>
-                  <description>Peripheral clocks are disabled, module does not stall low power mode entry</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ON</name>
-                  <description>Peripheral clocks are enabled, module does not stall low power mode entry</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
       </registers>
     </peripheral>
     <peripheral>
@@ -86007,7 +85781,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <addressOffset>0x4</addressOffset>
           <size>32</size>
           <access>read-only</access>
-          <resetValue>0x9800001E</resetValue>
+          <resetValue>0x9800001A</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
@@ -86021,11 +85795,6 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SOSC</name>
                   <description>System OSC (SOSC) is present.</description>
                   <value>#xxxxxx1x</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>SIRC</name>
-                  <description>Slow IRC (SIRC) is present.</description>
-                  <value>#xxxxx1xx</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>FIRC</name>
@@ -86354,11 +86123,6 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>SIRC</name>
-                  <description>Slow IRC (SIRC_CLK)</description>
-                  <value>0x2</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>FIRC</name>
                   <description>Fast IRC (FIRC_CLK)</description>
                   <value>0x3</value>
@@ -86661,11 +86425,6 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>SIRC</name>
-                  <description>Slow IRC (SIRC_CLK)</description>
-                  <value>0x2</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>FIRC</name>
                   <description>Fast IRC (FIRC_CLK)</description>
                   <value>0x3</value>
@@ -86704,11 +86463,6 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>SOSC</name>
                   <description>System OSC (SOSC_CLK)</description>
                   <value>0x1</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>SIRC</name>
-                  <description>Slow IRC (SIRC_CLK)</description>
-                  <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>FIRC</name>
@@ -86882,93 +86636,6 @@ SPDX-License-Identifier: BSD-3-Clause
                 <enumeratedValue>
                   <name>ENABLED_AND_ERROR</name>
                   <description>System OSC Clock Monitor is enabled and detected an error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>SIRCCSR</name>
-          <description>Slow IRC Control Status Register</description>
-          <addressOffset>0x200</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>SIRCSTEN</name>
-              <description>Slow IRC Stop Enable</description>
-              <bitOffset>1</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DISABLED</name>
-                  <description>Slow IRC is disabled in sleep modes</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENABLED</name>
-                  <description>Slow IRC is enabled in SLEEP mode</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>LK</name>
-              <description>Lock Register</description>
-              <bitOffset>23</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WRITE_ENABLED</name>
-                  <description>Control Status Register can be written.</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WRITE_DISABLED</name>
-                  <description>Control Status Register cannot be written.</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>SIRCVLD</name>
-              <description>Slow IRC Valid</description>
-              <bitOffset>24</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-only</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DISABLED_OR_NOT_VALID</name>
-                  <description>Slow IRC is not enabled or clock is not valid</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENABLED_AND_VALID</name>
-                  <description>Slow IRC is enabled and output clock is valid</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>SIRCSEL</name>
-              <description>Slow IRC Selected</description>
-              <bitOffset>25</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-only</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>NOT_SIRC</name>
-                  <description>Slow IRC is not the system clock source</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>SIRC</name>
-                  <description>Slow IRC is the system clock source</description>
                   <value>0x1</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -186834,55 +186501,6 @@ SPDX-License-Identifier: BSD-3-Clause
       </registers>
     </peripheral>
     <peripheral>
-      <name>TSTMR0</name>
-      <description>TSTMR</description>
-      <groupName>TSTMR0</groupName>
-      <baseAddress>0xA91B0000</baseAddress>
-      <addressBlock>
-        <offset>0</offset>
-        <size>0x8</size>
-        <usage>registers</usage>
-      </addressBlock>
-      <registers>
-        <register>
-          <name>LOW</name>
-          <description>TIMESTAMP Low</description>
-          <addressOffset>0</addressOffset>
-          <size>32</size>
-          <access>read-only</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>VALUE</name>
-              <description>TIMESTAMP Low</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>HIGH</name>
-          <description>TIMESTAMP High</description>
-          <addressOffset>0x4</addressOffset>
-          <size>32</size>
-          <access>read-only</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>VALUE</name>
-              <description>TIMESTAMP High</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>24</bitWidth>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-      </registers>
-    </peripheral>
-    <peripheral>
       <name>TPM0</name>
       <description>Timer/PWM Module</description>
       <groupName>TPM</groupName>
@@ -266190,25 +265808,6 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>LOWEST_PRIORITY</name>
                   <description>Lowest priority, Level 4</description>
                   <value>0x3</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RSYNC</name>
-              <description>Trigger Resync</description>
-              <bitOffset>15</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DISABLE</name>
-                  <description>Disable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENABLE</name>
-                  <description>Enable</description>
-                  <value>0x1</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
