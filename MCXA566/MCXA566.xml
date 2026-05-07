@@ -70305,29 +70305,29 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>SMARTDMA</name>
-              <description>TrustZone aware peripherals (DMA, RGPIO, FMU, FlexSPI, CMX_PERFMON</description>
+              <description>no description available</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>NONSECURE_NONPRIV_MASTER</name>
-                  <description>Non-secure and non-privileged Master</description>
+                  <name>SECURE_PRIV_MASTER</name>
+                  <description>Secure and privileged Master</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>NONSECURE_PRIV_MASTER</name>
-                  <description>Non-secure and privileged Master</description>
-                  <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SECURE_NONPRIV_MASTER</name>
                   <description>Secure and non-privileged Master</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>NONSECURE_PRIV_MASTER</name>
+                  <description>Non-secure and privileged Master</description>
                   <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>SECURE_PRIV_MASTER</name>
-                  <description>Secure and privileged Master</description>
+                  <name>NONSECURE_NONPRIV_MASTER</name>
+                  <description>Non-secure and non-privileged Master</description>
                   <value>0x3</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -70340,23 +70340,23 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>NONSECURE_NONPRIV_MASTER</name>
-                  <description>Non-secure and non-privileged Master</description>
+                  <name>SECURE_PRIV_MASTER</name>
+                  <description>Secure and privileged Master</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>NONSECURE_PRIV_MASTER</name>
-                  <description>Non-secure and privileged Master</description>
-                  <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SECURE_NONPRIV_MASTER</name>
                   <description>Secure and non-privileged Master</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>NONSECURE_PRIV_MASTER</name>
+                  <description>Non-secure and privileged Master</description>
                   <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>SECURE_PRIV_MASTER</name>
-                  <description>Secure and privileged Master</description>
+                  <name>NONSECURE_NONPRIV_MASTER</name>
+                  <description>Non-secure and non-privileged Master</description>
                   <value>0x3</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -70369,23 +70369,23 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>NONSECURE_NONPRIV_MASTER</name>
-                  <description>Non-secure and non-privileged Master</description>
+                  <name>SECURE_PRIV_MASTER</name>
+                  <description>Secure and privileged Master</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>NONSECURE_PRIV_MASTER</name>
-                  <description>Non-secure and privileged Master</description>
-                  <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SECURE_NONPRIV_MASTER</name>
                   <description>Secure and non-privileged Master</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>NONSECURE_PRIV_MASTER</name>
+                  <description>Non-secure and privileged Master</description>
                   <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>SECURE_PRIV_MASTER</name>
-                  <description>Secure and privileged Master</description>
+                  <name>NONSECURE_NONPRIV_MASTER</name>
+                  <description>Non-secure and non-privileged Master</description>
                   <value>0x3</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -70398,23 +70398,23 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>NONSECURE_NONPRIV_MASTER</name>
-                  <description>Non-secure and non-privileged Master</description>
+                  <name>SECURE_PRIV_MASTER</name>
+                  <description>Secure and privileged Master</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>NONSECURE_PRIV_MASTER</name>
-                  <description>Non-secure and privileged Master</description>
-                  <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SECURE_NONPRIV_MASTER</name>
                   <description>Secure and non-privileged Master</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>NONSECURE_PRIV_MASTER</name>
+                  <description>Non-secure and privileged Master</description>
                   <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>SECURE_PRIV_MASTER</name>
-                  <description>Secure and privileged Master</description>
+                  <name>NONSECURE_NONPRIV_MASTER</name>
+                  <description>Non-secure and non-privileged Master</description>
                   <value>0x3</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -70427,23 +70427,23 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>NONSECURE_NONPRIV_MASTER</name>
-                  <description>Non-secure and non-privileged Master</description>
+                  <name>SECURE_PRIV_MASTER</name>
+                  <description>Secure and privileged Master</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>NONSECURE_PRIV_MASTER</name>
-                  <description>Non-secure and privileged Master</description>
-                  <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SECURE_NONPRIV_MASTER</name>
                   <description>Secure and non-privileged Master</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>NONSECURE_PRIV_MASTER</name>
+                  <description>Non-secure and privileged Master</description>
                   <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>SECURE_PRIV_MASTER</name>
-                  <description>Secure and privileged Master</description>
+                  <name>NONSECURE_NONPRIV_MASTER</name>
+                  <description>Non-secure and non-privileged Master</description>
                   <value>0x3</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -70456,23 +70456,23 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>NONSECURE_NONPRIV_MASTER</name>
-                  <description>Non-secure and non-privileged Master</description>
+                  <name>SECURE_PRIV_MASTER</name>
+                  <description>Secure and privileged Master</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>NONSECURE_PRIV_MASTER</name>
-                  <description>Non-secure and privileged Master</description>
-                  <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>SECURE_NONPRIV_MASTER</name>
                   <description>Secure and non-privileged Master</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>NONSECURE_PRIV_MASTER</name>
+                  <description>Non-secure and privileged Master</description>
                   <value>0x2</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>SECURE_PRIV_MASTER</name>
-                  <description>Secure and privileged Master</description>
+                  <name>NONSECURE_NONPRIV_MASTER</name>
+                  <description>Non-secure and non-privileged Master</description>
                   <value>0x3</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -175552,6 +175552,11 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>VSM2</name>
                   <description>1.1 V</description>
                   <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSM3</name>
+                  <description>SRAM configured for &quot;1.2&quot; V operation</description>
+                  <value>0x3</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
