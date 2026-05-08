@@ -3,7 +3,7 @@
   <vendor>nxp.com</vendor>
   <name>MCXN556T_cm33_core1</name>
   <version>1.0</version>
-  <description>MCXN556TCDF</description>
+  <description>MCXN556TCDF,MCXN556TVDF</description>
   <licenseText>
 Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause
