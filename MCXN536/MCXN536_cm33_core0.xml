@@ -3,7 +3,7 @@
   <vendor>nxp.com</vendor>
   <name>MCXN536_cm33_core0</name>
   <version>1.0</version>
-  <description>MCXN536VDF,MCXN536VKL,MCXN536VPB</description>
+  <description>MCXN536VAB,MCXN536VDF,MCXN536VKL,MCXN536VPB</description>
   <licenseText>
 Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause

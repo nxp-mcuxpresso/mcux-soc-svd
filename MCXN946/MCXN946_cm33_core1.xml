@@ -3,7 +3,7 @@
   <vendor>nxp.com</vendor>
   <name>MCXN946_cm33_core1</name>
   <version>1.0</version>
-  <description>MCXN946VDF,MCXN946VKL,MCXN946VNL,MCXN946VPB</description>
+  <description>MCXN946VAB,MCXN946VDF,MCXN946VKL,MCXN946VNL,MCXN946VPB</description>
   <licenseText>
 Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause

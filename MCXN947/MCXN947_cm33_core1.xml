@@ -3,7 +3,7 @@
   <vendor>nxp.com</vendor>
   <name>MCXN947_cm33_core1</name>
   <version>1.0</version>
-  <description>MCXN947VDF,MCXN947VKL,MCXN947VNL,MCXN947VPB</description>
+  <description>MCXN947VAB,MCXN947VDF,MCXN947VKL,MCXN947VNL,MCXN947VPB</description>
   <licenseText>
 Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause

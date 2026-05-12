@@ -3,7 +3,7 @@
   <vendor>nxp.com</vendor>
   <name>MCXN547_cm33_core1</name>
   <version>1.0</version>
-  <description>MCXN547VDF,MCXN547VKL,MCXN547VNL,MCXN547VPB</description>
+  <description>MCXN547VAB,MCXN547VDF,MCXN547VKL,MCXN547VNL,MCXN547VPB</description>
   <licenseText>
 Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause
