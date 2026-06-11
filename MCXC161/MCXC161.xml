@@ -18235,6 +18235,93 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
+          <name>PWM0SUBCTL</name>
+          <description>PWM0 Submodule Control</description>
+          <addressOffset>0x438</addressOffset>
+          <size>32</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+            <field>
+              <name>CLK0_EN</name>
+              <description>Enables PWM0 SUB Clock0</description>
+              <bitOffset>0</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLE</name>
+                  <description>Disable</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLE</name>
+                  <description>Enable</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>CLK1_EN</name>
+              <description>Enables PWM0 SUB Clock1</description>
+              <bitOffset>1</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLE</name>
+                  <description>Disable</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLE</name>
+                  <description>Enable</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>CLK2_EN</name>
+              <description>Enables PWM0 SUB Clock2</description>
+              <bitOffset>2</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLE</name>
+                  <description>Disable</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLE</name>
+                  <description>Enable</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>CLK3_EN</name>
+              <description>Enables PWM0 SUB Clock3</description>
+              <bitOffset>3</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLE</name>
+                  <description>Disable</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLE</name>
+                  <description>Enable</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+          </fields>
+        </register>
+        <register>
           <name>CTIMERGLOBALSTARTEN</name>
           <description>CTIMER Global Start Enable</description>
           <addressOffset>0x440</addressOffset>
@@ -26719,6 +26806,10 @@ SPDX-License-Identifier: BSD-3-Clause
         <size>0x7FC</size>
         <usage>registers</usage>
       </addressBlock>
+      <interrupt>
+        <name>VBAT0</name>
+        <value>57</value>
+      </interrupt>
       <registers>
         <register>
           <name>VERID</name>
@@ -68942,6 +69033,10 @@ SPDX-License-Identifier: BSD-3-Clause
         <size>0xF8</size>
         <usage>registers</usage>
       </addressBlock>
+      <interrupt>
+        <name>TRNG0</name>
+        <value>17</value>
+      </interrupt>
       <registers>
         <register>
           <name>MCTL</name>
@@ -70086,7 +70181,9 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>ENT0</name>
+          <dim>8</dim>
+          <dimIncrement>0x4</dimIncrement>
+          <name>ENT[%s]</name>
           <description>Entropy Read Register</description>
           <addressOffset>0x40</addressOffset>
           <size>32</size>
@@ -81153,7 +81250,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <usage>registers</usage>
       </addressBlock>
       <interrupt>
-        <name>Reserved16</name>
+        <name>OR</name>
         <value>0</value>
       </interrupt>
       <interrupt>
@@ -81201,7 +81298,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <value>16</value>
       </interrupt>
       <interrupt>
-        <name>Reserved33</name>
+        <name>TRNG0</name>
         <value>17</value>
       </interrupt>
       <interrupt>
@@ -81233,7 +81330,7 @@ SPDX-License-Identifier: BSD-3-Clause
         <value>34</value>
       </interrupt>
       <interrupt>
-        <name>LPUART4</name>
+        <name>Reserved51</name>
         <value>35</value>
       </interrupt>
       <interrupt>
@@ -81265,19 +81362,19 @@ SPDX-License-Identifier: BSD-3-Clause
         <value>48</value>
       </interrupt>
       <interrupt>
-        <name>EQDC0_COMPARE</name>
+        <name>Reserved66</name>
         <value>50</value>
       </interrupt>
       <interrupt>
-        <name>EQDC0_HOME</name>
+        <name>Reserved67</name>
         <value>51</value>
       </interrupt>
       <interrupt>
-        <name>EQDC0_WATCHDOG</name>
+        <name>Reserved68</name>
         <value>52</value>
       </interrupt>
       <interrupt>
-        <name>EQDC0_INDEX</name>
+        <name>Reserved69</name>
         <value>53</value>
       </interrupt>
       <interrupt>
@@ -81287,6 +81384,10 @@ SPDX-License-Identifier: BSD-3-Clause
       <interrupt>
         <name>LPTMR0</name>
         <value>55</value>
+      </interrupt>
+      <interrupt>
+        <name>VBAT0</name>
+        <value>57</value>
       </interrupt>
       <interrupt>
         <name>RTC</name>
