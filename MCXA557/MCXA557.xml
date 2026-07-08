@@ -3,7 +3,7 @@
   <vendor>nxp.com</vendor>
   <name>MCXA557</name>
   <version>1.0</version>
-  <description>MCXA557VPN</description>
+  <description>MCXA557BVPN,MCXA557VPN</description>
   <licenseText>
 Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause
