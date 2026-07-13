@@ -26665,11 +26665,6 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>GPIO3 Pin Event Trig 1 input is selected</description>
                   <value>0x40</value>
                 </enumeratedValue>
-                <enumeratedValue>
-                  <name>val65</name>
-                  <description>WUU input is selected</description>
-                  <value>0x41</value>
-                </enumeratedValue>
               </enumeratedValues>
             </field>
           </fields>
@@ -27011,11 +27006,6 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>val64</name>
                   <description>GPIO3 Pin Event Trig 1 input is selected</description>
                   <value>0x40</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>val65</name>
-                  <description>WUU input is selected</description>
-                  <value>0x41</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -58545,6 +58535,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>Capture channel 2 falling edge</description>
                   <value>0x5</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>CHANNEL_3_RISING</name>
+                  <description>Capture channel 3 rising edge</description>
+                  <value>0x6</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CHANNEL_3_FALLING</name>
+                  <description>Capture channel 3 falling edge</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
           </fields>
@@ -59884,7 +59884,7 @@ SPDX-License-Identifier: BSD-3-Clause
     </peripheral>
     <peripheral>
       <name>WWDT0</name>
-      <description>WWDT</description>
+      <description>Windowed Watchdog Timer</description>
       <groupName>WWDT</groupName>
       <headerStructName>WWDT</headerStructName>
       <baseAddress>0x40016000</baseAddress>
@@ -60022,25 +60022,6 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
               </enumeratedValues>
             </field>
-            <field>
-              <name>DEBUG_EN</name>
-              <description>Debug Enable</description>
-              <bitOffset>6</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DISABLE</name>
-                  <description>Disabled</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENABLE</name>
-                  <description>Enabled</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
           </fields>
         </register>
         <register>
@@ -60137,7 +60118,7 @@ SPDX-License-Identifier: BSD-3-Clause
     </peripheral>
     <peripheral derivedFrom="WWDT0">
       <name>WWDT1</name>
-      <description>WWDT</description>
+      <description>Windowed Watchdog Timer</description>
       <groupName>WWDT</groupName>
       <baseAddress>0x40017000</baseAddress>
       <addressBlock>
@@ -105784,6 +105765,25 @@ SPDX-License-Identifier: BSD-3-Clause
               </enumeratedValues>
             </field>
             <field>
+              <name>FRM_CLOCKSTABLE</name>
+              <description>Free running mode clock stable</description>
+              <bitOffset>3</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLED</name>
+                  <description>Free running mode clockstable is disabled</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLED</name>
+                  <description>Free running mode clockstable is enabled</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
               <name>APLLCM</name>
               <description>APLL Clock Monitor</description>
               <bitOffset>16</bitOffset>
@@ -106045,6 +106045,25 @@ SPDX-License-Identifier: BSD-3-Clause
               </enumeratedValues>
             </field>
             <field>
+              <name>FRM</name>
+              <description>Free Running Mode Enable</description>
+              <bitOffset>22</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLED</name>
+                  <description>Free running mode disabled</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLED</name>
+                  <description>Free running mode enabled</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
               <name>SOURCE</name>
               <description>Clock Source</description>
               <bitOffset>25</bitOffset>
@@ -106132,6 +106151,25 @@ SPDX-License-Identifier: BSD-3-Clause
                 <enumeratedValue>
                   <name>ENABLED</name>
                   <description>The postdivider (P) ratio change is accepted by the analog PLL</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>FRMDET</name>
+              <description>Free running detector (active high)</description>
+              <bitOffset>4</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-only</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLED</name>
+                  <description>Free running is not detected</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLED</name>
+                  <description>Free running is detected</description>
                   <value>0x1</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -106577,6 +106615,25 @@ SPDX-License-Identifier: BSD-3-Clause
               </enumeratedValues>
             </field>
             <field>
+              <name>FRM_CLOCKSTABLE</name>
+              <description>Free running mode clock stable</description>
+              <bitOffset>3</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLED</name>
+                  <description>Free running mode clockstable is disabled</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLED</name>
+                  <description>Free running mode clockstable is enabled</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
               <name>SPLLCM</name>
               <description>SPLL Clock Monitor</description>
               <bitOffset>16</bitOffset>
@@ -106838,6 +106895,25 @@ SPDX-License-Identifier: BSD-3-Clause
               </enumeratedValues>
             </field>
             <field>
+              <name>FRM</name>
+              <description>Free Running Mode Enable</description>
+              <bitOffset>22</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLED</name>
+                  <description>Free running mode disabled</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLED</name>
+                  <description>Free running mode enabled</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
               <name>SOURCE</name>
               <description>Clock Source</description>
               <bitOffset>25</bitOffset>
@@ -106925,6 +107001,25 @@ SPDX-License-Identifier: BSD-3-Clause
                 <enumeratedValue>
                   <name>ENABLED</name>
                   <description>The postdivider (P) ratio change is accepted by the analog PLL</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>FRMDET</name>
+              <description>Free running detector (active high)</description>
+              <bitOffset>4</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-only</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DISABLED</name>
+                  <description>Free running is not detected</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ENABLED</name>
+                  <description>Free running is detected</description>
                   <value>0x1</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -110500,93 +110595,6 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
               </enumeratedValues>
             </field>
-            <field>
-              <name>WUPE29</name>
-              <description>Wake-up Pin Enable for WUU_Pn</description>
-              <bitOffset>26</bitOffset>
-              <bitWidth>2</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DISABLE</name>
-                  <description>Disable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>EN_RISE_HI</name>
-                  <description>Enable (detect on rising edge or high level)</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>EN_FALL_LO</name>
-                  <description>Enable (detect on falling edge or low level)</description>
-                  <value>0x2</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>EN_ANY</name>
-                  <description>Enable (detect on any edge)</description>
-                  <value>0x3</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WUPE30</name>
-              <description>Wake-up Pin Enable for WUU_Pn</description>
-              <bitOffset>28</bitOffset>
-              <bitWidth>2</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DISABLE</name>
-                  <description>Disable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>EN_RISE_HI</name>
-                  <description>Enable (detect on rising edge or high level)</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>EN_FALL_LO</name>
-                  <description>Enable (detect on falling edge or low level)</description>
-                  <value>0x2</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>EN_ANY</name>
-                  <description>Enable (detect on any edge)</description>
-                  <value>0x3</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WUPE31</name>
-              <description>Wake-up Pin Enable for WUU_Pn</description>
-              <bitOffset>30</bitOffset>
-              <bitWidth>2</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DISABLE</name>
-                  <description>Disable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>EN_RISE_HI</name>
-                  <description>Enable (detect on rising edge or high level)</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>EN_FALL_LO</name>
-                  <description>Enable (detect on falling edge or low level)</description>
-                  <value>0x2</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>EN_ANY</name>
-                  <description>Enable (detect on any edge)</description>
-                  <value>0x3</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
           </fields>
         </register>
         <register>
@@ -111565,66 +111573,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <name>WUF28</name>
               <description>Wake-up Flag for WUU_Pn</description>
               <bitOffset>28</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <modifiedWriteValues>oneToClear</modifiedWriteValues>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>NO_FLAG</name>
-                  <description>No</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>FLAG</name>
-                  <description>Yes</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WUF29</name>
-              <description>Wake-up Flag for WUU_Pn</description>
-              <bitOffset>29</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <modifiedWriteValues>oneToClear</modifiedWriteValues>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>NO_FLAG</name>
-                  <description>No</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>FLAG</name>
-                  <description>Yes</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WUF30</name>
-              <description>Wake-up Flag for WUU_Pn</description>
-              <bitOffset>30</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <modifiedWriteValues>oneToClear</modifiedWriteValues>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>NO_FLAG</name>
-                  <description>No</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>FLAG</name>
-                  <description>Yes</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WUF31</name>
-              <description>Wake-up Flag for WUU_Pn</description>
-              <bitOffset>31</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-write</access>
               <modifiedWriteValues>oneToClear</modifiedWriteValues>
@@ -113510,12 +113458,12 @@ SPDX-License-Identifier: BSD-3-Clause
               <enumeratedValues>
                 <enumeratedValue>
                   <name>CKMODE0000</name>
-                  <description>No clock gating</description>
+                  <description>Core clock is on</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>CKMODE0001</name>
-                  <description>Core clock is gated</description>
+                  <description>Core clock is off</description>
                   <value>0x1</value>
                 </enumeratedValue>
                 <enumeratedValue>
@@ -117221,7 +117169,7 @@ SPDX-License-Identifier: BSD-3-Clause
     </peripheral>
     <peripheral>
       <name>RTC0</name>
-      <description>RTC</description>
+      <description>Real Time Clock</description>
       <groupName>RTC</groupName>
       <baseAddress>0x4004C000</baseAddress>
       <addressBlock>
@@ -145968,25 +145916,6 @@ SPDX-License-Identifier: BSD-3-Clause
                 <enumeratedValue>
                   <name>ONEWIRE</name>
                   <description>Single-wire mode</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>DOZEEN</name>
-              <description>Doze Mode</description>
-              <bitOffset>6</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>ENABLED</name>
-                  <description>Enable</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DISABLED</name>
-                  <description>Disable</description>
                   <value>0x1</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -276000,7 +275929,7 @@ SPDX-License-Identifier: BSD-3-Clause
     </peripheral>
     <peripheral>
       <name>EWM0</name>
-      <description>EWM</description>
+      <description>External Watchdog Monitor</description>
       <groupName>EWM</groupName>
       <baseAddress>0x400C0000</baseAddress>
       <addressBlock>
@@ -276272,16 +276201,6 @@ SPDX-License-Identifier: BSD-3-Clause
                   <name>USER_AND_PRIV</name>
                   <description>Counted in both User and Privileged modes</description>
                   <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>USER_ONLY</name>
-                  <description>Counted only in User mode</description>
-                  <value>0x2</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>PRIV_ONLY</name>
-                  <description>Counted only in Privileged mode</description>
-                  <value>0x3</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -307993,6 +307912,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>8</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>RXERRCNT_LT_96</name>
@@ -308012,6 +307932,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>9</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>TXERRCNT_LT_96</name>
@@ -308031,6 +307952,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>10</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>stuffing_error_no</name>
@@ -308050,6 +307972,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>11</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>form_error_no</name>
@@ -308069,6 +307992,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>12</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>CRC_error_no</name>
@@ -308088,6 +308012,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>13</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>ACK_error_no</name>
@@ -308107,6 +308032,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>14</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>bit0_error_no</name>
@@ -308126,6 +308052,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>15</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>bit1_error_no</name>
@@ -308264,6 +308191,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>26</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>stuffing_error_no</name>
@@ -308283,6 +308211,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>27</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>form_error_no</name>
@@ -308302,6 +308231,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>28</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>CRC_error_no</name>
@@ -308321,6 +308251,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>30</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>bit0_error_no</name>
@@ -308340,6 +308271,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>31</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>bit1_error_no</name>
@@ -362844,12 +362776,12 @@ SPDX-License-Identifier: BSD-3-Clause
     </peripheral>
     <peripheral>
       <name>USBPHY</name>
-      <description>USBPHY</description>
+      <description>Universal Serial Bus 2.0 Integrated PHY</description>
       <groupName>USBPHY</groupName>
       <baseAddress>0x4010A000</baseAddress>
       <addressBlock>
         <offset>0</offset>
-        <size>0x160</size>
+        <size>0x180</size>
         <usage>registers</usage>
       </addressBlock>
       <interrupt>
@@ -364975,7 +364907,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <addressOffset>0xA0</addressOffset>
           <size>32</size>
           <access>read-write</access>
-          <resetValue>0x6912000</resetValue>
+          <resetValue>0x912000</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
@@ -365175,6 +365107,25 @@ SPDX-License-Identifier: BSD-3-Clause
               </enumeratedValues>
             </field>
             <field>
+              <name>PLL_PREDIV</name>
+              <description>PLL Pre-Divider</description>
+              <bitOffset>30</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>PREDIV_1</name>
+                  <description>Uses the undivided reference clock for PLL loop</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>PREDIV_2</name>
+                  <description>Divides the reference clock by two for PLL loop</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
               <name>PLL_LOCK</name>
               <description>USB PLL Lock Status Indicator</description>
               <bitOffset>31</bitOffset>
@@ -365201,7 +365152,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <addressOffset>0xA4</addressOffset>
           <size>32</size>
           <access>read-write</access>
-          <resetValue>0x6912000</resetValue>
+          <resetValue>0x912000</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <modifiedWriteValues>oneToSet</modifiedWriteValues>
           <fields>
@@ -365278,6 +365229,14 @@ SPDX-License-Identifier: BSD-3-Clause
               <modifiedWriteValues>oneToSet</modifiedWriteValues>
             </field>
             <field>
+              <name>PLL_PREDIV</name>
+              <description>PLL Pre-Divider</description>
+              <bitOffset>30</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <modifiedWriteValues>oneToSet</modifiedWriteValues>
+            </field>
+            <field>
               <name>PLL_LOCK</name>
               <description>USB PLL Lock Status Indicator</description>
               <bitOffset>31</bitOffset>
@@ -365293,7 +365252,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <addressOffset>0xA8</addressOffset>
           <size>32</size>
           <access>read-write</access>
-          <resetValue>0x6912000</resetValue>
+          <resetValue>0x912000</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <modifiedWriteValues>oneToClear</modifiedWriteValues>
           <fields>
@@ -365370,6 +365329,14 @@ SPDX-License-Identifier: BSD-3-Clause
               <modifiedWriteValues>oneToClear</modifiedWriteValues>
             </field>
             <field>
+              <name>PLL_PREDIV</name>
+              <description>PLL Pre-Divider</description>
+              <bitOffset>30</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <modifiedWriteValues>oneToClear</modifiedWriteValues>
+            </field>
+            <field>
               <name>PLL_LOCK</name>
               <description>USB PLL Lock Status Indicator</description>
               <bitOffset>31</bitOffset>
@@ -365385,7 +365352,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <addressOffset>0xAC</addressOffset>
           <size>32</size>
           <access>read-write</access>
-          <resetValue>0x6912000</resetValue>
+          <resetValue>0x912000</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <modifiedWriteValues>oneToToggle</modifiedWriteValues>
           <fields>
@@ -365458,6 +365425,14 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>PLL Divider Value Configuration</description>
               <bitOffset>22</bitOffset>
               <bitWidth>3</bitWidth>
+              <access>read-write</access>
+              <modifiedWriteValues>oneToToggle</modifiedWriteValues>
+            </field>
+            <field>
+              <name>PLL_PREDIV</name>
+              <description>PLL Pre-Divider</description>
+              <bitOffset>30</bitOffset>
+              <bitWidth>1</bitWidth>
               <access>read-write</access>
               <modifiedWriteValues>oneToToggle</modifiedWriteValues>
             </field>
@@ -366164,7 +366139,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <addressOffset>0xD0</addressOffset>
           <size>32</size>
           <access>read-only</access>
-          <resetValue>0</resetValue>
+          <resetValue>0x1</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <fields>
             <field>
@@ -366277,7 +366252,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <addressOffset>0xD4</addressOffset>
           <size>32</size>
           <access>read-only</access>
-          <resetValue>0</resetValue>
+          <resetValue>0x1</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <modifiedWriteValues>oneToSet</modifiedWriteValues>
           <fields>
@@ -366337,7 +366312,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <addressOffset>0xD8</addressOffset>
           <size>32</size>
           <access>read-only</access>
-          <resetValue>0</resetValue>
+          <resetValue>0x1</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <modifiedWriteValues>oneToClear</modifiedWriteValues>
           <fields>
@@ -366397,7 +366372,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <addressOffset>0xDC</addressOffset>
           <size>32</size>
           <access>read-only</access>
-          <resetValue>0</resetValue>
+          <resetValue>0x1</resetValue>
           <resetMask>0xFFFFFFFF</resetMask>
           <modifiedWriteValues>oneToToggle</modifiedWriteValues>
           <fields>
@@ -367254,7 +367229,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <size>32</size>
           <access>read-write</access>
           <resetValue>0x7F</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
+          <resetMask>0x7F</resetMask>
           <fields>
             <field>
               <name>DIV_SEL_OVERRIDE</name>
@@ -367386,7 +367361,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <size>32</size>
           <access>read-write</access>
           <resetValue>0x7F</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
+          <resetMask>0x7F</resetMask>
           <modifiedWriteValues>oneToSet</modifiedWriteValues>
           <fields>
             <field>
@@ -367462,7 +367437,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <size>32</size>
           <access>read-write</access>
           <resetValue>0x7F</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
+          <resetMask>0x7F</resetMask>
           <modifiedWriteValues>oneToClear</modifiedWriteValues>
           <fields>
             <field>
@@ -367538,7 +367513,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <size>32</size>
           <access>read-write</access>
           <resetValue>0x7F</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
+          <resetMask>0x7F</resetMask>
           <modifiedWriteValues>oneToToggle</modifiedWriteValues>
           <fields>
             <field>
@@ -368783,7 +368758,7 @@ SPDX-License-Identifier: BSD-3-Clause
     <peripheral>
       <name>USBHS1__USBC</name>
       <description>USB</description>
-      <groupName>USBHS</groupName>
+      <groupName>USBC</groupName>
       <baseAddress>0x4010B000</baseAddress>
       <addressBlock>
         <offset>0</offset>

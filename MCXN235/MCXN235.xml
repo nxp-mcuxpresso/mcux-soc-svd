@@ -274411,6 +274411,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>8</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>RXERRCNT_LT_96</name>
@@ -274430,6 +274431,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>9</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>TXERRCNT_LT_96</name>
@@ -274449,6 +274451,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>10</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>stuffing_error_no</name>
@@ -274468,6 +274471,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>11</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>form_error_no</name>
@@ -274487,6 +274491,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>12</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>CRC_error_no</name>
@@ -274506,6 +274511,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>13</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>ACK_error_no</name>
@@ -274525,6 +274531,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>14</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>bit0_error_no</name>
@@ -274544,6 +274551,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>15</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>bit1_error_no</name>
@@ -274682,6 +274690,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>26</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>stuffing_error_no</name>
@@ -274701,6 +274710,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>27</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>form_error_no</name>
@@ -274720,6 +274730,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>28</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>CRC_error_no</name>
@@ -274739,6 +274750,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>30</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>bit0_error_no</name>
@@ -274758,6 +274770,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>31</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>bit1_error_no</name>
@@ -311667,6 +311680,25 @@ SPDX-License-Identifier: BSD-3-Clause
               </enumeratedValues>
             </field>
             <field>
+              <name>PLL_PREDIV</name>
+              <description>Predivide selector between /1 or /2 to expand the range of the USB PLL input clock.</description>
+              <bitOffset>30</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>PREDIV_1</name>
+                  <description>Use the undivided reference clock for PLL loop</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>PREDIV_2</name>
+                  <description>Divide the reference clock by two for PLL loop</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
               <name>PLL_LOCK</name>
               <description>USB PLL Lock Status Indicator</description>
               <bitOffset>31</bitOffset>
@@ -311770,6 +311802,14 @@ SPDX-License-Identifier: BSD-3-Clause
               <modifiedWriteValues>oneToSet</modifiedWriteValues>
             </field>
             <field>
+              <name>PLL_PREDIV</name>
+              <description>Predivide selector between /1 or /2 to expand the range of the USB PLL input clock.</description>
+              <bitOffset>30</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <modifiedWriteValues>oneToSet</modifiedWriteValues>
+            </field>
+            <field>
               <name>PLL_LOCK</name>
               <description>USB PLL Lock Status Indicator</description>
               <bitOffset>31</bitOffset>
@@ -311862,6 +311902,14 @@ SPDX-License-Identifier: BSD-3-Clause
               <modifiedWriteValues>oneToClear</modifiedWriteValues>
             </field>
             <field>
+              <name>PLL_PREDIV</name>
+              <description>Predivide selector between /1 or /2 to expand the range of the USB PLL input clock.</description>
+              <bitOffset>30</bitOffset>
+              <bitWidth>1</bitWidth>
+              <access>read-write</access>
+              <modifiedWriteValues>oneToClear</modifiedWriteValues>
+            </field>
+            <field>
               <name>PLL_LOCK</name>
               <description>USB PLL Lock Status Indicator</description>
               <bitOffset>31</bitOffset>
@@ -311950,6 +311998,14 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>PLL Divider Value Configuration</description>
               <bitOffset>22</bitOffset>
               <bitWidth>3</bitWidth>
+              <access>read-write</access>
+              <modifiedWriteValues>oneToToggle</modifiedWriteValues>
+            </field>
+            <field>
+              <name>PLL_PREDIV</name>
+              <description>Predivide selector between /1 or /2 to expand the range of the USB PLL input clock.</description>
+              <bitOffset>30</bitOffset>
+              <bitWidth>1</bitWidth>
               <access>read-write</access>
               <modifiedWriteValues>oneToToggle</modifiedWriteValues>
             </field>
