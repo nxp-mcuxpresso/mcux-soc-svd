@@ -183,7 +183,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -232,7 +232,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -281,7 +281,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -330,7 +330,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -379,7 +379,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -428,7 +428,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -727,7 +727,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -776,7 +776,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -825,7 +825,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -874,7 +874,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -923,7 +923,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -972,7 +972,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -1271,7 +1271,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -1320,7 +1320,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -1369,7 +1369,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -1418,7 +1418,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -1467,7 +1467,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -1516,7 +1516,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -1815,7 +1815,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -1864,7 +1864,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -1913,7 +1913,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -1962,7 +1962,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -2011,7 +2011,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -2060,7 +2060,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -2359,7 +2359,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -2408,7 +2408,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -2457,7 +2457,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -2506,7 +2506,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -2555,7 +2555,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -2604,7 +2604,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -2903,7 +2903,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -2952,7 +2952,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -3001,7 +3001,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -3050,7 +3050,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -3099,7 +3099,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -3148,7 +3148,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -3447,7 +3447,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -3496,7 +3496,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -3545,7 +3545,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -3594,7 +3594,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -3643,7 +3643,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -3692,7 +3692,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -3991,7 +3991,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -4040,7 +4040,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -4089,7 +4089,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -4138,7 +4138,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -4187,7 +4187,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -4236,7 +4236,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -7044,19 +7044,9 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-only</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>zero</name>
-                  <description>802.15.4</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>one</name>
                   <description>Bluetooth LE</description>
                   <value>0x1</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>two</name>
-                  <description>Bluetooth LE + 802.15.4</description>
-                  <value>0x2</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
@@ -79443,7 +79433,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -79492,7 +79482,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -79541,7 +79531,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -79840,7 +79830,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -79889,7 +79879,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -79938,7 +79928,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -80237,7 +80227,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -80286,7 +80276,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -80335,7 +80325,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -80634,7 +80624,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -80683,7 +80673,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -80732,7 +80722,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -81031,7 +81021,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -81080,7 +81070,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -81129,7 +81119,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -81428,7 +81418,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -81477,7 +81467,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -81526,7 +81516,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -81825,7 +81815,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -81874,7 +81864,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -81923,7 +81913,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -82222,7 +82212,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -82271,7 +82261,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8the or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -82320,7 +82310,7 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>target_port_8</name>
-                  <description>This initiator has level 8 or lowest priority when accessing the target port.</description>
+                  <description>This initiator has level 8 or the lowest priority when accessing the target port.</description>
                   <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -262247,79 +262237,6 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>UDF_CTRL</name>
-          <description>UDF_CTRL</description>
-          <addressOffset>0x64</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0x13140004</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>UDF_CTL_CONST_SEL</name>
-              <description>UDF_CTL_CONST_SEL</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>2</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>UDF_CTL_CONST_SEL_0</name>
-                  <description>Select TestKey</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>UDF_CTL_CONST_SEL_1</name>
-                  <description>Select DUK</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>UDF_CTL_CONST_SEL_2</name>
-                  <description>DeviceHSM</description>
-                  <value>0x2</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>UDF_CTL_CONST_SEL_3</name>
-                  <description>NXP_mROT</description>
-                  <value>0x3</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>UDF_CTL_CONST_SEL_LOCK</name>
-              <description>UDF_CTL_CONST_SEL_LOCK</description>
-              <bitOffset>2</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>UDF_CTL_CONST_SEL_LOCK_0</name>
-                  <description>Disable write data to UDF_CTL_CONST_SEL bit-field</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>UDF_CTL_CONST_SEL_LOCK_1</name>
-                  <description>Enable write data to UDF_CTL_CONST_SEL bit-field</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>UDF_HIDDEN</name>
-              <description>UDF_HIDDEN</description>
-              <bitOffset>16</bitOffset>
-              <bitWidth>16</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>UDF_HIDDEN_4884</name>
-                  <description>Enable the access of UDF register from APB bus. Any other value will hide UDF, disable the read/write of UDF register from UDF APB bus.</description>
-                  <value>0x1314</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
           <name>DEVICE_UID_0</name>
           <description>Device UID 0</description>
           <addressOffset>0x68</addressOffset>
@@ -262534,60 +262451,6 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>LC_PROBE_STATE</name>
-          <description>LC_PROBE_STATE</description>
-          <addressOffset>0x80</addressOffset>
-          <size>32</size>
-          <access>read-only</access>
-          <resetValue>0</resetValue>
-          <resetMask>0</resetMask>
-          <fields>
-            <field>
-              <name>LC_PROBE_STATE</name>
-              <description>LC_PROBE_STATE</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>LC_FT_STATE_A</name>
-          <description>LC_FT_STATE_A</description>
-          <addressOffset>0x84</addressOffset>
-          <size>32</size>
-          <access>read-only</access>
-          <resetValue>0</resetValue>
-          <resetMask>0</resetMask>
-          <fields>
-            <field>
-              <name>LC_FT_STATE_A</name>
-              <description>LC_FT_STATE_A</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>LC_FT_STATE_B</name>
-          <description>LC_FT_STATE_B</description>
-          <addressOffset>0x88</addressOffset>
-          <size>32</size>
-          <access>read-only</access>
-          <resetValue>0</resetValue>
-          <resetMask>0</resetMask>
-          <fields>
-            <field>
-              <name>LC_FT_STATE_B</name>
-              <description>LC_FT_STATE_B</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
           <name>CFPA_LC_STATE</name>
           <description>OEM Life cycle state.</description>
           <addressOffset>0x8C</addressOffset>
@@ -262619,14 +262482,14 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x0F</value>
                 </enumeratedValue>
                 <enumeratedValue>
+                  <name>CFPA_LC_STATE_63</name>
+                  <description>FA state</description>
+                  <value>0x3F</value>
+                </enumeratedValue>
+                <enumeratedValue>
                   <name>CFPA_LC_STATE_90</name>
                   <description>Bricked stated</description>
                   <value>0x5A</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>CFPA_LC_STATE_165</name>
-                  <description>FA state</description>
-                  <value>0xA5</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>CFPA_LC_STATE_207</name>
@@ -262648,14 +262511,14 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x30</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>INV_CFPA_LC_STATE_90</name>
-                  <description>FA state</description>
-                  <value>0x5A</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>INV_CFPA_LC_STATE_165</name>
                   <description>Bricked stated</description>
                   <value>0xA5</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>INV_CFPA_LC_STATE_192</name>
+                  <description>FA state</description>
+                  <value>0xC0</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>INV_CFPA_LC_STATE_240</name>
@@ -262687,24 +262550,6 @@ SPDX-License-Identifier: BSD-3-Clause
                   <value>0x9635</value>
                 </enumeratedValue>
               </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>OVP_STATE</name>
-          <description>OVP PAD State</description>
-          <addressOffset>0x90</addressOffset>
-          <size>32</size>
-          <access>read-only</access>
-          <resetValue>0</resetValue>
-          <resetMask>0</resetMask>
-          <fields>
-            <field>
-              <name>OVP_PAD_STATE</name>
-              <description>OVP PAD State</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-only</access>
             </field>
           </fields>
         </register>
@@ -262793,1006 +262638,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>0</bitOffset>
               <bitWidth>8</bitWidth>
               <access>read-only</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>MDAC0_INJECT_ERR</name>
-          <description>MDAC0 Error Injection</description>
-          <addressOffset>0xA8</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>RD_PROT1</name>
-              <description>RD_PROT1 Error Inject</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_PROT1_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_PROT1_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_PROT1</name>
-              <description>WR_PROT1 Error Inject</description>
-              <bitOffset>1</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_PROT1_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_PROT1_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RD_NONSECURE</name>
-              <description>RD_NONSECURE Error Inject</description>
-              <bitOffset>2</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_NONSECURE_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_NONSECURE_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_NONSECURE</name>
-              <description>WR_NONSECURE Error Inject</description>
-              <bitOffset>3</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_NONSECURE_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_NONSECURE_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RD_DID</name>
-              <description>RD_DID Error Inject</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_DID_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_DID_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_DID</name>
-              <description>WR_DID Error Inject</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_DID_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_DID_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>MDAC1_INJECT_ERR</name>
-          <description>MDAC1 Error Injection</description>
-          <addressOffset>0xAC</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>RD_PROT1</name>
-              <description>RD_PROT1 Error Inject</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_PROT1_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_PROT1_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_PROT1</name>
-              <description>WR_PROT1 Error Inject</description>
-              <bitOffset>1</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_PROT1_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_PROT1_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RD_NONSECURE</name>
-              <description>RD_NONSECURE Error Inject</description>
-              <bitOffset>2</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_NONSECURE_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_NONSECURE_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_NONSECURE</name>
-              <description>WR_NONSECURE Error Inject</description>
-              <bitOffset>3</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_NONSECURE_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_NONSECURE_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RD_DID</name>
-              <description>RD_DID Error Inject</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_DID_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_DID_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_DID</name>
-              <description>WR_DID Error Inject</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_DID_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_DID_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>MDAC2_INJECT_ERR</name>
-          <description>MDAC2 Error Injection</description>
-          <addressOffset>0xB0</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>RD_PROT1</name>
-              <description>RD_PROT1 Error Inject</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_PROT1_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_PROT1_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_PROT1</name>
-              <description>WR_PROT1 Error Inject</description>
-              <bitOffset>1</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_PROT1_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_PROT1_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RD_NONSECURE</name>
-              <description>RD_NONSECURE Error Inject</description>
-              <bitOffset>2</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_NONSECURE_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_NONSECURE_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_NONSECURE</name>
-              <description>WR_NONSECURE Error Inject</description>
-              <bitOffset>3</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_NONSECURE_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_NONSECURE_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RD_DID</name>
-              <description>RD_DID Error Inject</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_DID_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_DID_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_DID</name>
-              <description>WR_DID Error Inject</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_DID_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_DID_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>MDAC3_INJECT_ERR</name>
-          <description>MDAC3 Error Injection</description>
-          <addressOffset>0xB4</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>RD_PROT1</name>
-              <description>RD_PROT1 Error Inject</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_PROT1_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_PROT1_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_PROT1</name>
-              <description>WR_PROT1 Error Inject</description>
-              <bitOffset>1</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_PROT1_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_PROT1_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RD_NONSECURE</name>
-              <description>RD_NONSECURE Error Inject</description>
-              <bitOffset>2</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_NONSECURE_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_NONSECURE_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_NONSECURE</name>
-              <description>WR_NONSECURE Error Inject</description>
-              <bitOffset>3</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_NONSECURE_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_NONSECURE_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RD_DID</name>
-              <description>RD_DID Error Inject</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_DID_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_DID_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_DID</name>
-              <description>WR_DID Error Inject</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_DID_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_DID_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>MDAC4_INJECT_ERR</name>
-          <description>MDAC4 Error Injection</description>
-          <addressOffset>0xB8</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>RD_PROT1</name>
-              <description>RD_PROT1 Error Inject</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_PROT1_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_PROT1_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_PROT1</name>
-              <description>WR_PROT1 Error Inject</description>
-              <bitOffset>1</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_PROT1_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_PROT1_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RD_NONSECURE</name>
-              <description>RD_NONSECURE Error Inject</description>
-              <bitOffset>2</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_NONSECURE_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_NONSECURE_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_NONSECURE</name>
-              <description>WR_NONSECURE Error Inject</description>
-              <bitOffset>3</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_NONSECURE_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_NONSECURE_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RD_DID</name>
-              <description>RD_DID Error Inject</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_DID_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_DID_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_DID</name>
-              <description>WR_DID Error Inject</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_DID_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_DID_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>MDAC5_INJECT_ERR</name>
-          <description>MDAC5 Error Injection</description>
-          <addressOffset>0xBC</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>RD_PROT1</name>
-              <description>RD_PROT1 Error Inject</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_PROT1_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_PROT1_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_PROT1</name>
-              <description>WR_PROT1 Error Inject</description>
-              <bitOffset>1</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_PROT1_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_PROT1_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RD_NONSECURE</name>
-              <description>RD_NONSECURE Error Inject</description>
-              <bitOffset>2</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_NONSECURE_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_NONSECURE_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_NONSECURE</name>
-              <description>WR_NONSECURE Error Inject</description>
-              <bitOffset>3</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_NONSECURE_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_NONSECURE_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RD_DID</name>
-              <description>RD_DID Error Inject</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_DID_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_DID_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_DID</name>
-              <description>WR_DID Error Inject</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_DID_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_DID_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>MDAC6_INJECT_ERR</name>
-          <description>MDAC6 Error Injection</description>
-          <addressOffset>0xC0</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>RD_PROT1</name>
-              <description>RD_PROT1 Error Inject</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_PROT1_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_PROT1_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_PROT1</name>
-              <description>WR_PROT1 Error Inject</description>
-              <bitOffset>1</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_PROT1_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_PROT1_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RD_NONSECURE</name>
-              <description>RD_NONSECURE Error Inject</description>
-              <bitOffset>2</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_NONSECURE_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_NONSECURE_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_NONSECURE</name>
-              <description>WR_NONSECURE Error Inject</description>
-              <bitOffset>3</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_NONSECURE_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_NONSECURE_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RD_DID</name>
-              <description>RD_DID Error Inject</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_DID_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_DID_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_DID</name>
-              <description>WR_DID Error Inject</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_DID_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_DID_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>MDAC7_INJECT_ERR</name>
-          <description>MDAC7 Error Injection</description>
-          <addressOffset>0xC4</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>RD_PROT1</name>
-              <description>RD_PROT1 Error Inject</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_PROT1_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_PROT1_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_PROT1</name>
-              <description>WR_PROT1 Error Inject</description>
-              <bitOffset>1</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_PROT1_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_PROT1_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RD_NONSECURE</name>
-              <description>RD_NONSECURE Error Inject</description>
-              <bitOffset>2</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_NONSECURE_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_NONSECURE_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_NONSECURE</name>
-              <description>WR_NONSECURE Error Inject</description>
-              <bitOffset>3</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_NONSECURE_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_NONSECURE_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RD_DID</name>
-              <description>RD_DID Error Inject</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RD_DID_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RD_DID_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>WR_DID</name>
-              <description>WR_DID Error Inject</description>
-              <bitOffset>8</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>WR_DID_0</name>
-                  <description>Disable Inject Error</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>WR_DID_1</name>
-                  <description>Enable Inject Error</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
             </field>
           </fields>
         </register>
@@ -264316,75 +263161,6 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>TEST_ACCESS_EN</name>
-          <description>Security Code to Allow Test (Design for Testability) access.</description>
-          <addressOffset>0x110</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0x61C88646</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>TEST_ACCESS_ENABLE</name>
-              <description>Test Infra Access Control</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>TEST_ACCESS_ENABLE_1640531526</name>
-                  <description>Access to test port/infrastructure is disabled.</description>
-                  <value>0x61C88646</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>TEST_ACCESS_ENABLE_2654435769</name>
-                  <description>Access to test port/infrastructure is enabled.</description>
-                  <value>0x9E3779B9</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>FLASH_ACCESS_EN</name>
-          <description>Flash Test Access Enable Control</description>
-          <addressOffset>0x114</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0x55</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>FLASH_ACCESS_ENABLE</name>
-              <description>Flash Test Access Control</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>FLASH_ACCESS_ENABLE_10</name>
-                  <description>Access Enable, any other value means access disable</description>
-                  <value>0xA</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>IFR1_ACCESS_ENABLE</name>
-              <description>Flash IFR1 Test Access Control</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>IFR1_ACCESS_ENABLE_10</name>
-                  <description>Access Enable, any other value means access disable</description>
-                  <value>0xA</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
           <name>SWD_ACCESS_CPU0</name>
           <description>CPU0 Software Debug Access</description>
           <addressOffset>0x118</addressOffset>
@@ -264428,61 +263204,6 @@ SPDX-License-Identifier: BSD-3-Clause
                 <enumeratedValue>
                   <name>CPU1_SWD_ACCESS_ENABLE_10</name>
                   <description>Access Enable, any other value means access disable</description>
-                  <value>0xA</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>L2_PASSWORD_MATCH</name>
-          <description>L2 Password Has Matched</description>
-          <addressOffset>0x120</addressOffset>
-          <size>32</size>
-          <access>read-only</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>L2_PASSWORD_MATCHED</name>
-              <description>L2 PASSWORD HAS MATCHED</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>16</bitWidth>
-              <access>read-only</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>L2_PASSWORD_MATCHED_0</name>
-                  <description>Not Match</description>
-                  <value>0x0000</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>L2_PASSWORD_MATCHED_23130</name>
-                  <description>Matched</description>
-                  <value>0x5A5A</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>L2_PASSWORD_MATCH_HIDE</name>
-          <description>Hide L2_PASSWORD_MATCH Reg</description>
-          <addressOffset>0x124</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0xA</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>MATCH_HIDE</name>
-              <description>Hide info of L2_PASSWORD_MATCH</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>4</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>MATCH_HIDE_10</name>
-                  <description>Unhide the information in L2_PASSWORD_MATCH register, any other value rather than 4'b1010 will hide L2_PASSWORD_MATCH</description>
                   <value>0xA</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -264558,74 +263279,6 @@ SPDX-License-Identifier: BSD-3-Clause
           </fields>
         </register>
         <register>
-          <name>BOOT_LOCKOUT_ADDR</name>
-          <description>ROM Hidden XOM address offset</description>
-          <addressOffset>0x12C</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>HIDDEN_ADDR_OFFSET</name>
-              <description>ROM Address Range To Lock</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>16</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>XOM_ADDR_OFFSET</name>
-              <description>XOM address offset</description>
-              <bitOffset>16</bitOffset>
-              <bitWidth>16</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>BOOT_LOCKOUT_ADDR_DP</name>
-          <description>ROM Hidden XOM address offset duplicate</description>
-          <addressOffset>0x130</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>HIDDEN_ADDR_OFFSET_DP</name>
-              <description>ROM Address Range To Lock (Duplicate)</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>16</bitWidth>
-              <access>read-write</access>
-            </field>
-            <field>
-              <name>XOM_ADDR_OFFSET_DP</name>
-              <description>XOM address offset (Duplicate)</description>
-              <bitOffset>16</bitOffset>
-              <bitWidth>16</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>BOOT_LOCKOUT_LOCK</name>
-          <description>Control write access to BOOT_LOCKOUT_ADDR</description>
-          <addressOffset>0x134</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0x3CC35AA5</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>ROM_LOCK</name>
-              <description>ROM Address Lock</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
           <name>BOOT_RETRY_CNT</name>
           <description>Boot Retry Counter</description>
           <addressOffset>0x140</addressOffset>
@@ -264657,222 +263310,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <description>Temporal state counter bit.</description>
               <bitOffset>0</bitOffset>
               <bitWidth>4</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>BOOT_ATTEST_STATE_0</name>
-          <description>Store boot attest state</description>
-          <addressOffset>0x150</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>BOOT_ATTEST_STATE_0</name>
-              <description>BOOT ATTEST STATE 0</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>BOOT_ATTEST_STATE_1</name>
-          <description>Store boot attest state</description>
-          <addressOffset>0x154</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>BOOT_ATTEST_STATE_1</name>
-              <description>BOOT ATTEST STATE 1</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>BOOT_ATTEST_STATE_2</name>
-          <description>Store boot attest state</description>
-          <addressOffset>0x158</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>BOOT_ATTEST_STATE_2</name>
-              <description>BOOT ATTEST STATE 2</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>BOOT_ATTEST_STATE_3</name>
-          <description>Store boot attest state</description>
-          <addressOffset>0x15C</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>BOOT_ATTEST_STATE_3</name>
-              <description>BOOT ATTEST STATE 3</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>BOOT_ATTEST_STATE_4</name>
-          <description>Store boot attest state</description>
-          <addressOffset>0x160</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>BOOT_ATTEST_STATE_4</name>
-              <description>BOOT ATTEST STATE 4</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>BOOT_ATTEST_STATE_5</name>
-          <description>Store boot attest state</description>
-          <addressOffset>0x164</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>BOOT_ATTEST_STATE_5</name>
-              <description>BOOT ATTEST STATE 5</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>BOOT_ATTEST_STATE_6</name>
-          <description>Store boot attest state</description>
-          <addressOffset>0x168</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>BOOT_ATTEST_STATE_6</name>
-              <description>BOOT ATTEST STATE 6</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>BOOT_ATTEST_STATE_7</name>
-          <description>Store boot attest state</description>
-          <addressOffset>0x16C</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>BOOT_ATTEST_STATE_7</name>
-              <description>BOOT ATTEST STATE 7</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>BOOT_ATTEST_STATE_8</name>
-          <description>Store boot attest state</description>
-          <addressOffset>0x170</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>BOOT_ATTEST_STATE_8</name>
-              <description>BOOT ATTEST STATE 8</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>BOOT_ATTEST_STATE_9</name>
-          <description>Store boot attest state</description>
-          <addressOffset>0x174</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>BOOT_ATTEST_STATE_9</name>
-              <description>BOOT ATTEST STATE 9</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>BOOT_ATTEST_STATE_10</name>
-          <description>Store boot attest state</description>
-          <addressOffset>0x178</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>BOOT_ATTEST_STATE_10</name>
-              <description>BOOT ATTEST STATE 10</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>BOOT_ATTEST_STATE_11</name>
-          <description>Store boot attest state</description>
-          <addressOffset>0x17C</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>BOOT_ATTEST_STATE_11</name>
-              <description>BOOT ATTEST STATE 11</description>
-              <bitOffset>0</bitOffset>
-              <bitWidth>32</bitWidth>
               <access>read-write</access>
             </field>
           </fields>
@@ -265148,11 +263585,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_firc</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -265162,11 +263594,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_IN</description>
                   <value>0x2</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -265319,7 +263756,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -265397,7 +263834,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -265475,7 +263912,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -265553,7 +263990,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -265631,7 +264068,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -265709,7 +264146,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -265787,7 +264224,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -265865,7 +264302,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -265943,7 +264380,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -266021,7 +264458,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -266099,7 +264536,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -266226,7 +264663,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -266379,7 +264816,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -266457,7 +264894,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -266535,7 +264972,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -266613,7 +265050,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -266708,14 +265145,19 @@ SPDX-License-Identifier: BSD-3-Clause
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>clkroot_200m</name>
-                  <description>FRO_200M</description>
+                  <description>FRO200M</description>
                   <value>0x4</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
                 </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -266868,7 +265310,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -266946,7 +265388,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -267024,7 +265466,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -267102,7 +265544,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -267255,7 +265697,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -267408,7 +265850,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -267486,7 +265928,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -267564,7 +266006,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -267642,7 +266084,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -267720,7 +266162,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -267798,7 +266240,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -267882,11 +266324,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_func_1</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -267896,11 +266333,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_IN</description>
                   <value>0x2</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -268059,11 +266501,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_func_1</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -268073,11 +266510,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_IN</description>
                   <value>0x2</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -268236,11 +266678,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_func_1</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -268250,11 +266687,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_IN</description>
                   <value>0x2</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -268413,11 +266855,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_func_1</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -268432,11 +266869,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_1M</description>
                   <value>0x5</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -268595,11 +267037,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_func_1</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -268609,11 +267046,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_IN</description>
                   <value>0x2</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -268772,11 +267214,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_func_1</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -268786,11 +267223,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_IN</description>
                   <value>0x2</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -268949,11 +267391,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_func_1</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -268963,11 +267400,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_IN</description>
                   <value>0x2</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -269126,11 +267568,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_func_1</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -269140,11 +267577,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_IN</description>
                   <value>0x2</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -269303,11 +267745,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_func_1</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -269322,11 +267759,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_32K</description>
                   <value>0x3</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -269485,11 +267927,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_func_1</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -269504,11 +267941,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_32K</description>
                   <value>0x3</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -269661,7 +268103,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -269739,7 +268181,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -269817,7 +268259,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -269895,7 +268337,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -269973,7 +268415,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -270051,7 +268493,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -270129,7 +268571,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -270207,7 +268649,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -270285,7 +268727,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -270363,7 +268805,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -270441,7 +268883,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -270519,7 +268961,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -270597,7 +269039,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -270675,7 +269117,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -270753,7 +269195,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -270837,11 +269279,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_func_1</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -270856,11 +269293,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_32K</description>
                   <value>0x3</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -271019,11 +269461,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_func_1</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -271038,11 +269475,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_32K</description>
                   <value>0x3</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -271201,11 +269643,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_func_1</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -271220,11 +269657,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_32K</description>
                   <value>0x3</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -271383,11 +269825,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_func_1</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -271402,11 +269839,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_32K</description>
                   <value>0x3</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -271565,11 +270007,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_func_1</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -271584,11 +270021,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_32K</description>
                   <value>0x3</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -271796,11 +270238,6 @@ SPDX-License-Identifier: BSD-3-Clause
               <access>read-write</access>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>clkroot_func_0</name>
-                  <description>FRO_6M</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
                   <name>clkroot_func_1</name>
                   <description>FRO_HF_DIV</description>
                   <value>0x1</value>
@@ -271820,89 +270257,16 @@ SPDX-License-Identifier: BSD-3-Clause
                   <description>CLK_1M</description>
                   <value>0x5</value>
                 </enumeratedValue>
+                <enumeratedValue>
+                  <name>clkroot_func_7</name>
+                  <description>THE CLOCK IS OFF</description>
+                  <value>0x7</value>
+                </enumeratedValue>
               </enumeratedValues>
             </field>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
-              <bitOffset>4</bitOffset>
-              <bitWidth>2</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>OFF</name>
-                  <description>Peripheral clocks are disabled; module does not stall low power mode entry</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ON</name>
-                  <description>Peripheral clocks are enabled; module does not stall low power mode entry</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>HW</name>
-                  <description>Peripheral clocks are enabled unless module is idle; low power mode entry stalls until module is idle</description>
-                  <value>0x2</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ON_UNTIL_SLEEP</name>
-                  <description>Peripheral clocks are enabled unless in SLEEP (or lower) mode; low power mode entry stalls until module is idle. Peripheral functional clocks that remain enabled in SLEEP mode are enabled and do not stall low power mode entry unless entering DEEPSLEEP (or lower) mode</description>
-                  <value>0x3</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>RSTB</name>
-              <description>Reset Negation</description>
-              <bitOffset>30</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RESETING</name>
-                  <description>Module is held in reset</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>NORMAL</name>
-                  <description>Module released from reset</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>PR</name>
-              <description>Peripheral Present</description>
-              <bitOffset>31</bitOffset>
-              <bitWidth>1</bitWidth>
-              <access>read-only</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DISABLED</name>
-                  <description>Module is not present; writes to this register are ignored</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ENABLED</name>
-                  <description>Module is present</description>
-                  <value>0x1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>MRCC_UDF0_CLKSEL</name>
-          <description>UDF0 clock selection control</description>
-          <addressOffset>0x290</addressOffset>
-          <size>32</size>
-          <access>read-write</access>
-          <resetValue>0x80000020</resetValue>
-          <resetMask>0xFFFFFFFF</resetMask>
-          <fields>
-            <field>
-              <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -271980,7 +270344,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -272058,7 +270422,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -272211,7 +270575,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
@@ -272364,7 +270728,7 @@ SPDX-License-Identifier: BSD-3-Clause
           <fields>
             <field>
               <name>CC</name>
-              <description>Clock Config</description>
+              <description>Clock Configuration</description>
               <bitOffset>4</bitOffset>
               <bitWidth>2</bitWidth>
               <access>read-write</access>
