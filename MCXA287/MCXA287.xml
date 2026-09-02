@@ -3,7 +3,7 @@
   <vendor>nxp.com</vendor>
   <name>MCXA287</name>
   <version>1.0</version>
-  <description>MCXA287VASR,MCXA287VLL,MCXA287VLQ,MCXA287VPN</description>
+  <description>MCXA287VAPR,MCXA287VASR,MCXA287VLL,MCXA287VLQ,MCXA287VPN</description>
   <licenseText>
 Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause
@@ -24810,6 +24810,10 @@ SPDX-License-Identifier: BSD-3-Clause
         <size>0x4C</size>
         <usage>registers</usage>
       </addressBlock>
+      <interrupt>
+        <name>SMARTDMA</name>
+        <value>108</value>
+      </interrupt>
       <registers>
         <register>
           <name>BOOTADR</name>
