@@ -24810,6 +24810,10 @@ SPDX-License-Identifier: BSD-3-Clause
         <size>0x4C</size>
         <usage>registers</usage>
       </addressBlock>
+      <interrupt>
+        <name>SMARTDMA</name>
+        <value>108</value>
+      </interrupt>
       <registers>
         <register>
           <name>BOOTADR</name>

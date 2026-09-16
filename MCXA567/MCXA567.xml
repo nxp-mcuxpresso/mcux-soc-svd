@@ -3,7 +3,7 @@
   <vendor>nxp.com</vendor>
   <name>MCXA567</name>
   <version>1.0</version>
-  <description>MCXA567VLL,MCXA567VLQ,MCXA567VPN</description>
+  <description>MCXA567VAPR,MCXA567VASR,MCXA567VLL,MCXA567VLQ,MCXA567VPN</description>
   <licenseText>
 Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause
@@ -24810,6 +24810,10 @@ SPDX-License-Identifier: BSD-3-Clause
         <size>0x4C</size>
         <usage>registers</usage>
       </addressBlock>
+      <interrupt>
+        <name>SMARTDMA</name>
+        <value>108</value>
+      </interrupt>
       <registers>
         <register>
           <name>BOOTADR</name>
@@ -177867,6 +177871,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>8</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>RXERRCNT_LT_96</name>
@@ -177886,6 +177891,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>9</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>TXERRCNT_LT_96</name>
@@ -177905,6 +177911,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>10</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>stuffing_error_no</name>
@@ -177924,6 +177931,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>11</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>form_error_no</name>
@@ -177943,6 +177951,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>12</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>CRC_error_no</name>
@@ -177962,6 +177971,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>13</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>ACK_error_no</name>
@@ -177981,6 +177991,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>14</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>bit0_error_no</name>
@@ -178000,6 +178011,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>15</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>bit1_error_no</name>
@@ -178178,6 +178190,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>26</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>stuffing_error_no</name>
@@ -178197,6 +178210,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>27</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>form_error_no</name>
@@ -178216,6 +178230,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>28</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>CRC_error_no</name>
@@ -178235,6 +178250,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>30</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>bit0_error_no</name>
@@ -178254,6 +178270,7 @@ SPDX-License-Identifier: BSD-3-Clause
               <bitOffset>31</bitOffset>
               <bitWidth>1</bitWidth>
               <access>read-only</access>
+              <readAction>clear</readAction>
               <enumeratedValues>
                 <enumeratedValue>
                   <name>bit1_error_no</name>

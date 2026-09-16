@@ -3,7 +3,7 @@
   <vendor>nxp.com</vendor>
   <name>MCXA577</name>
   <version>1.0</version>
-  <description>MCXA577VAPR,MCXA577VLL,MCXA577VLQ,MCXA577VPN</description>
+  <description>MCXA577VAPR,MCXA577VASR,MCXA577VLL,MCXA577VLQ,MCXA577VPN</description>
   <licenseText>
 Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause
