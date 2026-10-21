@@ -3,7 +3,7 @@
   <vendor>nxp.com</vendor>
   <name>MCXA286</name>
   <version>1.0</version>
-  <description>MCXA286VAPR,MCXA286VASR,MCXA286VLL,MCXA286VLQ,MCXA286VPN</description>
+  <description>MCXA286VAPR,MCXA286VASR,MCXA286VFT,MCXA286VLL,MCXA286VLQ,MCXA286VPN</description>
   <licenseText>
 Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause

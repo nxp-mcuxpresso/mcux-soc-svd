@@ -3,7 +3,7 @@
   <vendor>nxp.com</vendor>
   <name>MCXA566</name>
   <version>1.0</version>
-  <description>MCXA566VLL,MCXA566VLQ,MCXA566VPN</description>
+  <description>MCXA566VFT,MCXA566VLL,MCXA566VLQ,MCXA566VPN</description>
   <licenseText>
 Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause

@@ -3,7 +3,7 @@
   <vendor>nxp.com</vendor>
   <name>MCXA457</name>
   <version>1.0</version>
-  <description>MCXA457VASR,MCXA457VLL,MCXA457VLQ,MCXA457VPN</description>
+  <description>MCXA457VASR,MCXA457VFT,MCXA457VLL,MCXA457VLQ,MCXA457VPN</description>
   <licenseText>
 Copyright 2016-2026 NXP
 SPDX-License-Identifier: BSD-3-Clause
